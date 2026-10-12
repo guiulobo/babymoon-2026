@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-10-11 21:20 BRT",
+  "ultimaAtualizacao": "2026-10-11 21:23 BRT",
   "origem": "Goiânia (GYN)",
   "gestacao": {
     "dataReferencia": "2026-10-11",
@@ -577,6 +577,14 @@
     {
       "src": "img/helena/barriga.jpg",
       "legenda": "A barriguinha da Thais"
+    },
+    {
+      "src": "img/helena/thais-helena-1.jpg",
+      "legenda": "Thais e a Helena"
+    },
+    {
+      "src": "img/helena/thais-helena-2.jpg",
+      "legenda": "Thais e a Helena"
     }
   ]
 }
