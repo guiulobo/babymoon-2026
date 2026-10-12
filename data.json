@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-10-11 22:37 BRT",
+  "ultimaAtualizacao": "2026-10-12 11:30 BRT",
   "origem": "Goiânia (GYN)",
   "gestacao": {
     "dataReferencia": "2026-10-11",
@@ -535,6 +535,365 @@
       }
     },
     {
+      "id": "campos",
+      "trilha": "brasil",
+      "tag": "Serra",
+      "nome": "Campos do Jordão",
+      "regiao": "São Paulo — Serra da Mantiqueira",
+      "aeroporto": "São Paulo (GRU/CGH) + carro",
+      "datas": {
+        "ida": "2026-11-03",
+        "volta": "2026-11-09"
+      },
+      "voos": [
+        {
+          "texto": "GOL direto GYN↔São Paulo 05/11→08/11 R$668/pessoa (1h55 ida / 1h35 volta)",
+          "tipo": "observado"
+        },
+        {
+          "texto": "LATAM direto 04/11→07/11 R$708/pessoa; datas mais longas 15/10→11/11 ~R$917–942/pessoa",
+          "tipo": "observado"
+        },
+        {
+          "texto": "Datas sugeridas 03/11→09/11 a cotar; casal ~R$1.400–1.900",
+          "tipo": "estimativa"
+        },
+        {
+          "texto": "De Guarulhos até Campos ~2h30–3h de carro (alugado ou transfer); a subida da serra é sinuosa",
+          "tipo": "info"
+        }
+      ],
+      "fontesVoo": [
+        "https://www.momondo.com.br/passagem/goiania/sao-paulo"
+      ],
+      "hoteis": [
+        {
+          "nome": "Hotel Frontenac (Capivari, Roteiros de Charme)",
+          "preco": "R$439–1.287/noite",
+          "url": "https://melhorespousadas.tur.br/sp/campos-do-jordao/hotel-frontenac"
+        },
+        {
+          "nome": "Le Suisse Elegance Hotel",
+          "preco": "a partir de R$279/noite; média dias úteis R$566",
+          "url": "https://www.kayak.com.br/Hoteis-Hotel-Frontenac-Campos-do-Jordao.360630.ksp"
+        }
+      ],
+      "clima": "Novembro ameno e chuvoso: ~22°C máx / 14°C mín, ~16 dias de chuva",
+      "fonteClima": "https://pt.climate-data.org/america-do-sul/brasil/sao-paulo/campos-do-jordao-32625/t/novembro-11/",
+      "custos": {
+        "nota": "Estimativa nossa, 6 noites",
+        "itens": [
+          {
+            "item": "Voos (casal)",
+            "min": 1400,
+            "max": 1900
+          },
+          {
+            "item": "Hospedagem (6 noites, R$439–1.287)",
+            "min": 2634,
+            "max": 7722
+          },
+          {
+            "item": "Carro/transfer GRU↔Campos",
+            "min": 1200,
+            "max": 1800
+          },
+          {
+            "item": "Alimentação",
+            "min": 2400,
+            "max": 3000
+          }
+        ],
+        "totalMin": 7600,
+        "totalMax": 14400
+      },
+      "pros": [
+        "Voo direto curtíssimo (1h30–1h55)",
+        "Clima de montanha ameno, sem calor",
+        "Perto de São Paulo (hospitais de referência)",
+        "Hotéis de charme com lareira e spa"
+      ],
+      "cuidados": [
+        "Altitude ~1.600 m: abaixo de 2.500 m, faixa em que o CDC não aponta risco extra para gestação de baixo risco — subir sem pressa e hidratar",
+        "Estradas de serra sinuosas: enjoo — paradas, banco da frente, motorista tranquilo",
+        "Noites frescas — casaco",
+        "Fondue de queijo: confirmar queijos pasteurizados e bem aquecidos; fondue de chocolate e bombons podem levar licor — perguntar",
+        "Chocolates e cervejarias: nada de álcool para ela"
+      ],
+      "tempoVooMin": 100,
+      "tempoVooTexto": "1h30–1h55 direto + 2h30–3h de carro",
+      "conforto": 4,
+      "roteiro": [
+        "Dia 1: voo cedo e subida da serra com paradas",
+        "Dia 2: Capivari a pé, chocolaterias",
+        "Dia 3: Teleférico do Morro do Elefante",
+        "Dia 4: Horto Florestal (trilhas planas e curtas)",
+        "Dia 5: Amantikir (jardins) — caminhada leve",
+        "Dia 6: spa e lareira no hotel",
+        "Dia 7: descida e voo"
+      ],
+      "restaurantes": [
+        {
+          "nome": "Charpentier (Hotel Frontenac)",
+          "url": "https://melhorespousadas.tur.br/sp/campos-do-jordao/hotel-frontenac",
+          "nota": "francês-regional; avisar alergia"
+        },
+        {
+          "nome": "Baden Baden",
+          "url": "https://www.google.com/maps/search/?api=1&query=Baden+Baden+Campos+do+Jordao",
+          "nota": "cervejaria — só comida para ela"
+        },
+        {
+          "nome": "Harry Pisek",
+          "url": "https://www.google.com/maps/search/?api=1&query=Harry+Pisek+Campos+do+Jordao",
+          "nota": "cozinha alemã, embutidos — escolher pratos quentes"
+        }
+      ],
+      "fontesGuia": [
+        "https://viajareumprazer.com.br/hotel-em-campos-do-jordao/",
+        "https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/high-altitude-travel-and-altitude-illness.html",
+        "https://www.cdc.gov/yellow-book/hcp/family-travel/pregnant-travelers.html"
+      ],
+      "passeios": [
+        {
+          "nome": "Teleférico do Morro do Elefante",
+          "nota": "ok, curto"
+        },
+        {
+          "nome": "Amantikir",
+          "nota": "jardins com ladeiras leves"
+        },
+        {
+          "nome": "Horto Florestal",
+          "nota": "trilhas curtas; evitar as longas"
+        },
+        {
+          "nome": "Pico do Itapeva",
+          "nota": "de carro, estrada sinuosa — ok se não enjoar"
+        },
+        {
+          "nome": "Tirolesa/arvorismo",
+          "nota": "EVITAR"
+        }
+      ],
+      "michelin": {
+        "cobertura": false,
+        "nota": "Não há Guia Michelin em Campos do Jordão: no Brasil o guia cobre apenas Rio de Janeiro e São Paulo (capital). As sugestões acima NÃO são Michelin.",
+        "fonte": "https://guide.michelin.com/br/pt_BR/article/michelin-guide-ceremony/dois-restaurantes-conquistam-tres-estrelas-michelin-no-brasil",
+        "lista": []
+      },
+      "img": "img/campos.jpg",
+      "videos": [
+        {
+          "id": "diWRuG94VZ4",
+          "titulo": "CAMPOS DO JORDÃO 2025: ROTEIRO COM PREÇOS | O QUE FAZER | DESTINO DE INVERNO SÃO PAULO | ONDE COMER",
+          "canal": "Fabi Cassol | Minha Praia Viajar",
+          "views": "188 mil",
+          "publicado": "há 1 ano"
+        },
+        {
+          "id": "ueLICaFoMfs",
+          "titulo": "QUANTO CUSTA UM FINAL DE SEMANA EM CAMPOS DO JORDÃO EM CASAL",
+          "canal": "Casal em Modo Avião",
+          "views": "26 mil",
+          "publicado": "há 4 meses"
+        },
+        {
+          "id": "hW0iecN4Log",
+          "titulo": "Campos do Jordão (com PREÇOS) - Roteiro completo, melhores passeios, o q fazer e onde se hospedar",
+          "canal": "Vamos Fugir Blog",
+          "views": "949 mil",
+          "publicado": "há 2 anos"
+        }
+      ],
+      "imgCredito": "Wikimedia Commons, CC BY 2.0",
+      "imgFonte": "https://commons.wikimedia.org/wiki/File:Vista_%C3%A1rea_da_Vila_Capivari,_Campos_do_Jord%C3%A3o.jpg"
+    },
+    {
+      "id": "gramado",
+      "trilha": "brasil",
+      "tag": "Serra",
+      "nome": "Gramado + Canela",
+      "regiao": "Rio Grande do Sul — Serra Gaúcha",
+      "aeroporto": "Porto Alegre (POA) + carro",
+      "datas": {
+        "ida": "2026-11-06",
+        "volta": "2026-11-11"
+      },
+      "voos": [
+        {
+          "texto": "GOL GYN→POA 06/11→11/11 R$853/pessoa: ida 8h10, volta 5h05, 1 conexão",
+          "tipo": "observado"
+        },
+        {
+          "texto": "Caxias do Sul (CXJ, mais perto): só tarifas de 15/10→20/10 a R$2.408/pessoa",
+          "tipo": "observado"
+        },
+        {
+          "texto": "Casal ~R$1.706",
+          "tipo": "estimativa"
+        },
+        {
+          "texto": "De Porto Alegre a Gramado ~2h de carro pela serra",
+          "tipo": "info"
+        }
+      ],
+      "fontesVoo": [
+        "https://www.momondo.com.br/passagem/goiania/porto-alegre",
+        "https://www.momondo.com.br/passagem/goiania/caxias-do-sul"
+      ],
+      "hoteis": [
+        {
+          "nome": "Hotel Casa da Montanha",
+          "preco": "a partir de R$960/noite (faixa R$1.363–4.270)",
+          "url": "https://www.kayak.com.br/Hoteis-Hotel-Casa-da-Montanha-Gramado.345866.ksp"
+        },
+        {
+          "nome": "Castelo Saint Andrews",
+          "preco": "R$1.681–4.648/noite",
+          "url": "https://saintandrews.com.br/"
+        },
+        {
+          "nome": "Wish Serrano Resort",
+          "preco": "a partir de R$362/noite; média dias úteis R$723",
+          "url": "https://www.kayak.com.br/Hoteis-Wish-Serrano-Gramado.165280.ksp"
+        }
+      ],
+      "clima": "Primavera: ~23°C máx / 14°C mín, ~10 dias de chuva",
+      "fonteClima": "https://pt.climate-data.org/america-do-sul/brasil/rio-grande-do-sul/gramado-43839/t/novembro-11/",
+      "custos": {
+        "nota": "Estimativa nossa, 5 noites (Wish Serrano a Casa da Montanha)",
+        "itens": [
+          {
+            "item": "Voos (casal)",
+            "min": 1706,
+            "max": 1706
+          },
+          {
+            "item": "Hospedagem (5 noites, R$723–1.363)",
+            "min": 3615,
+            "max": 6815
+          },
+          {
+            "item": "Carro/transfer POA↔Gramado",
+            "min": 1000,
+            "max": 1500
+          },
+          {
+            "item": "Alimentação",
+            "min": 2500,
+            "max": 3500
+          },
+          {
+            "item": "Passeios",
+            "min": 500,
+            "max": 800
+          }
+        ],
+        "totalMin": 9300,
+        "totalMax": 14300
+      },
+      "pros": [
+        "Clima ameno e romântico",
+        "Hotéis com lareira e banheira",
+        "Ótima gastronomia (massas, cafés coloniais)",
+        "Nada de praia/mosquito"
+      ],
+      "cuidados": [
+        "Voo com conexão (5–8h) + ~2h de estrada: dia de viagem longo",
+        "Estradas de serra sinuosas: enjoo — paradas, banco da frente, motorista tranquilo",
+        "Fondue de queijo: confirmar queijos pasteurizados e bem aquecidos; fondue de chocolate e bombons podem levar licor — perguntar",
+        "Vinícolas e chocolates com licor: nada de álcool para ela; queijos coloniais podem ser de leite cru — confirmar",
+        "Hospital de referência em Caxias do Sul / Porto Alegre"
+      ],
+      "tempoVooMin": 305,
+      "tempoVooTexto": "5h05–8h10 (1 conexão) + ~2h de carro",
+      "conforto": 3,
+      "roteiro": [
+        "Dia 1: voo + estrada, descanso",
+        "Dia 2: Rua Coberta, Lago Negro (pedalinho tranquilo)",
+        "Dia 3: Canela: Catedral de Pedra e Parque do Caracol (mirante, sem a escadaria)",
+        "Dia 4: Mini Mundo e café colonial",
+        "Dia 5: spa no hotel",
+        "Dia 6: volta"
+      ],
+      "restaurantes": [
+        {
+          "nome": "Cantina Pastasciutta",
+          "url": "https://www.google.com/maps/search/?api=1&query=Cantina+Pastasciutta+Gramado",
+          "nota": "italiano"
+        },
+        {
+          "nome": "Valle Rústico",
+          "url": "https://www.google.com/maps/search/?api=1&query=Valle+Rustico+Gramado",
+          "nota": "menu degustação — avisar alergia/gravidez"
+        },
+        {
+          "nome": "Café colonial (ex.: Bela Vista)",
+          "url": "https://www.google.com/maps/search/?api=1&query=Cafe+Colonial+Bela+Vista+Gramado",
+          "nota": "queijos/embutidos: confirmar pasteurizados"
+        }
+      ],
+      "fontesGuia": [
+        "https://www.kayak.com.br/Gramado-Hoteis.43767.hotel.ksp",
+        "https://www.cdc.gov/yellow-book/hcp/family-travel/pregnant-travelers.html"
+      ],
+      "passeios": [
+        {
+          "nome": "Lago Negro",
+          "nota": "plano, ok"
+        },
+        {
+          "nome": "Rua Coberta e centro",
+          "nota": "ok"
+        },
+        {
+          "nome": "Parque do Caracol (Canela)",
+          "nota": "mirante ok; escadaria de 700+ degraus — EVITAR"
+        },
+        {
+          "nome": "Skyglass Canela",
+          "nota": "plataforma ok; evitar o 'Alpen Mountain Coaster'/tirolesas"
+        },
+        {
+          "nome": "Mini Mundo",
+          "nota": "ok"
+        }
+      ],
+      "michelin": {
+        "cobertura": false,
+        "nota": "Não há Guia Michelin na Serra Gaúcha: no Brasil o guia cobre apenas Rio de Janeiro e São Paulo. As sugestões acima NÃO são Michelin.",
+        "fonte": "https://guide.michelin.com/br/pt_BR/article/michelin-guide-ceremony/dois-restaurantes-conquistam-tres-estrelas-michelin-no-brasil",
+        "lista": []
+      },
+      "img": "img/gramado.jpg",
+      "videos": [
+        {
+          "id": "VXcQnKkwozg",
+          "titulo": "GRAMADO E CANELA - Como Economizar, Aonde se hospedar, Restaurantes, Passeios e MUITO mais!",
+          "canal": "Casal Alencar",
+          "views": "268 mil",
+          "publicado": "há 1 ano"
+        },
+        {
+          "id": "DM_88ChrksI",
+          "titulo": "Gramado para Casal | Roteiro Romântico",
+          "canal": "Laçador de Ofertas",
+          "views": "6,4 mil",
+          "publicado": "há 3 anos"
+        },
+        {
+          "id": "VRPvKpJHopA",
+          "titulo": "Gramado e Canela: roteiro de 2 dias para casal | Hotel, passeios e gastronomia",
+          "canal": "Tô Chegando",
+          "views": "2,2 mil",
+          "publicado": "há 2 meses"
+        }
+      ],
+      "imgCredito": "Wikimedia Commons, CC BY-SA 4.0",
+      "imgFonte": "https://commons.wikimedia.org/wiki/File:Lago_Negro_-_Gramado_RS.jpg"
+    },
+    {
       "id": "chile",
       "trilha": "americadosul",
       "nome": "Santiago + Viña del Mar",
@@ -980,7 +1339,9 @@
         }
       ],
       "fontesGuia": [
-        "https://exa.ai/library/places?q=d9ef54f9e28a2269"
+        "https://exa.ai/library/places?q=d9ef54f9e28a2269",
+        "https://www.cdc.gov/zika/geo/index.html",
+        "https://www.cdc.gov/yellow-book/hcp/family-travel/pregnant-travelers.html"
       ],
       "passeios": [
         {
@@ -1028,10 +1389,6 @@
           "views": "12,4 mil",
           "publicado": "há 1 ano"
         }
-      ],
-      "fontesSaude": [
-        "https://www.cdc.gov/zika/geo/index.html",
-        "https://www.cdc.gov/yellow-book/hcp/family-travel/pregnant-travelers.html"
       ],
       "imgCredito": "Wikimedia Commons, CC BY-SA 4.0",
       "imgFonte": "https://commons.wikimedia.org/wiki/File:Llao_Llao_Peninsula.jpg"
@@ -1153,7 +1510,9 @@
         }
       ],
       "fontesGuia": [
-        "https://calafate.tours/blog/donde-comer-cordero-calafate"
+        "https://calafate.tours/blog/donde-comer-cordero-calafate",
+        "https://www.cdc.gov/zika/geo/index.html",
+        "https://www.cdc.gov/yellow-book/hcp/family-travel/pregnant-travelers.html"
       ],
       "passeios": [
         {
@@ -1201,10 +1560,6 @@
           "views": "5,7 mil",
           "publicado": "há 2 anos"
         }
-      ],
-      "fontesSaude": [
-        "https://www.cdc.gov/zika/geo/index.html",
-        "https://www.cdc.gov/yellow-book/hcp/family-travel/pregnant-travelers.html"
       ],
       "imgCredito": "Wikimedia Commons, CC BY-SA 2.5 (Luca Galuzzi)",
       "imgFonte": "https://commons.wikimedia.org/wiki/File:Perito_Moreno_Glacier_Patagonia_Argentina_Luca_Galuzzi_2005.JPG"
@@ -1332,7 +1687,10 @@
         }
       ],
       "fontesGuia": [
-        "https://peru21.pe/gastronomia/summum-2025-isolina-taberna-peruana-es-elegida-como-mejor-cocina-criolla/"
+        "https://peru21.pe/gastronomia/summum-2025-isolina-taberna-peruana-es-elegida-como-mejor-cocina-criolla/",
+        "https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/high-altitude-travel-and-altitude-illness.html",
+        "https://www.cdc.gov/yellow-book/hcp/americas-caribbean/peru.html",
+        "https://www.cdc.gov/yellow-book/hcp/family-travel/pregnant-travelers.html"
       ],
       "passeios": [
         {
@@ -1370,11 +1728,6 @@
         "fonte": "https://www.infobae.com/peru/2026/09/29/peru-es-reconocido-por-su-gastronomia-pero-ningun-restaurante-ubicado-en-el-pais-tiene-estrellas-michelin-por-que/",
         "lista": []
       },
-      "fontesSaude": [
-        "https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/high-altitude-travel-and-altitude-illness.html",
-        "https://www.cdc.gov/yellow-book/hcp/americas-caribbean/peru.html",
-        "https://www.cdc.gov/yellow-book/hcp/family-travel/pregnant-travelers.html"
-      ],
       "videos": [
         {
           "id": "kgN53FYPVBI",
@@ -1729,7 +2082,8 @@
         }
       ],
       "fontesGuia": [
-        "https://guide.michelin.com/gb/en/best-of/affordable-restaurants-paris"
+        "https://guide.michelin.com/gb/en/best-of/affordable-restaurants-paris",
+        "https://www.cdc.gov/yellow-book/hcp/family-travel/pregnant-travelers.html"
       ],
       "passeios": [
         {
@@ -1819,9 +2173,6 @@
           "views": "163 mil",
           "publicado": "há 5 meses"
         }
-      ],
-      "fontesSaude": [
-        "https://www.cdc.gov/yellow-book/hcp/family-travel/pregnant-travelers.html"
       ],
       "imgCredito": "Wikimedia Commons, CC BY 2.0",
       "imgFonte": "https://commons.wikimedia.org/wiki/File:Eiffel_Tower_and_Pont_Alexandre_III_at_night.jpg"
@@ -1955,7 +2306,8 @@
         }
       ],
       "fontesGuia": [
-        "https://guide.michelin.com/es/es/articulo/michelin-guide-ceremony/nuevos-bib-gourmand-de-la-guia-michelin-espana-2026"
+        "https://guide.michelin.com/es/es/articulo/michelin-guide-ceremony/nuevos-bib-gourmand-de-la-guia-michelin-espana-2026",
+        "https://www.cdc.gov/yellow-book/hcp/family-travel/pregnant-travelers.html"
       ],
       "passeios": [
         {
@@ -2045,9 +2397,6 @@
           "views": "95 mil",
           "publicado": "há 2 anos"
         }
-      ],
-      "fontesSaude": [
-        "https://www.cdc.gov/yellow-book/hcp/family-travel/pregnant-travelers.html"
       ],
       "imgCredito": "Wikimedia Commons, CC BY-SA 4.0",
       "imgFonte": "https://commons.wikimedia.org/wiki/File:Plaza_de_Espa%C3%B1a_(Sevilla)_-_01.jpg"
@@ -2177,7 +2526,8 @@
         }
       ],
       "fontesGuia": [
-        "https://guide.michelin.com/it/it/lazio/roma/ristoranti/bib-gourmand"
+        "https://guide.michelin.com/it/it/lazio/roma/ristoranti/bib-gourmand",
+        "https://www.cdc.gov/yellow-book/hcp/family-travel/pregnant-travelers.html"
       ],
       "passeios": [
         {
@@ -2267,9 +2617,6 @@
           "views": "214 mil",
           "publicado": "há 3 anos"
         }
-      ],
-      "fontesSaude": [
-        "https://www.cdc.gov/yellow-book/hcp/family-travel/pregnant-travelers.html"
       ],
       "imgCredito": "Wikimedia Commons, CC BY-SA 3.0",
       "imgFonte": "https://commons.wikimedia.org/wiki/File:Ponte_Vecchio_at_dusk_1.JPG"
@@ -2386,7 +2733,8 @@
         }
       ],
       "fontesGuia": [
-        "https://guide.michelin.com/ie/en/catalunya/barcelona/restaurants/all-starred"
+        "https://guide.michelin.com/ie/en/catalunya/barcelona/restaurants/all-starred",
+        "https://www.cdc.gov/yellow-book/hcp/family-travel/pregnant-travelers.html"
       ],
       "passeios": [
         {
@@ -2465,9 +2813,6 @@
           "views": "179 mil",
           "publicado": "há 2 anos"
         }
-      ],
-      "fontesSaude": [
-        "https://www.cdc.gov/yellow-book/hcp/family-travel/pregnant-travelers.html"
       ],
       "imgCredito": "Wikimedia Commons, CC BY-SA 3.0",
       "imgFonte": "https://commons.wikimedia.org/wiki/File:Exterior_of_Casa_Batl%C3%B3_-_Barcelona_2014.jpg"
@@ -2588,7 +2933,8 @@
         }
       ],
       "fontesGuia": [
-        "https://guide.michelin.com/pt/pt_PT/article/news-and-views/madeira-anfitria-da-gala-do-guia-michelin-portugal-2026"
+        "https://guide.michelin.com/pt/pt_PT/article/news-and-views/madeira-anfitria-da-gala-do-guia-michelin-portugal-2026",
+        "https://www.cdc.gov/yellow-book/hcp/family-travel/pregnant-travelers.html"
       ],
       "passeios": [
         {
@@ -2671,9 +3017,6 @@
           "views": "1,3 mil",
           "publicado": "há 1 mês"
         }
-      ],
-      "fontesSaude": [
-        "https://www.cdc.gov/yellow-book/hcp/family-travel/pregnant-travelers.html"
       ],
       "imgCredito": "Wikimedia Commons, CC BY-SA 4.0",
       "imgFonte": "https://commons.wikimedia.org/wiki/File:Cabo_Gir%C3%A3o,_Madeira.jpg"
@@ -3056,6 +3399,16 @@
       {
         "id": "madeira",
         "programa": "TAP Miles&Go / LATAM Pass",
+        "nota": "Preço em milhas a verificar"
+      },
+      {
+        "id": "campos",
+        "programa": "Smiles (GOL direto) / LATAM Pass",
+        "nota": "Trecho curto — ótimo uso de milhas; preço a verificar"
+      },
+      {
+        "id": "gramado",
+        "programa": "Smiles (GOL via conexão)",
         "nota": "Preço em milhas a verificar"
       }
     ]

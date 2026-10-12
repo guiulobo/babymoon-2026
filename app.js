@@ -41,7 +41,7 @@ function card(x){
    <a class="credit" href="${x.imgFonte}" target="_blank" rel="noopener">📷 ${esc(x.imgCredito)}</a>
    <div class="actions"><button title="Favoritar" class="${fav?'on':''}" onclick="toggle('fav','${x.id}')">💖</button><button title="Descartar" class="${disc?'on':''}" onclick="toggle('disc','${x.id}')">✖️</button></div></div>
   <div class="body">
-   <div><span class="muted small">${esc(x.regiao)} · ${esc(x.aeroporto)}</span><h3>${esc(x.nome)}</h3></div>
+   <div><span class="muted small">${esc(x.regiao)} · ${esc(x.aeroporto)}</span><h3>${esc(x.nome)}${x.tag?` <span class="badge tag">${esc(x.tag)}</span>`:''}</h3></div>
    ${dates}
    <div class="sec"><h4>✈️ Voos <span class="badge warn">estimativa</span></h4><ul>${x.voos.map(v=>`<li>${esc(v.texto)} <span class="badge">${esc(v.tipo)}</span></li>`).join('')}</ul>
     <p class="small">Fonte: ${x.fontesVoo.map((u,i)=>`<a href="${u}" target="_blank" rel="noopener">${new URL(u).hostname}</a>`).join(' · ')}</p></div>
@@ -121,7 +121,7 @@ function renderTable(){
   const rows=[...D.destinos].sort((a,b)=>{const A=val[sortK](a),B=val[sortK](b);return (A>B?1:A<B?-1:0)*sortDir});
   document.querySelectorAll('#cmp th').forEach(th=>th.className=th.dataset.k===sortK?(sortDir>0?'asc':'desc'):'');
   $('#cmp tbody').innerHTML=rows.map(x=>`<tr class="${state.disc.includes(x.id)?'discarded':''}">
-   <td>${state.fav.includes(x.id)?'💖 ':''}<a href="#d-${x.id}" style="color:inherit">${esc(x.nome)}</a><br><span class="badge">${x.trilha==='brasil'?'Brasil':x.trilha==='europa'?'Europa':'América do Sul'}</span></td>
+   <td>${state.fav.includes(x.id)?'💖 ':''}<a href="#d-${x.id}" style="color:inherit">${esc(x.nome)}</a><br><span class="badge">${x.trilha==='brasil'?'Brasil':x.trilha==='europa'?'Europa':'América do Sul'}</span>${x.tag?` <span class="badge tag">${esc(x.tag)}</span>`:''}</td>
    <td>${brl(x.custos.totalMin)}–${brl(x.custos.totalMax)}</td><td>${esc(x.tempoVooTexto)}</td>
    <td class="stars">${'★'.repeat(x.conforto)}${'☆'.repeat(5-x.conforto)}</td></tr>`).join('');
 }

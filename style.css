@@ -257,3 +257,4 @@ section[id],div[id].section-title,.dest{scroll-margin-top:110px}
 @media(min-width:760px){.gtabs{justify-content:safe center}}
 .gtabs>button:first-child,.tn-links>a:first-child{margin-left:0}
 @media(max-width:480px){.gtabs button{padding:8px 13px;font-size:.66rem;letter-spacing:.1em}.tn-links{justify-content:space-between}.tn-links a{padding:6px 6px;font-size:.6rem;letter-spacing:.12em}}
+.badge.tag{background:#e8efe6;border-color:#cfdccb;color:#4f6b52;vertical-align:middle;font-size:.6rem}
