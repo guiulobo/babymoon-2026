@@ -1,11 +1,12 @@
 {
-  "ultimaAtualizacao": "2026-10-11 20:36 BRT",
+  "ultimaAtualizacao": "2026-10-11 21:20 BRT",
   "origem": "Goiânia (GYN)",
   "gestacao": {
     "dataReferencia": "2026-10-11",
     "semanasNaReferencia": 22,
     "limiteSemanas": 27,
-    "dataLimite": "2026-11-15"
+    "dataLimite": "2026-11-15",
+    "previsaoParto": "2027-02-14"
   },
   "cambio": {
     "EUR": 6.3,
@@ -558,6 +559,24 @@
       "src": "img/luademel/web/20250630_223242.jpg",
       "data": "2025-06-30",
       "formato": "paisagem"
+    }
+  ],
+  "helena": [
+    {
+      "src": "img/helena/ultrassom-1.jpg",
+      "legenda": "Ultrassom"
+    },
+    {
+      "src": "img/helena/ultrassom-2.jpg",
+      "legenda": "Ultrassom"
+    },
+    {
+      "src": "img/helena/ultrassom-3.jpg",
+      "legenda": "Ultrassom"
+    },
+    {
+      "src": "img/helena/barriga.jpg",
+      "legenda": "A barriguinha da Thais"
     }
   ]
 }

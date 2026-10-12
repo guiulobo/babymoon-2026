@@ -12,9 +12,9 @@ main{max-width:1100px;margin:0 auto;padding:0 14px 40px}
 .card{background:var(--card);border-radius:20px;box-shadow:var(--sh);padding:18px;margin:16px 0}
 .muted{color:var(--muted)}.small{font-size:.85rem}
 .badge{display:inline-block;font-size:.72rem;font-weight:700;padding:3px 9px;border-radius:999px;background:#f3e6e8;color:var(--rose-d);margin:2px 4px 2px 0}
-.badge.warn{background:#fff3d6;color:#9a6b00}
-.badge.ok{background:#e3f2e8;color:#3d7a52}
-.badge.bad{background:#fde3e3;color:#a33}
+.badge.warn{background:#f2c94c;color:#5a4300}
+.badge.ok{background:#8cc79f;color:#1f4a2e}
+.badge.bad{background:#e07a7a;color:#fff}
 .disclaimer{background:#fffaf0;border:1px dashed var(--gold);border-radius:14px;padding:12px 14px;font-size:.9rem}
 .preg h2{font-size:1.3rem}
 .weeks{display:flex;align-items:baseline;gap:8px}
@@ -73,3 +73,20 @@ footer{text-align:center;padding:30px 14px;color:var(--muted);font-size:.82rem}
 .lb button{position:absolute;background:rgba(255,255,255,.15);color:#fff;border:0;border-radius:50%;width:46px;height:46px;font-size:1.6rem;cursor:pointer}
 .lb-x{top:14px;right:14px}.lb-prev{left:10px;top:50%;transform:translateY(-50%)}.lb-next{right:10px;top:50%;transform:translateY(-50%)}
 .lb-cap{position:absolute;bottom:10px;width:100%;text-align:center;color:#fde;font-size:.85rem;margin:0}
+.zbar{margin:14px 0 6px;padding:0 4px}
+.ztrack{position:relative;height:14px;border-radius:99px;overflow:visible;background:#eee}
+.z{position:absolute;top:0;bottom:0;left:0}
+.z.green,.chip.green{background:#8cc79f}.z.yellow,.chip.yellow{background:#f2c94c}.z.red,.chip.red{background:#e07a7a}
+.z.green{border-radius:99px 0 0 99px}.z.red{border-radius:0 99px 99px 0}
+.trip{position:absolute;top:-3px;width:3px;height:20px;background:var(--rose-d);opacity:.55;transform:translateX(-50%);border-radius:2px}
+.chip.tripc{background:var(--rose-d);opacity:.55;width:4px}
+.today{position:absolute;top:-8px;width:4px;height:30px;background:var(--ink);transform:translateX(-50%);border-radius:2px}
+.today em{position:absolute;top:-20px;left:50%;transform:translateX(-50%);font-style:normal;font-size:.72rem;font-weight:700;background:var(--ink);color:#fff;padding:1px 7px;border-radius:99px;white-space:nowrap}
+.ticks{position:relative;height:18px;margin-top:6px;font-size:.72rem;color:var(--muted)}
+.ticks span{position:absolute;transform:translateX(-50%)}
+.chip{display:inline-block;width:14px;height:10px;border-radius:4px;vertical-align:middle}
+.preg .weeks{margin-bottom:22px}
+.helena{background:linear-gradient(180deg,#fff,#fff4f6)}
+.helena-g{grid-template-columns:repeat(2,1fr);grid-auto-rows:150px}
+.helena-g button{grid-column:span 1}
+@media(min-width:760px){.helena-g{grid-template-columns:repeat(4,1fr);grid-auto-rows:220px}}

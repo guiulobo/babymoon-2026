@@ -9,20 +9,28 @@ let D, track='todos', sortK='preco', sortDir=1;
 
 function weekAt(date){const g=D.gestacao;const days=(parse(date)-parse(g.dataReferencia))/DAY;const t=g.semanasNaReferencia*7+days;return {w:Math.floor(t/7),d:Math.round(t%7),t}}
 const wtxt=x=>`${x.w}s${x.d?' '+x.d+'d':''}`;
-function wbadge(date){const x=weekAt(date);const lim=D.gestacao.limiteSemanas*7;const cls=x.t>lim?'bad':x.t>lim-7?'warn':'ok';return `<span class="badge ${cls}">${wtxt(x)}</span>`}
+function wbadge(date){const x=weekAt(date);const lim=D.gestacao.limiteSemanas*7;const cls=x.t>=lim?'bad':x.t>=lim-7?'warn':'ok';return `<span class="badge ${cls}">${wtxt(x)}</span>`}
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 
+const plural=(n,s,p)=>`${n} ${n===1?s:p}`;
 function renderPreg(){
   const g=D.gestacao, today=new Date().toISOString().slice(0,10);
-  const now=weekAt(today), pct=Math.min(100,now.t/(40*7)*100), lim=g.limiteSemanas/40*100;
+  const now=weekAt(today), lim=g.limiteSemanas, S0=20, S1=30, pos=w=>Math.max(0,Math.min(100,(w-S0)/(S1-S0)*100));
   const left=Math.ceil((parse(g.dataLimite)-parse(today))/DAY);
+  const trips=D.destinos.filter(x=>x.datas).map(x=>({n:x.nome,w:weekAt(x.datas.ida).t/7}));
   $('#preg').innerHTML=`<h2>🤰 Contador da gestação</h2>
-  <div class="weeks"><b>${now.w}</b><span>semanas ${now.d?'e '+now.d+' dias':''} hoje</span></div>
-  <div class="prog"><span style="width:${pct}%"></span><i style="position:absolute;left:${lim}%;top:0;bottom:0;width:2px;background:var(--rose-d)"></i></div>
-  <p class="small muted">Referência: ${g.semanasNaReferencia} semanas em ${fmtD(g.dataReferencia)}/2026. Limite que definimos para voar: <strong>${g.limiteSemanas} semanas (~${fmtD(g.dataLimite)})</strong>${left>0?` — faltam <strong>${left} dias</strong>`:' — limite atingido'}.</p>
-  <p class="small"><span class="badge ok">verde</span> folga · <span class="badge warn">amarelo</span> última semana antes do limite · <span class="badge bad">vermelho</span> passou do limite</p>`;
+  <div class="weeks"><b>${now.w}</b><span>semanas${now.d?' e '+plural(now.d,'dia','dias'):''} hoje</span></div>
+  <div class="zbar">
+    <div class="ztrack"><span class="z green" style="width:${pos(lim-1)}%"></span><span class="z yellow" style="left:${pos(lim-1)}%;width:${pos(lim)-pos(lim-1)}%"></span><span class="z red" style="left:${pos(lim)}%;right:0"></span>
+      ${trips.map(t=>`<i class="trip" style="left:${pos(t.w)}%" title="Ida: ${esc(t.n)}"></i>`).join('')}
+      <span class="today" style="left:${pos(now.t/7)}%"><em>Hoje</em></span></div>
+    <div class="ticks">${[20,22,24,26,27,30].map(w=>`<span style="left:${pos(w)}%">${w}</span>`).join('')}</div>
+  </div>
+  <p class="small muted">Referência: ${g.semanasNaReferencia} semanas em ${fmtD(g.dataReferencia)}/2026. Limite que definimos para voar: <strong>${lim} semanas (~${fmtD(g.dataLimite)})</strong>${left>0?` — falta${left===1?'':'m'} <strong>${plural(left,'dia','dias')}</strong>`:' — limite atingido'}.</p>
+  <p class="small"><span class="chip green"></span> folga (até ${lim-1} sem.) · <span class="chip yellow"></span> última semana antes do limite (${lim-1}–${lim}) · <span class="chip red"></span> passou do limite (${lim}+) · <span class="chip tripc"></span> ida sugerida de cada destino</p>`;
+  const dl=Math.ceil((parse(g.previsaoParto)-parse(today))/DAY);
+  if($('#dppLeft')){$('#dpp').textContent='~'+parse(g.previsaoParto).toLocaleDateString('pt-BR');$('#dppLeft').textContent=dl>0?plural(dl,'dia','dias'):'chegou a hora 💕'}
 }
-
 function card(x){
   const t=D.trilhas.find(t=>t.id===x.trilha), b=t.orcamento, c=x.custos;
   const fav=state.fav.includes(x.id), disc=state.disc.includes(x.id);
@@ -87,9 +95,9 @@ fetch('data.json',{cache:'no-store'}).then(r=>r.json()).then(d=>{
 
 // Galeria lua de mel + lightbox
 (function(){
-  let P=[],i=0;const lb=$('#lb'),im=lb.querySelector('img');
-  const show=n=>{i=(n+P.length)%P.length;im.src=P[i].src;lb.querySelector('.lb-cap').textContent=`${parse(P[i].data).toLocaleDateString('pt-BR')} · ${i+1}/${P.length}`};
-  const open=n=>{show(n);lb.hidden=false;document.body.style.overflow='hidden'};
+  let P=[],i=0;const G={};const lb=$('#lb'),im=lb.querySelector('img');
+  const show=n=>{i=(n+P.length)%P.length;im.src=P[i].src;lb.querySelector('.lb-cap').textContent=`${P[i].legenda||parse(P[i].data).toLocaleDateString('pt-BR')} · ${i+1}/${P.length}`};
+  const open=(set,n)=>{P=G[set];show(n);lb.hidden=false;document.body.style.overflow='hidden'};
   const close=()=>{lb.hidden=true;im.src='';document.body.style.overflow=''};
   lb.querySelector('.lb-x').onclick=close;
   lb.querySelector('.lb-prev').onclick=e=>{e.stopPropagation();show(i-1)};
@@ -99,8 +107,10 @@ fetch('data.json',{cache:'no-store'}).then(r=>r.json()).then(d=>{
   let x0=null;lb.addEventListener('touchstart',e=>x0=e.touches[0].clientX,{passive:true});
   lb.addEventListener('touchend',e=>{if(x0===null)return;const dx=e.changedTouches[0].clientX-x0;if(Math.abs(dx)>40)show(i+(dx<0?1:-1));x0=null});
   fetch('data.json',{cache:'no-store'}).then(r=>r.json()).then(d=>{
-    P=d.luaDeMel||[];
-    $('#gallery').innerHTML=P.map((p,n)=>`<button class="${p.formato==='vertical'?'vertical':''}" data-n="${n}" aria-label="Foto ${n+1}"><img src="${p.src}" alt="Lua de mel, ${parse(p.data).toLocaleDateString('pt-BR')}" loading="lazy" decoding="async"></button>`).join('');
-    $('#gallery').querySelectorAll('button').forEach(b=>b.onclick=()=>open(+b.dataset.n));
+    G.lua=d.luaDeMel||[];G.helena=d.helena||[];
+    const build=(id,set,alt)=>{$(id).innerHTML=G[set].map((p,n)=>`<button class="${p.formato==='vertical'?'vertical':''}" data-n="${n}" aria-label="Foto ${n+1}"><img src="${p.src}" alt="${esc(alt(p))}" loading="lazy" decoding="async"></button>`).join('');
+      $(id).querySelectorAll('button').forEach(b=>b.onclick=()=>open(set,+b.dataset.n))};
+    build('#gallery','lua',p=>'Lua de mel, '+parse(p.data).toLocaleDateString('pt-BR'));
+    build('#helenaGallery','helena',p=>'Helena — '+p.legenda);
   });
 })();
