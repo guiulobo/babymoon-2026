@@ -95,6 +95,8 @@ function renderAlim(){const a=D.alimentacao;if(!a)return;
   <h3>📍 Avisos por destino</h3><ul class="small">${a.avisos.map(v=>`<li><strong>${esc(v.onde)}:</strong> ${esc(v.txt)}</li>`).join('')}</ul>`;
 }
 
+function renderDed(){const t=D.dedicatoria;if(!t)return;const el=$('#dedicatoria');
+  el.innerHTML=`<figcaption>${esc(t.titulo)}</figcaption>`+t.texto.split(/\n\s*\n/).map(p=>`<p>${p.split('\n').map(esc).join('<br>')}</p>`).join('');el.hidden=false}
 function renderTracks(){
   let html='';
   for(const t of D.trilhas){
@@ -123,7 +125,7 @@ window.toggle=toggle;
 fetch('data.json',{cache:'no-store'}).then(r=>r.json()).then(d=>{
   D=d; $('#updated').textContent=d.ultimaAtualizacao;
   $('#notas').innerHTML=d.notasGerais.map(n=>`<li>${esc(n)}</li>`).join('');
-  renderPreg(); renderSeguro(); renderMilhas(); renderAlim(); renderTracks(); renderTable();
+  renderDed(); renderPreg(); renderSeguro(); renderMilhas(); renderAlim(); renderTracks(); renderTable();
   document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));b.classList.add('active');track=b.dataset.track;renderTracks()});
   document.querySelectorAll('#cmp th').forEach(th=>th.onclick=()=>{if(sortK===th.dataset.k)sortDir*=-1;else{sortK=th.dataset.k;sortDir=1}renderTable()});
   $('#reset').onclick=()=>{state={fav:[],disc:[]};save();renderTracks();renderTable()};

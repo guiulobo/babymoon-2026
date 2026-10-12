@@ -113,3 +113,9 @@ details.more{border-top:1px solid #f3e6e8;padding-top:6px}
 details.more summary{cursor:pointer;font-weight:700;color:var(--rose-d);padding:4px 0}
 details.more ol,details.more ul{font-size:.88rem;padding-left:20px;margin:4px 0}
 .src{font-size:.75rem;color:var(--muted)}.src a{color:var(--muted)}
+.letter{margin:14px auto 18px;max-width:620px;background:linear-gradient(180deg,#fff7f8,#fdeef0);border:1px solid #f3d3d8;border-radius:18px;padding:22px 24px 18px;font-family:"Playfair Display",Georgia,serif;font-style:italic;color:#8a4d57;line-height:1.65;position:relative;box-shadow:0 4px 18px rgba(201,111,123,.08)}
+.letter[hidden]{display:none}
+.letter::before{content:"“";position:absolute;top:-6px;left:14px;font-size:4rem;color:#f2c1c7;line-height:1}
+.letter figcaption{font-family:Nunito,sans-serif;font-style:normal;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);text-align:center;margin-bottom:10px}
+.letter p{margin:0 0 .9em}
+.letter p:last-child{margin-bottom:0;text-align:right}
