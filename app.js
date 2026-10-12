@@ -111,7 +111,7 @@ function renderTracks(){
     if(track==='favoritos') list=list.filter(x=>state.fav.includes(x.id));
     else if(track!=='todos'&&track!==t.id) continue;
     if(!list.length&&track==='favoritos') continue;
-    html+=`<section><div class="track-head"><h2>${t.id==='brasil'?'🇧🇷':t.id==='europa'?'🇪🇺':'✈️'} ${t.nome}</h2><span class="muted">Orçamento: <strong>${brl(t.orcamento)}</strong></span></div><div class="grid">${list.map(card).join('')}</div></section>`;
+    html+=`<section><div class="track-head"><h2>${t.id==='brasil'?'🇧🇷':t.id==='europa'?'🇪🇺':'🌎'} ${t.nome}</h2><span class="muted">Orçamento: <strong>${brl(t.orcamento)}</strong></span></div><div class="grid">${list.map(card).join('')}</div></section>`;
   }
   $('#tracks').innerHTML=html||'<p class="empty">Nenhum favorito ainda — toque no 💖 de um destino.</p>';if(typeof filterCards==='function')filterCards();
 }
@@ -121,7 +121,7 @@ function renderTable(){
   const rows=[...D.destinos].sort((a,b)=>{const A=val[sortK](a),B=val[sortK](b);return (A>B?1:A<B?-1:0)*sortDir});
   document.querySelectorAll('#cmp th').forEach(th=>th.className=th.dataset.k===sortK?(sortDir>0?'asc':'desc'):'');
   $('#cmp tbody').innerHTML=rows.map(x=>`<tr class="${state.disc.includes(x.id)?'discarded':''}">
-   <td>${state.fav.includes(x.id)?'💖 ':''}<a href="#d-${x.id}" style="color:inherit">${esc(x.nome)}</a><br><span class="badge">${x.trilha==='brasil'?'Brasil':x.trilha==='europa'?'Europa':'Internacional'}</span></td>
+   <td>${state.fav.includes(x.id)?'💖 ':''}<a href="#d-${x.id}" style="color:inherit">${esc(x.nome)}</a><br><span class="badge">${x.trilha==='brasil'?'Brasil':x.trilha==='europa'?'Europa':'América do Sul'}</span></td>
    <td>${brl(x.custos.totalMin)}–${brl(x.custos.totalMax)}</td><td>${esc(x.tempoVooTexto)}</td>
    <td class="stars">${'★'.repeat(x.conforto)}${'☆'.repeat(5-x.conforto)}</td></tr>`).join('');
 }

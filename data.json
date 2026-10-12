@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-10-11 22:35 BRT",
+  "ultimaAtualizacao": "2026-10-11 22:37 BRT",
   "origem": "Goiânia (GYN)",
   "gestacao": {
     "dataReferencia": "2026-10-11",
@@ -20,8 +20,8 @@
       "orcamento": 20000
     },
     {
-      "id": "internacional",
-      "nome": "Internacional",
+      "id": "americadosul",
+      "nome": "América do Sul",
       "orcamento": 35000
     },
     {
@@ -535,8 +535,875 @@
       }
     },
     {
+      "id": "chile",
+      "trilha": "americadosul",
+      "nome": "Santiago + Viña del Mar",
+      "regiao": "Chile",
+      "aeroporto": "Santiago (SCL)",
+      "img": "img/vina.jpg",
+      "imgCredito": "Wikimedia Commons, CC BY-SA 2.0",
+      "imgFonte": "https://commons.wikimedia.org/wiki/File:Chile,_Vi%C3%B1a_del_Mar,_Recreo_(46836308154).jpg",
+      "datas": {
+        "ida": "2026-11-05",
+        "volta": "2026-11-10"
+      },
+      "voos": [
+        {
+          "texto": "LATAM via GRU 05/11→10/11: R$2.227/pessoa (R$4.454 casal) — 16–17h com conexões longas",
+          "tipo": "observado"
+        },
+        {
+          "texto": "Evitar GOL (2 conexões)",
+          "tipo": "info"
+        }
+      ],
+      "fontesVoo": [
+        "https://www.momondo.com.br/passagem/goiania/santiago"
+      ],
+      "hoteis": [
+        {
+          "nome": "Sheraton Miramar (Viña del Mar)",
+          "preco": "média US$299/noite em nov; datas mais baratas US$167–170",
+          "url": "https://www.vio.com/Hotel/1066909/en-GB"
+        }
+      ],
+      "clima": "Seco, 20–27°C; mar frio",
+      "custos": {
+        "nota": "Estimativa (5 noites Viña + 4 Santiago)",
+        "itens": [
+          {
+            "item": "Voos (casal)",
+            "min": 4454,
+            "max": 4454
+          },
+          {
+            "item": "Hospedagem Viña (5 noites)",
+            "min": 6000,
+            "max": 6000
+          },
+          {
+            "item": "Hospedagem Santiago (4 noites)",
+            "min": 3500,
+            "max": 3500
+          },
+          {
+            "item": "Alimentação",
+            "min": 5000,
+            "max": 5000
+          },
+          {
+            "item": "Transporte",
+            "min": 1500,
+            "max": 1500
+          },
+          {
+            "item": "Seguro",
+            "min": 800,
+            "max": 800
+          }
+        ],
+        "totalMin": 21000,
+        "totalMax": 23000
+      },
+      "pros": [
+        "Só RG",
+        "Ótimos hospitais privados",
+        "Seco, 20–27°C",
+        "Sem mosquito da Zika no continente"
+      ],
+      "cuidados": [
+        "Mar frio",
+        "Evitar Ilha de Páscoa",
+        "Voo de 16–17h com conexões longas"
+      ],
+      "tempoVooMin": 990,
+      "tempoVooTexto": "16–17h (conexão em GRU)",
+      "conforto": 3,
+      "roteiro": [
+        "Dia 1: chegada em Santiago (voo longo), descanso",
+        "Dia 2: Cerro San Cristóbal pelo funicular/teleférico",
+        "Dia 3: Sky Costanera + bairro Lastarria",
+        "Dia 4: transfer para Viña del Mar (~1h30)",
+        "Dia 5: Viña: Reloj de Flores, orla, Quinta Vergara",
+        "Dia 6: Valparaíso com ascensores (evitar escadarias)",
+        "Dia 7: dia livre/spa",
+        "Dia 8–9: volta por Santiago"
+      ],
+      "restaurantes": [
+        {
+          "nome": "Chiche Cuadra (Viña del Mar)",
+          "url": "https://chichecuadra.com/",
+          "nota": "parrilla"
+        },
+        {
+          "nome": "La Bifería (Providencia, Santiago)",
+          "url": "https://www.labiferia.cl/",
+          "nota": "carnes"
+        },
+        {
+          "nome": "Kilú Casa de Carnes (Santiago)",
+          "url": "https://www.kilucasadecarnes.cl/",
+          "nota": "carnes"
+        },
+        {
+          "nome": "La Parrilla del Guatón Jerez (Vitacura)",
+          "url": "https://www.laparrilladelguatonjerez.cl/",
+          "nota": "parrilla"
+        }
+      ],
+      "passeios": [
+        {
+          "nome": "Cerro San Cristóbal",
+          "nota": "subir de funicular/teleférico, não a pé"
+        },
+        {
+          "nome": "Sky Costanera",
+          "nota": "elevador, sem esforço"
+        },
+        {
+          "nome": "Valparaíso (cerros Alegre e Concepción)",
+          "nota": "muitas ladeiras — usar ascensores e táxi"
+        },
+        {
+          "nome": "Vinícolas (Concha y Toro etc.)",
+          "nota": "ok passear, sem degustação de vinho"
+        },
+        {
+          "nome": "Cajón del Maipo / Andes",
+          "nota": "altitude e estrada sinuosa — evitar"
+        }
+      ],
+      "fontesGuia": [
+        "https://exa.ai/library/places?q=db19f4faea8c1892"
+      ],
+      "videos": [
+        {
+          "id": "ajP1qJUo134",
+          "titulo": "SANTIAGO DO CHILE - ROTEIRO COMPLETO DE 4 DIAS COM PREÇOS",
+          "canal": "Casal Alencar",
+          "views": "225 mil",
+          "publicado": "há 1 ano"
+        },
+        {
+          "id": "EMIIu-PdiDg",
+          "titulo": "SANTIAGO CHILE 2025: ROTEIRO COMPLETO COM PREÇOS  | O QUE FAZER | MELHORES PASSEIOS | NEVE | DICAS",
+          "canal": "Fabi Cassol | Minha Praia Viajar",
+          "views": "517 mil",
+          "publicado": "há 1 ano"
+        },
+        {
+          "id": "9ax2TDg1_DM",
+          "titulo": "UMA SEMANA NO CHILE COMIGO 🇨🇱 Inverno em Santiago, neve em Portillo e praia em Viña del Mar",
+          "canal": "Mika Serur",
+          "views": "118 mil",
+          "publicado": "há 2 anos"
+        }
+      ],
+      "michelin": {
+        "cobertura": false,
+        "nota": "Não há seleção de RESTAURANTES do Guia Michelin no Chile (2026). O guia só avalia hotéis no país (Chaves Michelin — ex.: Mandarin Oriental Santiago, The Ritz-Carlton Santiago, The Singular Santiago). A seleção Michelin mais próxima é Buenos Aires/Mendoza (Argentina).",
+        "fonte": "https://www.elmostrador.cl/revista-jengibre/2026/09/23/guia-michelin-2026-los-20-hoteles-chilenos-reconocidos-y-sus-nuevas-distinciones/",
+        "lista": []
+      }
+    },
+    {
+      "id": "uruguai",
+      "trilha": "americadosul",
+      "nome": "Montevidéu + Punta del Este",
+      "regiao": "Uruguai",
+      "aeroporto": "Montevidéu (MVD)",
+      "img": "img/punta.jpg",
+      "imgCredito": "Wikimedia Commons, CC BY-SA 4.0",
+      "imgFonte": "https://commons.wikimedia.org/wiki/File:Playa_Brava,_Punta_del_Este,_Uruguay.jpg",
+      "datas": null,
+      "voos": [
+        {
+          "texto": "Nenhum ida-e-volta bom encontrado na janela",
+          "tipo": "info"
+        },
+        {
+          "texto": "Só ida Azul via CNF: ~R$1.131–1.166/pessoa, 7h35",
+          "tipo": "observado"
+        },
+        {
+          "texto": "Casal ida e volta: R$4.500–6.000",
+          "tipo": "estimativa"
+        }
+      ],
+      "fontesVoo": [
+        "https://passagens.voeazul.com.br/pt/voos-de-goi%C3%A2nia-para-montevideo"
+      ],
+      "hoteis": [
+        {
+          "nome": "Serena Hotel (só adultos)",
+          "preco": "a partir de US$113/noite",
+          "url": "https://www.kayak.com.pr/Punta-del-Este-Hoteles-Serena-Hotel.154347.ksp"
+        },
+        {
+          "nome": "Enjoy Punta del Este",
+          "preco": "a partir de US$112/noite",
+          "url": null
+        }
+      ],
+      "clima": "Primavera, 18–22°C; mar frio",
+      "custos": {
+        "nota": "Estimativa total (detalhamento não levantado)",
+        "itens": [
+          {
+            "item": "Voos (casal)",
+            "min": 4500,
+            "max": 6000
+          }
+        ],
+        "totalMin": 19000,
+        "totalMax": 21000
+      },
+      "pros": [
+        "Só RG",
+        "Voo relativamente curto",
+        "Tranquilo",
+        "Primavera 18–22°C",
+        "Baixa temporada"
+      ],
+      "cuidados": [
+        "Mar frio",
+        "Status no CDC não verificado",
+        "Datas de voo ainda não definidas"
+      ],
+      "tempoVooMin": 455,
+      "tempoVooTexto": "7h35 (1 conexão)",
+      "conforto": 4,
+      "roteiro": [
+        "Dia 1: chegada em Montevidéu, descanso",
+        "Dia 2: Ciudad Vieja e Rambla (a pé, plano)",
+        "Dia 3: Mercado del Puerto (almoço de parrilla)",
+        "Dia 4: transfer para Punta del Este (~2h)",
+        "Dia 5: La Mano (Los Dedos), porto e península",
+        "Dia 6: Casapueblo ao pôr do sol",
+        "Dia 7: José Ignacio e Ponte da Laguna Garzón (de carro)",
+        "Dia 8: volta"
+      ],
+      "restaurantes": [
+        {
+          "nome": "Teodoro (Punta del Este)",
+          "url": "https://www.google.com/maps/search/?api=1&query=Teodoro+parrilla+Punta+del+Este",
+          "nota": "parrilla"
+        },
+        {
+          "nome": "El Secreto (Punta del Este)",
+          "url": "https://www.google.com/maps/search/?api=1&query=El+Secreto+Punta+del+Este",
+          "nota": "parrilla com vista do porto (não verificado em site oficial)"
+        },
+        {
+          "nome": "Parador La Huella (José Ignacio)",
+          "url": "https://www.google.com/maps/search/?api=1&query=Parador+La+Huella+Jose+Ignacio",
+          "nota": "forte em peixes e frutos do mar — cuidado; confirmar se abre na baixa temporada"
+        },
+        {
+          "nome": "El Fogón (Montevidéu)",
+          "url": "https://elfogon.com.uy/",
+          "nota": "parrilla; também serve mariscos"
+        }
+      ],
+      "passeios": [
+        {
+          "nome": "Ciudad Vieja e Rambla de Montevidéu",
+          "nota": "plano"
+        },
+        {
+          "nome": "La Mano (Los Dedos)",
+          "nota": "rápido"
+        },
+        {
+          "nome": "Casapueblo",
+          "nota": "pôr do sol; algumas escadas"
+        },
+        {
+          "nome": "Isla Gorriti / Isla de Lobos de barco",
+          "nota": "travessia com mar mexido — evitar"
+        },
+        {
+          "nome": "José Ignacio e Laguna Garzón",
+          "nota": "de carro, sem esforço"
+        }
+      ],
+      "fontesGuia": [
+        "https://www.ambito.com/uruguay/teodoro-la-parrillada-que-nacio-punta-del-este-abrio-un-segundo-local-y-proyecta-su-marca-el-exterior-n6233438",
+        "https://www.elpais.com.uy/vida-actual/un-clasico-de-jose-ignacio-que-celebra-su-historia-en-un-nuevo-libro-y-se-prepara-para-una-temporada-intensa"
+      ],
+      "videos": [
+        {
+          "id": "I_Z0fqAHDTI",
+          "titulo": "QUANTO CUSTA IR A PUNTA DEL ESTE no URUGUAI? O que fazer, roteiro, preços, hotel e melhor aeroporto",
+          "canal": "Estevam Pelo Mundo",
+          "views": "281 mil",
+          "publicado": "há 1 ano"
+        },
+        {
+          "id": "kCsdDD2O6Y4",
+          "titulo": "PUNTA DEL ESTE: O Que Fazer Com Preços",
+          "canal": "Três Viagens",
+          "views": "77 mil",
+          "publicado": "há 2 anos"
+        },
+        {
+          "id": "2G-gvHCufBM",
+          "titulo": "Roteiro COMPLETO no Uruguai 🇺🇾 5 dias em Montevidéu e Punta del Este",
+          "canal": "2 no rolê",
+          "views": "7,2 mil",
+          "publicado": "há 5 meses"
+        }
+      ],
+      "michelin": {
+        "cobertura": false,
+        "nota": "Não há seleção de RESTAURANTES do Guia Michelin no Uruguai (2026). O guia lista apenas hotéis (13 no país, ex.: Fasano Las Piedras, Sofitel Montevideo Casino Carrasco). As sugestões de 'Restaurantes' acima NÃO são Michelin.",
+        "fonte": "https://guide.michelin.com/us/en/hotels-stays/uruguay",
+        "lista": []
+      }
+    },
+    {
+      "id": "bariloche",
+      "trilha": "americadosul",
+      "nome": "Bariloche",
+      "regiao": "Patagônia Norte, Argentina",
+      "aeroporto": "Bariloche (BRC)",
+      "img": "img/bariloche.jpg",
+      "datas": {
+        "ida": "2026-10-26",
+        "volta": "2026-11-09"
+      },
+      "voos": [
+        {
+          "texto": "Ida e volta 26/10→09/11 por R$3.466/pessoa (várias cias): ida 22h20 com 2 conexões (GRU + AEP), volta 15h20 com 2 conexões (AEP + GIG)",
+          "tipo": "observado"
+        },
+        {
+          "texto": "Alternativa 11/11→16/11 R$3.421/pessoa, mas a volta leva 44h49 — evitar",
+          "tipo": "observado"
+        },
+        {
+          "texto": "Não há voo direto; o mais rápido do trecho leva 12h40. As datas encontradas são de 14 noites — encurtar a volta (preço a cotar)",
+          "tipo": "info"
+        },
+        {
+          "texto": "Casal: ~R$6.932",
+          "tipo": "estimativa"
+        }
+      ],
+      "fontesVoo": [
+        "https://www.momondo.com.br/passagem/goiania/san-carlos-de-bariloche"
+      ],
+      "hoteis": [
+        {
+          "nome": "Llao Llao Resort, Golf-Spa",
+          "preco": "a partir de R$847/noite (KAYAK); média recente em dias de semana ~R$2.480",
+          "url": "https://www.kayak.com.br/Hoteis-Llao-Llao-Hotel-Resort-Golf-Spa-San-Carlos-de-Bariloche.87252.ksp"
+        },
+        {
+          "nome": "Llao Llao — site oficial",
+          "preco": "tarifas no site",
+          "url": "https://llaollao.com/en/"
+        }
+      ],
+      "clima": "Primavera patagônica: frio, vento; dias amenos (temperaturas exatas não levantadas)",
+      "custos": {
+        "nota": "Estimativa nossa para ~7 noites (voo encontrado é de 14 noites)",
+        "itens": [
+          {
+            "item": "Voos (casal)",
+            "min": 6932,
+            "max": 6932
+          },
+          {
+            "item": "Hospedagem (7 noites, Llao Llao R$847–2.480)",
+            "min": 5900,
+            "max": 17400
+          },
+          {
+            "item": "Alimentação",
+            "min": 3500,
+            "max": 4500
+          },
+          {
+            "item": "Transporte/passeios",
+            "min": 1500,
+            "max": 1500
+          }
+        ],
+        "totalMin": 18000,
+        "totalMax": 30000
+      },
+      "pros": [
+        "Paisagem de lagos e montanhas",
+        "Llao Llao: resort icônico, ótimo para descansar",
+        "Gastronomia de carnes, chocolates"
+      ],
+      "cuidados": [
+        "Voos longos com 2 conexões — meias de compressão, corredor, caminhar",
+        "Frio e vento: roupas em camadas",
+        "Argentina está na lista do CDC de países com transmissão atual ou passada de Zika (sem nível por cidade); repelente se houver mosquitos",
+        "Evitar esqui, trekking puxado e passeios em estradas de rípio"
+      ],
+      "tempoVooMin": 1340,
+      "tempoVooTexto": "12h40–22h20 (2 conexões)",
+      "conforto": 2,
+      "roteiro": [
+        "Dia 1: chegada (dia longo), descanso",
+        "Dia 2: Circuito Chico de carro, com paradas curtas",
+        "Dia 3: Cerro Campanario pelo teleférico (vista)",
+        "Dia 4: dia de spa/lago no hotel",
+        "Dia 5: centro, Rua Mitre e chocolaterias",
+        "Dia 6: passeio de barco curto no Nahuel Huapi, só se o lago estiver calmo",
+        "Dia 7: Villa La Angostura (estrada asfaltada) ou descanso",
+        "Dia 8: volta"
+      ],
+      "restaurantes": [
+        {
+          "nome": "El Patacón",
+          "url": "https://www.google.com/maps/search/?api=1&query=El+Patacon+Bariloche",
+          "nota": "parrilla/cordeiro"
+        },
+        {
+          "nome": "La Marmite",
+          "url": "https://www.google.com/maps/search/?api=1&query=La+Marmite+Bariloche",
+          "nota": "fondue suíço — confirmar que os queijos são pasteurizados"
+        },
+        {
+          "nome": "Tannini",
+          "url": "https://www.google.com/maps/search/?api=1&query=Tannini+Bariloche",
+          "nota": "italiano"
+        },
+        {
+          "nome": "Alto el Fuego",
+          "url": "https://www.google.com/maps/search/?api=1&query=Alto+el+Fuego+Bariloche",
+          "nota": "carnes"
+        }
+      ],
+      "fontesGuia": [
+        "https://exa.ai/library/places?q=d9ef54f9e28a2269"
+      ],
+      "passeios": [
+        {
+          "nome": "Circuito Chico",
+          "nota": "de carro, mirantes curtos"
+        },
+        {
+          "nome": "Cerro Campanario",
+          "nota": "teleférico — ok; evitar subir a pé"
+        },
+        {
+          "nome": "Cerro Catedral / esqui",
+          "nota": "evitar esportes de neve"
+        },
+        {
+          "nome": "Isla Victoria e Bosque de Arrayanes (barco)",
+          "nota": "travessia longa; só com lago calmo"
+        }
+      ],
+      "michelin": {
+        "cobertura": false,
+        "nota": "Bariloche não tem restaurantes no Guia Michelin: na Argentina o guia (3ª edição, 2026) cobre só Buenos Aires e Mendoza. Se a conexão for por Buenos Aires, dá para incluir uma noite lá (ex.: Don Julio, citado pelo guia).",
+        "fonte": "https://guide.michelin.com/ar/es/articulo/michelin-guide-ceremony/guia-michelin-cuatro-nuevas-estrellas-en-buenos-aires-y-mendoza",
+        "lista": []
+      },
+      "videos": [
+        {
+          "id": "Cv00ao26Beg",
+          "titulo": "Nossa LUA DE MEL- em Bariloche! ",
+          "canal": "Juliana Machado ",
+          "views": "9,8 mil",
+          "publicado": "há 1 ano"
+        },
+        {
+          "id": "7spHVuGP1VE",
+          "titulo": "BARILOCHE - ROTEIRO COMPLETO DE 7 DIAS (COM PREÇOS)",
+          "canal": "Casal Alencar",
+          "views": "148 mil",
+          "publicado": "há 1 ano"
+        },
+        {
+          "id": "70qMzSGOX3U",
+          "titulo": "ROTEIRO COMPLETO Bariloche no verão e região - PATAGÔNIA ARGENTINA",
+          "canal": "Bruna & Maurício - Um Lugar Para Conhecer",
+          "views": "12,4 mil",
+          "publicado": "há 1 ano"
+        }
+      ],
+      "fontesSaude": [
+        "https://www.cdc.gov/zika/geo/index.html",
+        "https://www.cdc.gov/yellow-book/hcp/family-travel/pregnant-travelers.html"
+      ],
+      "imgCredito": "Wikimedia Commons, CC BY-SA 4.0",
+      "imgFonte": "https://commons.wikimedia.org/wiki/File:Llao_Llao_Peninsula.jpg"
+    },
+    {
+      "id": "calafate",
+      "trilha": "americadosul",
+      "nome": "El Calafate (Patagônia)",
+      "regiao": "Santa Cruz, Argentina — Perito Moreno",
+      "aeroporto": "El Calafate (FTE)",
+      "img": "img/calafate.jpg",
+      "datas": {
+        "ida": "2026-11-08",
+        "volta": "2026-11-15"
+      },
+      "voos": [
+        {
+          "texto": "GRU→FTE 08/11→15/11 Aerolíneas Argentinas R$1.831/pessoa: ida 12h15 (via AEP), volta 24h50 (via AEP)",
+          "tipo": "observado"
+        },
+        {
+          "texto": "GOL GRU→FTE direto 5h50 (00:10→06:00); só ida R$1.030 visto para 27/11 (fora da janela)",
+          "tipo": "observado (outra data)"
+        },
+        {
+          "texto": "Trecho GYN↔GRU não incluído — a cotar",
+          "tipo": "info"
+        },
+        {
+          "texto": "Casal GRU↔FTE: ~R$3.662 + GYN↔GRU",
+          "tipo": "estimativa"
+        }
+      ],
+      "fontesVoo": [
+        "https://www.momondo.com.br/passagem/goiania/el-calafate"
+      ],
+      "hoteis": [
+        {
+          "nome": "Xelena Hotel & Suites",
+          "preco": "a partir de US$146/noite (KAYAK)",
+          "url": "https://www.kayak.com/El-Calafate-Hotels-Xelena-Hotel-Suites.169871.ksp"
+        },
+        {
+          "nome": "Hotel Kosten Aike",
+          "preco": "a partir de US$99/noite",
+          "url": "https://www.kayak.com.pr/El-Calafate-Hoteles-Kosten-Aike.203073.ksp"
+        }
+      ],
+      "clima": "Primavera patagônica: frio e muito vento (temperaturas exatas não levantadas)",
+      "custos": {
+        "nota": "Estimativa nossa para 7 noites; SEM o trecho GYN↔GRU",
+        "itens": [
+          {
+            "item": "Voos GRU↔FTE (casal)",
+            "min": 3662,
+            "max": 3662
+          },
+          {
+            "item": "Hospedagem (7 noites, US$99–156)",
+            "min": 3800,
+            "max": 6000
+          },
+          {
+            "item": "Alimentação",
+            "min": 3500,
+            "max": 4500
+          },
+          {
+            "item": "Passeios/transporte (Perito Moreno etc.)",
+            "min": 2000,
+            "max": 2000
+          }
+        ],
+        "totalMin": 13000,
+        "totalMax": 16200
+      },
+      "pros": [
+        "Glaciar Perito Moreno pelas passarelas — espetáculo sem esforço",
+        "Cidade pequena e tranquila",
+        "Voo direto GOL GRU–FTE existe (5h50)"
+      ],
+      "cuidados": [
+        "Datas encontradas: volta em 15/11 = 27 semanas (no limite!) — antecipar",
+        "Lugar remoto: hospital de alta complexidade longe — confirmar com o obstetra",
+        "Volta de 24h50 na tarifa mais barata — evitar",
+        "Frio e vento intensos",
+        "Evitar mini-trekking no gelo e navegações longas",
+        "Argentina na lista do CDC (transmissão atual/passada de Zika), sem nível por cidade",
+        "Ushuaia: mais longe e mais voos — não recomendado nesta fase"
+      ],
+      "tempoVooMin": 900,
+      "tempoVooTexto": "GYN→GRU + 12h15 (ou 5h50 direto GOL)",
+      "conforto": 2,
+      "roteiro": [
+        "Dia 1: chegada, descanso",
+        "Dia 2: Perito Moreno pelas passarelas (meio dia, sem pressa)",
+        "Dia 3: centro e Laguna Nimez (caminhada plana curta)",
+        "Dia 4: dia de descanso no hotel",
+        "Dia 5: estância com almoço (ex.: cordeiro bem passado)",
+        "Dia 6: Glaciarium (museu do gelo)",
+        "Dia 7: livre",
+        "Dia 8: volta"
+      ],
+      "restaurantes": [
+        {
+          "nome": "La Tablita",
+          "url": "https://www.elcalafate.tur.ar/parrillas/la-tablita-es.htm?lang=es",
+          "nota": "parrilla/cordeiro — pedir bem passado"
+        },
+        {
+          "nome": "Mi Rancho",
+          "url": "https://turismo.aarg.ar/lugares/mi-rancho-calafate/",
+          "nota": "caseiro, cordeiro em forno de barro"
+        },
+        {
+          "nome": "Pura Vida",
+          "url": "https://www.google.com/maps/search/?api=1&query=Pura+Vida+El+Calafate",
+          "nota": "casual; guisos, massas, vegetarianos"
+        }
+      ],
+      "fontesGuia": [
+        "https://calafate.tours/blog/donde-comer-cordero-calafate"
+      ],
+      "passeios": [
+        {
+          "nome": "Glaciar Perito Moreno (passarelas)",
+          "nota": "caminhos com escadas — ir no ritmo dela"
+        },
+        {
+          "nome": "Safári náutico curto em frente ao glaciar",
+          "nota": "só se estiver calmo; navegação longa não"
+        },
+        {
+          "nome": "Mini-trekking no gelo",
+          "nota": "EVITAR na gravidez"
+        },
+        {
+          "nome": "Glaciarium",
+          "nota": "museu, sem esforço"
+        }
+      ],
+      "michelin": {
+        "cobertura": false,
+        "nota": "El Calafate não está no Guia Michelin (Argentina: só Buenos Aires e Mendoza em 2026).",
+        "fonte": "https://guide.michelin.com/ar/es/articulo/michelin-guide-ceremony/guia-michelin-cuatro-nuevas-estrellas-en-buenos-aires-y-mendoza",
+        "lista": []
+      },
+      "videos": [
+        {
+          "id": "v93MkB3DumM",
+          "titulo": "EL CALAFATE - ROTEIRO COMPLETO DE 5 DIAS com PREÇOS",
+          "canal": "Casal Alencar",
+          "views": "153 mil",
+          "publicado": "há 1 ano"
+        },
+        {
+          "id": "yzeOhDGt6GQ",
+          "titulo": "USHUAIA + EL CALAFATE: Uma viagem perfeita na Patagônia Argentina",
+          "canal": "Trip Partiu",
+          "views": "406 mil",
+          "publicado": "há 3 anos"
+        },
+        {
+          "id": "zMaNoVQbE68",
+          "titulo": "Passeio de Barco Todos Los Glaciares em El Calafate com Captain's Club : Dicas e Economia T.04 Ep.13",
+          "canal": "Viagens pelo mundo - Cau e Rafa",
+          "views": "5,7 mil",
+          "publicado": "há 2 anos"
+        }
+      ],
+      "fontesSaude": [
+        "https://www.cdc.gov/zika/geo/index.html",
+        "https://www.cdc.gov/yellow-book/hcp/family-travel/pregnant-travelers.html"
+      ],
+      "imgCredito": "Wikimedia Commons, CC BY-SA 2.5 (Luca Galuzzi)",
+      "imgFonte": "https://commons.wikimedia.org/wiki/File:Perito_Moreno_Glacier_Patagonia_Argentina_Luca_Galuzzi_2005.JPG"
+    },
+    {
+      "id": "peru",
+      "trilha": "americadosul",
+      "nome": "Lima + Paracas (Peru)",
+      "regiao": "Costa do Peru, ao nível do mar — versão segura para a gestação",
+      "aeroporto": "Lima (LIM)",
+      "img": "img/paracas.jpg",
+      "datas": {
+        "ida": "2026-10-19",
+        "volta": "2026-10-26"
+      },
+      "voos": [
+        {
+          "texto": "LATAM 19/10→26/10 R$2.318/pessoa: ida 13h15 via GRU (19:40→06:55), volta 18h05 com 2 conexões",
+          "tipo": "observado"
+        },
+        {
+          "texto": "LATAM 10/11→17/11 R$2.578/pessoa (ida 16h55, volta 9h50, via GRU) — mas a volta cai em 27s+2d, acima do limite",
+          "tipo": "observado"
+        },
+        {
+          "texto": "Casal: ~R$4.636",
+          "tipo": "estimativa"
+        }
+      ],
+      "fontesVoo": [
+        "https://www.momondo.com.br/passagem/goiania/lima"
+      ],
+      "hoteis": [
+        {
+          "nome": "La Hacienda Bahía Paracas",
+          "preco": "US$175 por PESSOA/noite (dom–qui)",
+          "url": "https://dikatravelperu.travel/producto/hotel-hacienda-bahia-paracas-2026/"
+        },
+        {
+          "nome": "Hotel Paracas, a Luxury Collection Resort",
+          "preco": "US$350 por pessoa/noite (dom–qui)",
+          "url": "https://dikatravelperu.travel/producto/hotel-paracas-a-luxury-collection-resort-2026-regular-domingo-a-jueves-3-dias-2-noches/"
+        },
+        {
+          "nome": "Miraflores (Lima), hotéis médios",
+          "preco": "~US$67–120/noite",
+          "url": "https://www.peru-spirit.com/es/guias/guia-miraflores/"
+        }
+      ],
+      "clima": "Costa desértica; Lima nublada/garoa leve na primavera (temperaturas exatas não levantadas)",
+      "custos": {
+        "nota": "Estimativa nossa: 4 noites Lima + 3 Paracas (Hacienda Bahía)",
+        "itens": [
+          {
+            "item": "Voos (casal)",
+            "min": 4636,
+            "max": 4636
+          },
+          {
+            "item": "Hospedagem Lima (4 noites)",
+            "min": 1500,
+            "max": 2650
+          },
+          {
+            "item": "Hospedagem Paracas (3 noites, casal)",
+            "min": 5775,
+            "max": 5775
+          },
+          {
+            "item": "Alimentação",
+            "min": 3500,
+            "max": 4500
+          },
+          {
+            "item": "Transporte Lima↔Paracas e passeios",
+            "min": 1500,
+            "max": 1500
+          }
+        ],
+        "totalMin": 17000,
+        "totalMax": 19500
+      },
+      "pros": [
+        "Gastronomia excepcional",
+        "Tudo ao nível do mar — sem altitude",
+        "Paracas: deserto e mar com resorts tranquilos",
+        "Voo de 1 conexão (LATAM via GRU)"
+      ],
+      "cuidados": [
+        "NÃO incluir Cusco/Machu Picchu: Cusco fica a 3.339 m; o CDC sugere que gestantes não durmam acima de 3.050 m e lembra que destinos altos ficam longe de atendimento",
+        "Vale Sagrado (~2.800 m) só com liberação do obstetra — não recomendado aqui",
+        "Zika: o CDC aponta risco em todo o Peru abaixo de 2.300 m, incluindo Lima (casos esporádicos) — repelente com icaridina, roupas compridas",
+        "Ceviche, tiradito e leche de tigre são peixe/frutos do mar CRUS — evitar (alergia + gravidez)",
+        "Evitar dunas de buggy/sandboard em Huacachina e lancha agitada às Islas Ballestas",
+        "Datas encontradas são cedo (19/10) — confirmar com o obstetra e o seguro"
+      ],
+      "tempoVooMin": 795,
+      "tempoVooTexto": "13h15 ida (1 conexão) / 18h05 volta",
+      "conforto": 3,
+      "roteiro": [
+        "Dia 1: chegada cedo em Lima, descanso em Miraflores",
+        "Dia 2: Malecón de Miraflores e Barranco (plano)",
+        "Dia 3: Centro Histórico e Museu Larco",
+        "Dia 4: Lima → Paracas (~3h30 de carro, com paradas)",
+        "Dia 5: resort, piscina e Reserva de Paracas de carro (mirantes)",
+        "Dia 6: descanso",
+        "Dia 7: volta a Lima",
+        "Dia 8: voo de volta"
+      ],
+      "restaurantes": [
+        {
+          "nome": "Panchita (Miraflores)",
+          "url": "https://www.panchita.pe/",
+          "nota": "criollo: anticuchos, lomo saltado, ají de gallina"
+        },
+        {
+          "nome": "Isolina (Barranco)",
+          "url": "https://isolina.pe/",
+          "nota": "criollo; carta tem frutos do mar — escolher carnes"
+        },
+        {
+          "nome": "Restaurantes dos resorts em Paracas",
+          "url": "https://dikatravelperu.travel/producto/hotel-hacienda-bahia-paracas-2026/",
+          "nota": "foco em peixes — avisar alergia"
+        }
+      ],
+      "fontesGuia": [
+        "https://peru21.pe/gastronomia/summum-2025-isolina-taberna-peruana-es-elegida-como-mejor-cocina-criolla/"
+      ],
+      "passeios": [
+        {
+          "nome": "Malecón de Miraflores e Parque del Amor",
+          "nota": "plano, à beira do penhasco"
+        },
+        {
+          "nome": "Barranco",
+          "nota": "bairro boêmio, ruas planas"
+        },
+        {
+          "nome": "Museu Larco",
+          "nota": "tranquilo, com jardins"
+        },
+        {
+          "nome": "Reserva Nacional de Paracas",
+          "nota": "de carro, mirantes curtos"
+        },
+        {
+          "nome": "Islas Ballestas (lancha)",
+          "nota": "mar pode balançar — melhor evitar"
+        },
+        {
+          "nome": "Huacachina (buggy/sandboard)",
+          "nota": "EVITAR"
+        },
+        {
+          "nome": "Cusco / Machu Picchu",
+          "nota": "EVITAR nesta gestação (altitude)"
+        }
+      ],
+      "michelin": {
+        "cobertura": false,
+        "nota": "O Peru não tem Guia Michelin em 2026 — nenhum restaurante no país pode ter estrelas (a cobertura não inclui o país).",
+        "fonte": "https://www.infobae.com/peru/2026/09/29/peru-es-reconocido-por-su-gastronomia-pero-ningun-restaurante-ubicado-en-el-pais-tiene-estrellas-michelin-por-que/",
+        "lista": []
+      },
+      "fontesSaude": [
+        "https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/high-altitude-travel-and-altitude-illness.html",
+        "https://www.cdc.gov/yellow-book/hcp/americas-caribbean/peru.html",
+        "https://www.cdc.gov/yellow-book/hcp/family-travel/pregnant-travelers.html"
+      ],
+      "videos": [
+        {
+          "id": "kgN53FYPVBI",
+          "titulo": "LIMA NOS SURPREENDEU - O QUE FAZER EM 2 DIAS",
+          "canal": "Casal Alencar",
+          "views": "73 mil",
+          "publicado": "há 4 meses"
+        },
+        {
+          "id": "0VcOSe43H9M",
+          "titulo": "LIMA PERU 2025: ROTEIRO COMPLETO COM PREÇOS | VALE A PENA CONHECER? | O QUE FAZER | PASSEIOS | DICAS",
+          "canal": "Fabi Cassol | Minha Praia Viajar",
+          "views": "192 mil",
+          "publicado": "há 1 ano"
+        },
+        {
+          "id": "2Re9RkWD4Nk",
+          "titulo": "PARACAS PERU: É MELHOR QUE MACHU PICCHU? As Ilhas Ballestas que Quase Ninguém Conhece",
+          "canal": "Destino Aberto",
+          "views": "4,3 mil",
+          "publicado": "há 1 ano"
+        }
+      ],
+      "imgCredito": "Wikimedia Commons, CC BY 2.0",
+      "imgFonte": "https://commons.wikimedia.org/wiki/File:Paracas_National_Reserve._Ica,_Peru.jpg"
+    },
+    {
       "id": "lisboa",
-      "trilha": "internacional",
+      "trilha": "europa",
       "nome": "Lisboa + Cascais",
       "regiao": "Portugal",
       "aeroporto": "Lisboa (LIS)",
@@ -739,873 +1606,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "chile",
-      "trilha": "internacional",
-      "nome": "Santiago + Viña del Mar",
-      "regiao": "Chile",
-      "aeroporto": "Santiago (SCL)",
-      "img": "img/vina.jpg",
-      "imgCredito": "Wikimedia Commons, CC BY-SA 2.0",
-      "imgFonte": "https://commons.wikimedia.org/wiki/File:Chile,_Vi%C3%B1a_del_Mar,_Recreo_(46836308154).jpg",
-      "datas": {
-        "ida": "2026-11-05",
-        "volta": "2026-11-10"
-      },
-      "voos": [
-        {
-          "texto": "LATAM via GRU 05/11→10/11: R$2.227/pessoa (R$4.454 casal) — 16–17h com conexões longas",
-          "tipo": "observado"
-        },
-        {
-          "texto": "Evitar GOL (2 conexões)",
-          "tipo": "info"
-        }
-      ],
-      "fontesVoo": [
-        "https://www.momondo.com.br/passagem/goiania/santiago"
-      ],
-      "hoteis": [
-        {
-          "nome": "Sheraton Miramar (Viña del Mar)",
-          "preco": "média US$299/noite em nov; datas mais baratas US$167–170",
-          "url": "https://www.vio.com/Hotel/1066909/en-GB"
-        }
-      ],
-      "clima": "Seco, 20–27°C; mar frio",
-      "custos": {
-        "nota": "Estimativa (5 noites Viña + 4 Santiago)",
-        "itens": [
-          {
-            "item": "Voos (casal)",
-            "min": 4454,
-            "max": 4454
-          },
-          {
-            "item": "Hospedagem Viña (5 noites)",
-            "min": 6000,
-            "max": 6000
-          },
-          {
-            "item": "Hospedagem Santiago (4 noites)",
-            "min": 3500,
-            "max": 3500
-          },
-          {
-            "item": "Alimentação",
-            "min": 5000,
-            "max": 5000
-          },
-          {
-            "item": "Transporte",
-            "min": 1500,
-            "max": 1500
-          },
-          {
-            "item": "Seguro",
-            "min": 800,
-            "max": 800
-          }
-        ],
-        "totalMin": 21000,
-        "totalMax": 23000
-      },
-      "pros": [
-        "Só RG",
-        "Ótimos hospitais privados",
-        "Seco, 20–27°C",
-        "Sem mosquito da Zika no continente"
-      ],
-      "cuidados": [
-        "Mar frio",
-        "Evitar Ilha de Páscoa",
-        "Voo de 16–17h com conexões longas"
-      ],
-      "tempoVooMin": 990,
-      "tempoVooTexto": "16–17h (conexão em GRU)",
-      "conforto": 3,
-      "roteiro": [
-        "Dia 1: chegada em Santiago (voo longo), descanso",
-        "Dia 2: Cerro San Cristóbal pelo funicular/teleférico",
-        "Dia 3: Sky Costanera + bairro Lastarria",
-        "Dia 4: transfer para Viña del Mar (~1h30)",
-        "Dia 5: Viña: Reloj de Flores, orla, Quinta Vergara",
-        "Dia 6: Valparaíso com ascensores (evitar escadarias)",
-        "Dia 7: dia livre/spa",
-        "Dia 8–9: volta por Santiago"
-      ],
-      "restaurantes": [
-        {
-          "nome": "Chiche Cuadra (Viña del Mar)",
-          "url": "https://chichecuadra.com/",
-          "nota": "parrilla"
-        },
-        {
-          "nome": "La Bifería (Providencia, Santiago)",
-          "url": "https://www.labiferia.cl/",
-          "nota": "carnes"
-        },
-        {
-          "nome": "Kilú Casa de Carnes (Santiago)",
-          "url": "https://www.kilucasadecarnes.cl/",
-          "nota": "carnes"
-        },
-        {
-          "nome": "La Parrilla del Guatón Jerez (Vitacura)",
-          "url": "https://www.laparrilladelguatonjerez.cl/",
-          "nota": "parrilla"
-        }
-      ],
-      "passeios": [
-        {
-          "nome": "Cerro San Cristóbal",
-          "nota": "subir de funicular/teleférico, não a pé"
-        },
-        {
-          "nome": "Sky Costanera",
-          "nota": "elevador, sem esforço"
-        },
-        {
-          "nome": "Valparaíso (cerros Alegre e Concepción)",
-          "nota": "muitas ladeiras — usar ascensores e táxi"
-        },
-        {
-          "nome": "Vinícolas (Concha y Toro etc.)",
-          "nota": "ok passear, sem degustação de vinho"
-        },
-        {
-          "nome": "Cajón del Maipo / Andes",
-          "nota": "altitude e estrada sinuosa — evitar"
-        }
-      ],
-      "fontesGuia": [
-        "https://exa.ai/library/places?q=db19f4faea8c1892"
-      ],
-      "videos": [
-        {
-          "id": "ajP1qJUo134",
-          "titulo": "SANTIAGO DO CHILE - ROTEIRO COMPLETO DE 4 DIAS COM PREÇOS",
-          "canal": "Casal Alencar",
-          "views": "225 mil",
-          "publicado": "há 1 ano"
-        },
-        {
-          "id": "EMIIu-PdiDg",
-          "titulo": "SANTIAGO CHILE 2025: ROTEIRO COMPLETO COM PREÇOS  | O QUE FAZER | MELHORES PASSEIOS | NEVE | DICAS",
-          "canal": "Fabi Cassol | Minha Praia Viajar",
-          "views": "517 mil",
-          "publicado": "há 1 ano"
-        },
-        {
-          "id": "9ax2TDg1_DM",
-          "titulo": "UMA SEMANA NO CHILE COMIGO 🇨🇱 Inverno em Santiago, neve em Portillo e praia em Viña del Mar",
-          "canal": "Mika Serur",
-          "views": "118 mil",
-          "publicado": "há 2 anos"
-        }
-      ],
-      "michelin": {
-        "cobertura": false,
-        "nota": "Não há seleção de RESTAURANTES do Guia Michelin no Chile (2026). O guia só avalia hotéis no país (Chaves Michelin — ex.: Mandarin Oriental Santiago, The Ritz-Carlton Santiago, The Singular Santiago). A seleção Michelin mais próxima é Buenos Aires/Mendoza (Argentina).",
-        "fonte": "https://www.elmostrador.cl/revista-jengibre/2026/09/23/guia-michelin-2026-los-20-hoteles-chilenos-reconocidos-y-sus-nuevas-distinciones/",
-        "lista": []
-      }
-    },
-    {
-      "id": "uruguai",
-      "trilha": "internacional",
-      "nome": "Montevidéu + Punta del Este",
-      "regiao": "Uruguai",
-      "aeroporto": "Montevidéu (MVD)",
-      "img": "img/punta.jpg",
-      "imgCredito": "Wikimedia Commons, CC BY-SA 4.0",
-      "imgFonte": "https://commons.wikimedia.org/wiki/File:Playa_Brava,_Punta_del_Este,_Uruguay.jpg",
-      "datas": null,
-      "voos": [
-        {
-          "texto": "Nenhum ida-e-volta bom encontrado na janela",
-          "tipo": "info"
-        },
-        {
-          "texto": "Só ida Azul via CNF: ~R$1.131–1.166/pessoa, 7h35",
-          "tipo": "observado"
-        },
-        {
-          "texto": "Casal ida e volta: R$4.500–6.000",
-          "tipo": "estimativa"
-        }
-      ],
-      "fontesVoo": [
-        "https://passagens.voeazul.com.br/pt/voos-de-goi%C3%A2nia-para-montevideo"
-      ],
-      "hoteis": [
-        {
-          "nome": "Serena Hotel (só adultos)",
-          "preco": "a partir de US$113/noite",
-          "url": "https://www.kayak.com.pr/Punta-del-Este-Hoteles-Serena-Hotel.154347.ksp"
-        },
-        {
-          "nome": "Enjoy Punta del Este",
-          "preco": "a partir de US$112/noite",
-          "url": null
-        }
-      ],
-      "clima": "Primavera, 18–22°C; mar frio",
-      "custos": {
-        "nota": "Estimativa total (detalhamento não levantado)",
-        "itens": [
-          {
-            "item": "Voos (casal)",
-            "min": 4500,
-            "max": 6000
-          }
-        ],
-        "totalMin": 19000,
-        "totalMax": 21000
-      },
-      "pros": [
-        "Só RG",
-        "Voo relativamente curto",
-        "Tranquilo",
-        "Primavera 18–22°C",
-        "Baixa temporada"
-      ],
-      "cuidados": [
-        "Mar frio",
-        "Status no CDC não verificado",
-        "Datas de voo ainda não definidas"
-      ],
-      "tempoVooMin": 455,
-      "tempoVooTexto": "7h35 (1 conexão)",
-      "conforto": 4,
-      "roteiro": [
-        "Dia 1: chegada em Montevidéu, descanso",
-        "Dia 2: Ciudad Vieja e Rambla (a pé, plano)",
-        "Dia 3: Mercado del Puerto (almoço de parrilla)",
-        "Dia 4: transfer para Punta del Este (~2h)",
-        "Dia 5: La Mano (Los Dedos), porto e península",
-        "Dia 6: Casapueblo ao pôr do sol",
-        "Dia 7: José Ignacio e Ponte da Laguna Garzón (de carro)",
-        "Dia 8: volta"
-      ],
-      "restaurantes": [
-        {
-          "nome": "Teodoro (Punta del Este)",
-          "url": "https://www.google.com/maps/search/?api=1&query=Teodoro+parrilla+Punta+del+Este",
-          "nota": "parrilla"
-        },
-        {
-          "nome": "El Secreto (Punta del Este)",
-          "url": "https://www.google.com/maps/search/?api=1&query=El+Secreto+Punta+del+Este",
-          "nota": "parrilla com vista do porto (não verificado em site oficial)"
-        },
-        {
-          "nome": "Parador La Huella (José Ignacio)",
-          "url": "https://www.google.com/maps/search/?api=1&query=Parador+La+Huella+Jose+Ignacio",
-          "nota": "forte em peixes e frutos do mar — cuidado; confirmar se abre na baixa temporada"
-        },
-        {
-          "nome": "El Fogón (Montevidéu)",
-          "url": "https://elfogon.com.uy/",
-          "nota": "parrilla; também serve mariscos"
-        }
-      ],
-      "passeios": [
-        {
-          "nome": "Ciudad Vieja e Rambla de Montevidéu",
-          "nota": "plano"
-        },
-        {
-          "nome": "La Mano (Los Dedos)",
-          "nota": "rápido"
-        },
-        {
-          "nome": "Casapueblo",
-          "nota": "pôr do sol; algumas escadas"
-        },
-        {
-          "nome": "Isla Gorriti / Isla de Lobos de barco",
-          "nota": "travessia com mar mexido — evitar"
-        },
-        {
-          "nome": "José Ignacio e Laguna Garzón",
-          "nota": "de carro, sem esforço"
-        }
-      ],
-      "fontesGuia": [
-        "https://www.ambito.com/uruguay/teodoro-la-parrillada-que-nacio-punta-del-este-abrio-un-segundo-local-y-proyecta-su-marca-el-exterior-n6233438",
-        "https://www.elpais.com.uy/vida-actual/un-clasico-de-jose-ignacio-que-celebra-su-historia-en-un-nuevo-libro-y-se-prepara-para-una-temporada-intensa"
-      ],
-      "videos": [
-        {
-          "id": "I_Z0fqAHDTI",
-          "titulo": "QUANTO CUSTA IR A PUNTA DEL ESTE no URUGUAI? O que fazer, roteiro, preços, hotel e melhor aeroporto",
-          "canal": "Estevam Pelo Mundo",
-          "views": "281 mil",
-          "publicado": "há 1 ano"
-        },
-        {
-          "id": "kCsdDD2O6Y4",
-          "titulo": "PUNTA DEL ESTE: O Que Fazer Com Preços",
-          "canal": "Três Viagens",
-          "views": "77 mil",
-          "publicado": "há 2 anos"
-        },
-        {
-          "id": "2G-gvHCufBM",
-          "titulo": "Roteiro COMPLETO no Uruguai 🇺🇾 5 dias em Montevidéu e Punta del Este",
-          "canal": "2 no rolê",
-          "views": "7,2 mil",
-          "publicado": "há 5 meses"
-        }
-      ],
-      "michelin": {
-        "cobertura": false,
-        "nota": "Não há seleção de RESTAURANTES do Guia Michelin no Uruguai (2026). O guia lista apenas hotéis (13 no país, ex.: Fasano Las Piedras, Sofitel Montevideo Casino Carrasco). As sugestões de 'Restaurantes' acima NÃO são Michelin.",
-        "fonte": "https://guide.michelin.com/us/en/hotels-stays/uruguay",
-        "lista": []
-      }
-    },
-    {
-      "id": "bariloche",
-      "trilha": "internacional",
-      "nome": "Bariloche",
-      "regiao": "Patagônia Norte, Argentina",
-      "aeroporto": "Bariloche (BRC)",
-      "img": "img/bariloche.jpg",
-      "datas": {
-        "ida": "2026-10-26",
-        "volta": "2026-11-09"
-      },
-      "voos": [
-        {
-          "texto": "Ida e volta 26/10→09/11 por R$3.466/pessoa (várias cias): ida 22h20 com 2 conexões (GRU + AEP), volta 15h20 com 2 conexões (AEP + GIG)",
-          "tipo": "observado"
-        },
-        {
-          "texto": "Alternativa 11/11→16/11 R$3.421/pessoa, mas a volta leva 44h49 — evitar",
-          "tipo": "observado"
-        },
-        {
-          "texto": "Não há voo direto; o mais rápido do trecho leva 12h40. As datas encontradas são de 14 noites — encurtar a volta (preço a cotar)",
-          "tipo": "info"
-        },
-        {
-          "texto": "Casal: ~R$6.932",
-          "tipo": "estimativa"
-        }
-      ],
-      "fontesVoo": [
-        "https://www.momondo.com.br/passagem/goiania/san-carlos-de-bariloche"
-      ],
-      "hoteis": [
-        {
-          "nome": "Llao Llao Resort, Golf-Spa",
-          "preco": "a partir de R$847/noite (KAYAK); média recente em dias de semana ~R$2.480",
-          "url": "https://www.kayak.com.br/Hoteis-Llao-Llao-Hotel-Resort-Golf-Spa-San-Carlos-de-Bariloche.87252.ksp"
-        },
-        {
-          "nome": "Llao Llao — site oficial",
-          "preco": "tarifas no site",
-          "url": "https://llaollao.com/en/"
-        }
-      ],
-      "clima": "Primavera patagônica: frio, vento; dias amenos (temperaturas exatas não levantadas)",
-      "custos": {
-        "nota": "Estimativa nossa para ~7 noites (voo encontrado é de 14 noites)",
-        "itens": [
-          {
-            "item": "Voos (casal)",
-            "min": 6932,
-            "max": 6932
-          },
-          {
-            "item": "Hospedagem (7 noites, Llao Llao R$847–2.480)",
-            "min": 5900,
-            "max": 17400
-          },
-          {
-            "item": "Alimentação",
-            "min": 3500,
-            "max": 4500
-          },
-          {
-            "item": "Transporte/passeios",
-            "min": 1500,
-            "max": 1500
-          }
-        ],
-        "totalMin": 18000,
-        "totalMax": 30000
-      },
-      "pros": [
-        "Paisagem de lagos e montanhas",
-        "Llao Llao: resort icônico, ótimo para descansar",
-        "Gastronomia de carnes, chocolates"
-      ],
-      "cuidados": [
-        "Voos longos com 2 conexões — meias de compressão, corredor, caminhar",
-        "Frio e vento: roupas em camadas",
-        "Argentina está na lista do CDC de países com transmissão atual ou passada de Zika (sem nível por cidade); repelente se houver mosquitos",
-        "Evitar esqui, trekking puxado e passeios em estradas de rípio"
-      ],
-      "tempoVooMin": 1340,
-      "tempoVooTexto": "12h40–22h20 (2 conexões)",
-      "conforto": 2,
-      "roteiro": [
-        "Dia 1: chegada (dia longo), descanso",
-        "Dia 2: Circuito Chico de carro, com paradas curtas",
-        "Dia 3: Cerro Campanario pelo teleférico (vista)",
-        "Dia 4: dia de spa/lago no hotel",
-        "Dia 5: centro, Rua Mitre e chocolaterias",
-        "Dia 6: passeio de barco curto no Nahuel Huapi, só se o lago estiver calmo",
-        "Dia 7: Villa La Angostura (estrada asfaltada) ou descanso",
-        "Dia 8: volta"
-      ],
-      "restaurantes": [
-        {
-          "nome": "El Patacón",
-          "url": "https://www.google.com/maps/search/?api=1&query=El+Patacon+Bariloche",
-          "nota": "parrilla/cordeiro"
-        },
-        {
-          "nome": "La Marmite",
-          "url": "https://www.google.com/maps/search/?api=1&query=La+Marmite+Bariloche",
-          "nota": "fondue suíço — confirmar que os queijos são pasteurizados"
-        },
-        {
-          "nome": "Tannini",
-          "url": "https://www.google.com/maps/search/?api=1&query=Tannini+Bariloche",
-          "nota": "italiano"
-        },
-        {
-          "nome": "Alto el Fuego",
-          "url": "https://www.google.com/maps/search/?api=1&query=Alto+el+Fuego+Bariloche",
-          "nota": "carnes"
-        }
-      ],
-      "fontesGuia": [
-        "https://exa.ai/library/places?q=d9ef54f9e28a2269"
-      ],
-      "passeios": [
-        {
-          "nome": "Circuito Chico",
-          "nota": "de carro, mirantes curtos"
-        },
-        {
-          "nome": "Cerro Campanario",
-          "nota": "teleférico — ok; evitar subir a pé"
-        },
-        {
-          "nome": "Cerro Catedral / esqui",
-          "nota": "evitar esportes de neve"
-        },
-        {
-          "nome": "Isla Victoria e Bosque de Arrayanes (barco)",
-          "nota": "travessia longa; só com lago calmo"
-        }
-      ],
-      "michelin": {
-        "cobertura": false,
-        "nota": "Bariloche não tem restaurantes no Guia Michelin: na Argentina o guia (3ª edição, 2026) cobre só Buenos Aires e Mendoza. Se a conexão for por Buenos Aires, dá para incluir uma noite lá (ex.: Don Julio, citado pelo guia).",
-        "fonte": "https://guide.michelin.com/ar/es/articulo/michelin-guide-ceremony/guia-michelin-cuatro-nuevas-estrellas-en-buenos-aires-y-mendoza",
-        "lista": []
-      },
-      "videos": [
-        {
-          "id": "Cv00ao26Beg",
-          "titulo": "Nossa LUA DE MEL- em Bariloche! ",
-          "canal": "Juliana Machado ",
-          "views": "9,8 mil",
-          "publicado": "há 1 ano"
-        },
-        {
-          "id": "7spHVuGP1VE",
-          "titulo": "BARILOCHE - ROTEIRO COMPLETO DE 7 DIAS (COM PREÇOS)",
-          "canal": "Casal Alencar",
-          "views": "148 mil",
-          "publicado": "há 1 ano"
-        },
-        {
-          "id": "70qMzSGOX3U",
-          "titulo": "ROTEIRO COMPLETO Bariloche no verão e região - PATAGÔNIA ARGENTINA",
-          "canal": "Bruna & Maurício - Um Lugar Para Conhecer",
-          "views": "12,4 mil",
-          "publicado": "há 1 ano"
-        }
-      ],
-      "fontesSaude": [
-        "https://www.cdc.gov/zika/geo/index.html",
-        "https://www.cdc.gov/yellow-book/hcp/family-travel/pregnant-travelers.html"
-      ],
-      "imgCredito": "Wikimedia Commons, CC BY-SA 4.0",
-      "imgFonte": "https://commons.wikimedia.org/wiki/File:Llao_Llao_Peninsula.jpg"
-    },
-    {
-      "id": "calafate",
-      "trilha": "internacional",
-      "nome": "El Calafate (Patagônia)",
-      "regiao": "Santa Cruz, Argentina — Perito Moreno",
-      "aeroporto": "El Calafate (FTE)",
-      "img": "img/calafate.jpg",
-      "datas": {
-        "ida": "2026-11-08",
-        "volta": "2026-11-15"
-      },
-      "voos": [
-        {
-          "texto": "GRU→FTE 08/11→15/11 Aerolíneas Argentinas R$1.831/pessoa: ida 12h15 (via AEP), volta 24h50 (via AEP)",
-          "tipo": "observado"
-        },
-        {
-          "texto": "GOL GRU→FTE direto 5h50 (00:10→06:00); só ida R$1.030 visto para 27/11 (fora da janela)",
-          "tipo": "observado (outra data)"
-        },
-        {
-          "texto": "Trecho GYN↔GRU não incluído — a cotar",
-          "tipo": "info"
-        },
-        {
-          "texto": "Casal GRU↔FTE: ~R$3.662 + GYN↔GRU",
-          "tipo": "estimativa"
-        }
-      ],
-      "fontesVoo": [
-        "https://www.momondo.com.br/passagem/goiania/el-calafate"
-      ],
-      "hoteis": [
-        {
-          "nome": "Xelena Hotel & Suites",
-          "preco": "a partir de US$146/noite (KAYAK)",
-          "url": "https://www.kayak.com/El-Calafate-Hotels-Xelena-Hotel-Suites.169871.ksp"
-        },
-        {
-          "nome": "Hotel Kosten Aike",
-          "preco": "a partir de US$99/noite",
-          "url": "https://www.kayak.com.pr/El-Calafate-Hoteles-Kosten-Aike.203073.ksp"
-        }
-      ],
-      "clima": "Primavera patagônica: frio e muito vento (temperaturas exatas não levantadas)",
-      "custos": {
-        "nota": "Estimativa nossa para 7 noites; SEM o trecho GYN↔GRU",
-        "itens": [
-          {
-            "item": "Voos GRU↔FTE (casal)",
-            "min": 3662,
-            "max": 3662
-          },
-          {
-            "item": "Hospedagem (7 noites, US$99–156)",
-            "min": 3800,
-            "max": 6000
-          },
-          {
-            "item": "Alimentação",
-            "min": 3500,
-            "max": 4500
-          },
-          {
-            "item": "Passeios/transporte (Perito Moreno etc.)",
-            "min": 2000,
-            "max": 2000
-          }
-        ],
-        "totalMin": 13000,
-        "totalMax": 16200
-      },
-      "pros": [
-        "Glaciar Perito Moreno pelas passarelas — espetáculo sem esforço",
-        "Cidade pequena e tranquila",
-        "Voo direto GOL GRU–FTE existe (5h50)"
-      ],
-      "cuidados": [
-        "Datas encontradas: volta em 15/11 = 27 semanas (no limite!) — antecipar",
-        "Lugar remoto: hospital de alta complexidade longe — confirmar com o obstetra",
-        "Volta de 24h50 na tarifa mais barata — evitar",
-        "Frio e vento intensos",
-        "Evitar mini-trekking no gelo e navegações longas",
-        "Argentina na lista do CDC (transmissão atual/passada de Zika), sem nível por cidade",
-        "Ushuaia: mais longe e mais voos — não recomendado nesta fase"
-      ],
-      "tempoVooMin": 900,
-      "tempoVooTexto": "GYN→GRU + 12h15 (ou 5h50 direto GOL)",
-      "conforto": 2,
-      "roteiro": [
-        "Dia 1: chegada, descanso",
-        "Dia 2: Perito Moreno pelas passarelas (meio dia, sem pressa)",
-        "Dia 3: centro e Laguna Nimez (caminhada plana curta)",
-        "Dia 4: dia de descanso no hotel",
-        "Dia 5: estância com almoço (ex.: cordeiro bem passado)",
-        "Dia 6: Glaciarium (museu do gelo)",
-        "Dia 7: livre",
-        "Dia 8: volta"
-      ],
-      "restaurantes": [
-        {
-          "nome": "La Tablita",
-          "url": "https://www.elcalafate.tur.ar/parrillas/la-tablita-es.htm?lang=es",
-          "nota": "parrilla/cordeiro — pedir bem passado"
-        },
-        {
-          "nome": "Mi Rancho",
-          "url": "https://turismo.aarg.ar/lugares/mi-rancho-calafate/",
-          "nota": "caseiro, cordeiro em forno de barro"
-        },
-        {
-          "nome": "Pura Vida",
-          "url": "https://www.google.com/maps/search/?api=1&query=Pura+Vida+El+Calafate",
-          "nota": "casual; guisos, massas, vegetarianos"
-        }
-      ],
-      "fontesGuia": [
-        "https://calafate.tours/blog/donde-comer-cordero-calafate"
-      ],
-      "passeios": [
-        {
-          "nome": "Glaciar Perito Moreno (passarelas)",
-          "nota": "caminhos com escadas — ir no ritmo dela"
-        },
-        {
-          "nome": "Safári náutico curto em frente ao glaciar",
-          "nota": "só se estiver calmo; navegação longa não"
-        },
-        {
-          "nome": "Mini-trekking no gelo",
-          "nota": "EVITAR na gravidez"
-        },
-        {
-          "nome": "Glaciarium",
-          "nota": "museu, sem esforço"
-        }
-      ],
-      "michelin": {
-        "cobertura": false,
-        "nota": "El Calafate não está no Guia Michelin (Argentina: só Buenos Aires e Mendoza em 2026).",
-        "fonte": "https://guide.michelin.com/ar/es/articulo/michelin-guide-ceremony/guia-michelin-cuatro-nuevas-estrellas-en-buenos-aires-y-mendoza",
-        "lista": []
-      },
-      "videos": [
-        {
-          "id": "v93MkB3DumM",
-          "titulo": "EL CALAFATE - ROTEIRO COMPLETO DE 5 DIAS com PREÇOS",
-          "canal": "Casal Alencar",
-          "views": "153 mil",
-          "publicado": "há 1 ano"
-        },
-        {
-          "id": "yzeOhDGt6GQ",
-          "titulo": "USHUAIA + EL CALAFATE: Uma viagem perfeita na Patagônia Argentina",
-          "canal": "Trip Partiu",
-          "views": "406 mil",
-          "publicado": "há 3 anos"
-        },
-        {
-          "id": "zMaNoVQbE68",
-          "titulo": "Passeio de Barco Todos Los Glaciares em El Calafate com Captain's Club : Dicas e Economia T.04 Ep.13",
-          "canal": "Viagens pelo mundo - Cau e Rafa",
-          "views": "5,7 mil",
-          "publicado": "há 2 anos"
-        }
-      ],
-      "fontesSaude": [
-        "https://www.cdc.gov/zika/geo/index.html",
-        "https://www.cdc.gov/yellow-book/hcp/family-travel/pregnant-travelers.html"
-      ],
-      "imgCredito": "Wikimedia Commons, CC BY-SA 2.5 (Luca Galuzzi)",
-      "imgFonte": "https://commons.wikimedia.org/wiki/File:Perito_Moreno_Glacier_Patagonia_Argentina_Luca_Galuzzi_2005.JPG"
-    },
-    {
-      "id": "peru",
-      "trilha": "internacional",
-      "nome": "Lima + Paracas (Peru)",
-      "regiao": "Costa do Peru, ao nível do mar — versão segura para a gestação",
-      "aeroporto": "Lima (LIM)",
-      "img": "img/paracas.jpg",
-      "datas": {
-        "ida": "2026-10-19",
-        "volta": "2026-10-26"
-      },
-      "voos": [
-        {
-          "texto": "LATAM 19/10→26/10 R$2.318/pessoa: ida 13h15 via GRU (19:40→06:55), volta 18h05 com 2 conexões",
-          "tipo": "observado"
-        },
-        {
-          "texto": "LATAM 10/11→17/11 R$2.578/pessoa (ida 16h55, volta 9h50, via GRU) — mas a volta cai em 27s+2d, acima do limite",
-          "tipo": "observado"
-        },
-        {
-          "texto": "Casal: ~R$4.636",
-          "tipo": "estimativa"
-        }
-      ],
-      "fontesVoo": [
-        "https://www.momondo.com.br/passagem/goiania/lima"
-      ],
-      "hoteis": [
-        {
-          "nome": "La Hacienda Bahía Paracas",
-          "preco": "US$175 por PESSOA/noite (dom–qui)",
-          "url": "https://dikatravelperu.travel/producto/hotel-hacienda-bahia-paracas-2026/"
-        },
-        {
-          "nome": "Hotel Paracas, a Luxury Collection Resort",
-          "preco": "US$350 por pessoa/noite (dom–qui)",
-          "url": "https://dikatravelperu.travel/producto/hotel-paracas-a-luxury-collection-resort-2026-regular-domingo-a-jueves-3-dias-2-noches/"
-        },
-        {
-          "nome": "Miraflores (Lima), hotéis médios",
-          "preco": "~US$67–120/noite",
-          "url": "https://www.peru-spirit.com/es/guias/guia-miraflores/"
-        }
-      ],
-      "clima": "Costa desértica; Lima nublada/garoa leve na primavera (temperaturas exatas não levantadas)",
-      "custos": {
-        "nota": "Estimativa nossa: 4 noites Lima + 3 Paracas (Hacienda Bahía)",
-        "itens": [
-          {
-            "item": "Voos (casal)",
-            "min": 4636,
-            "max": 4636
-          },
-          {
-            "item": "Hospedagem Lima (4 noites)",
-            "min": 1500,
-            "max": 2650
-          },
-          {
-            "item": "Hospedagem Paracas (3 noites, casal)",
-            "min": 5775,
-            "max": 5775
-          },
-          {
-            "item": "Alimentação",
-            "min": 3500,
-            "max": 4500
-          },
-          {
-            "item": "Transporte Lima↔Paracas e passeios",
-            "min": 1500,
-            "max": 1500
-          }
-        ],
-        "totalMin": 17000,
-        "totalMax": 19500
-      },
-      "pros": [
-        "Gastronomia excepcional",
-        "Tudo ao nível do mar — sem altitude",
-        "Paracas: deserto e mar com resorts tranquilos",
-        "Voo de 1 conexão (LATAM via GRU)"
-      ],
-      "cuidados": [
-        "NÃO incluir Cusco/Machu Picchu: Cusco fica a 3.339 m; o CDC sugere que gestantes não durmam acima de 3.050 m e lembra que destinos altos ficam longe de atendimento",
-        "Vale Sagrado (~2.800 m) só com liberação do obstetra — não recomendado aqui",
-        "Zika: o CDC aponta risco em todo o Peru abaixo de 2.300 m, incluindo Lima (casos esporádicos) — repelente com icaridina, roupas compridas",
-        "Ceviche, tiradito e leche de tigre são peixe/frutos do mar CRUS — evitar (alergia + gravidez)",
-        "Evitar dunas de buggy/sandboard em Huacachina e lancha agitada às Islas Ballestas",
-        "Datas encontradas são cedo (19/10) — confirmar com o obstetra e o seguro"
-      ],
-      "tempoVooMin": 795,
-      "tempoVooTexto": "13h15 ida (1 conexão) / 18h05 volta",
-      "conforto": 3,
-      "roteiro": [
-        "Dia 1: chegada cedo em Lima, descanso em Miraflores",
-        "Dia 2: Malecón de Miraflores e Barranco (plano)",
-        "Dia 3: Centro Histórico e Museu Larco",
-        "Dia 4: Lima → Paracas (~3h30 de carro, com paradas)",
-        "Dia 5: resort, piscina e Reserva de Paracas de carro (mirantes)",
-        "Dia 6: descanso",
-        "Dia 7: volta a Lima",
-        "Dia 8: voo de volta"
-      ],
-      "restaurantes": [
-        {
-          "nome": "Panchita (Miraflores)",
-          "url": "https://www.panchita.pe/",
-          "nota": "criollo: anticuchos, lomo saltado, ají de gallina"
-        },
-        {
-          "nome": "Isolina (Barranco)",
-          "url": "https://isolina.pe/",
-          "nota": "criollo; carta tem frutos do mar — escolher carnes"
-        },
-        {
-          "nome": "Restaurantes dos resorts em Paracas",
-          "url": "https://dikatravelperu.travel/producto/hotel-hacienda-bahia-paracas-2026/",
-          "nota": "foco em peixes — avisar alergia"
-        }
-      ],
-      "fontesGuia": [
-        "https://peru21.pe/gastronomia/summum-2025-isolina-taberna-peruana-es-elegida-como-mejor-cocina-criolla/"
-      ],
-      "passeios": [
-        {
-          "nome": "Malecón de Miraflores e Parque del Amor",
-          "nota": "plano, à beira do penhasco"
-        },
-        {
-          "nome": "Barranco",
-          "nota": "bairro boêmio, ruas planas"
-        },
-        {
-          "nome": "Museu Larco",
-          "nota": "tranquilo, com jardins"
-        },
-        {
-          "nome": "Reserva Nacional de Paracas",
-          "nota": "de carro, mirantes curtos"
-        },
-        {
-          "nome": "Islas Ballestas (lancha)",
-          "nota": "mar pode balançar — melhor evitar"
-        },
-        {
-          "nome": "Huacachina (buggy/sandboard)",
-          "nota": "EVITAR"
-        },
-        {
-          "nome": "Cusco / Machu Picchu",
-          "nota": "EVITAR nesta gestação (altitude)"
-        }
-      ],
-      "michelin": {
-        "cobertura": false,
-        "nota": "O Peru não tem Guia Michelin em 2026 — nenhum restaurante no país pode ter estrelas (a cobertura não inclui o país).",
-        "fonte": "https://www.infobae.com/peru/2026/09/29/peru-es-reconocido-por-su-gastronomia-pero-ningun-restaurante-ubicado-en-el-pais-tiene-estrellas-michelin-por-que/",
-        "lista": []
-      },
-      "fontesSaude": [
-        "https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/high-altitude-travel-and-altitude-illness.html",
-        "https://www.cdc.gov/yellow-book/hcp/americas-caribbean/peru.html",
-        "https://www.cdc.gov/yellow-book/hcp/family-travel/pregnant-travelers.html"
-      ],
-      "videos": [
-        {
-          "id": "kgN53FYPVBI",
-          "titulo": "LIMA NOS SURPREENDEU - O QUE FAZER EM 2 DIAS",
-          "canal": "Casal Alencar",
-          "views": "73 mil",
-          "publicado": "há 4 meses"
-        },
-        {
-          "id": "0VcOSe43H9M",
-          "titulo": "LIMA PERU 2025: ROTEIRO COMPLETO COM PREÇOS | VALE A PENA CONHECER? | O QUE FAZER | PASSEIOS | DICAS",
-          "canal": "Fabi Cassol | Minha Praia Viajar",
-          "views": "192 mil",
-          "publicado": "há 1 ano"
-        },
-        {
-          "id": "2Re9RkWD4Nk",
-          "titulo": "PARACAS PERU: É MELHOR QUE MACHU PICCHU? As Ilhas Ballestas que Quase Ninguém Conhece",
-          "canal": "Destino Aberto",
-          "views": "4,3 mil",
-          "publicado": "há 1 ano"
-        }
-      ],
-      "imgCredito": "Wikimedia Commons, CC BY 2.0",
-      "imgFonte": "https://commons.wikimedia.org/wiki/File:Paracas_National_Reserve._Ica,_Peru.jpg"
     },
     {
       "id": "paris",

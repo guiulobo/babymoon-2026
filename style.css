@@ -247,3 +247,13 @@ section[id],div[id].section-title,.dest{scroll-margin-top:110px}
 #gallery button.vertical img,#gallery button.feature img{object-position:center 30%}
 @media(min-width:760px){#gallery{grid-template-columns:repeat(4,1fr);grid-auto-rows:300px}}
 #gallery button.tall{grid-row:span 2}
+/* abas de trilha: pills compactas que quebram linha (sem scroller) */
+.tabs{flex-wrap:wrap;justify-content:center;overflow:visible;touch-action:auto}
+.tabs .tab{flex:0 0 auto}
+@media(max-width:480px){.tabs{gap:6px 5px}.tabs .tab{padding:7px 11px;font-size:.66rem;letter-spacing:.08em}}
+/* scrollers horizontais robustos (guia e links do topo) */
+.gtabs,.tn-links{overflow-x:auto;-webkit-overflow-scrolling:touch;touch-action:pan-x pan-y;overscroll-behavior-x:contain}
+.gtabs{justify-content:flex-start}
+@media(min-width:760px){.gtabs{justify-content:safe center}}
+.gtabs>button:first-child,.tn-links>a:first-child{margin-left:0}
+@media(max-width:480px){.gtabs button{padding:8px 13px;font-size:.66rem;letter-spacing:.1em}.tn-links{justify-content:space-between}.tn-links a{padding:6px 6px;font-size:.6rem;letter-spacing:.12em}}
