@@ -113,7 +113,7 @@ function renderTracks(){
     if(!list.length&&track==='favoritos') continue;
     html+=`<section><div class="track-head"><h2>${t.id==='brasil'?'🇧🇷':t.id==='europa'?'🇪🇺':'✈️'} ${t.nome}</h2><span class="muted">Orçamento: <strong>${brl(t.orcamento)}</strong></span></div><div class="grid">${list.map(card).join('')}</div></section>`;
   }
-  $('#tracks').innerHTML=html||'<p class="empty">Nenhum favorito ainda — toque no 💖 de um destino.</p>';
+  $('#tracks').innerHTML=html||'<p class="empty">Nenhum favorito ainda — toque no 💖 de um destino.</p>';if(typeof filterCards==='function')filterCards();
 }
 
 function renderTable(){
@@ -135,6 +135,7 @@ fetch('data.json',{cache:'no-store'}).then(r=>r.json()).then(d=>{
   renderDed(); renderPreg(); renderSeguro(); renderMilhas(); renderAlim(); renderTracks(); renderTable();
   document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));b.classList.add('active');track=b.dataset.track;renderTracks()});
   document.querySelectorAll('#cmp th').forEach(th=>th.onclick=()=>{if(sortK===th.dataset.k)sortDir*=-1;else{sortK=th.dataset.k;sortDir=1}renderTable()});
+  buildIndex(); hashGuide();
   $('#reset').onclick=()=>{state={fav:[],disc:[]};save();renderTracks();renderTable()};
 }).catch(e=>{$('#tracks').innerHTML='<p class="empty">Não foi possível carregar data.json. Abra via servidor (GitHub Pages ou python -m http.server).</p>';console.error(e)});
 
@@ -159,4 +160,83 @@ fetch('data.json',{cache:'no-store'}).then(r=>r.json()).then(d=>{
     if(d.legendaPostCasamento){const n=$('#postNote');n.innerHTML='“'+esc(d.legendaPostCasamento.texto).replace(/\n/g,'<br>')+'”'+(d.legendaPostCasamento.assinatura?'<span class="sig">'+esc(d.legendaPostCasamento.assinatura)+'</span>':'')+'<a href="'+d.legendaPostCasamento.fonte+'" target="_blank" rel="noopener">— post de 1 ano de casados</a>';n.hidden=false}
     build('#helenaGallery','helena',p=>'Helena — '+p.legenda);
   });
+})();
+
+// ===== Guia da viagem: abas com hash =====
+const GTABS=['comparativo','seguro','milhas','alimentacao','notas'];
+function setGuide(g,push){
+  if(!GTABS.includes(g))g='comparativo';
+  document.querySelectorAll('.gtabs button').forEach(b=>{const on=b.dataset.g===g;b.classList.toggle('active',on);b.setAttribute('aria-selected',on)});
+  document.querySelectorAll('.gpanel').forEach(p=>p.hidden=p.dataset.g!==g);
+  if(push)history.replaceState(null,'','#guia/'+g);const ab=document.querySelector('.gtabs button.active');if(ab){const n=ab.parentNode;n.scrollLeft=ab.offsetLeft-(n.clientWidth-ab.offsetWidth)/2}
+}
+function hashGuide(){const m=location.hash.match(/^#guia(?:\/(\w+))?/);if(m){setGuide(m[1]||'comparativo');return true}return false}
+document.querySelectorAll('.gtabs button').forEach(b=>b.onclick=()=>{setGuide(b.dataset.g,true);b.scrollIntoView({block:'nearest',inline:'center',behavior:'smooth'})});
+setGuide('comparativo');
+window.addEventListener('hashchange',()=>{if(hashGuide())$('#guia').scrollIntoView({behavior:'smooth'})});
+
+// ===== Busca =====
+const nrm=c=>c.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+function fold(s){let n='',map=[];[...s].forEach((c,i)=>{const k=nrm(c);for(let j=0;j<k.length;j++)map.push(i);n+=k});return {n,map,chars:[...s]}}
+let IDX=[];
+const GNAMES={comparativo:'Comparativo',seguro:'Seguro e benefícios',milhas:'Milhas e pontos',alimentacao:'Alimentação',notas:'Notas gerais'};
+function buildIndex(){
+  IDX=[];
+  const add=(group,label,text,loc)=>{text=text.replace(/\s+/g,' ').trim();if(text.length>2)IDX.push({group,label,text,f:fold(text),loc})};
+  // destinos a partir dos dados (independente do filtro de aba)
+  const prev=track;track='todos';renderTracks();
+  D.destinos.forEach(x=>{
+    const c=document.getElementById('d-'+x.id);if(!c)return;
+    add('Destinos',x.nome,x.nome+' '+x.regiao,{t:'dest',id:x.id,i:-1});
+    c.querySelectorAll('.sec, details.more').forEach((s,i)=>{
+      const h=s.querySelector('h4, summary');const lab=x.nome+' › '+(h?h.textContent.replace(/[^\p{L}\p{N} ]/gu,'').trim():'');
+      const items=s.querySelectorAll('li, p, tr, .vt');
+      if(items.length)items.forEach(it=>add('Destinos',lab,it.textContent,{t:'dest',id:x.id,i}));else add('Destinos',lab,s.textContent,{t:'dest',id:x.id,i});
+    });
+  });
+  track=prev;renderTracks();
+  document.querySelectorAll('.gpanel').forEach(p=>p.querySelectorAll('h3, li, p, .bitem, .phrase, .stat, tbody tr').forEach((it,k)=>{
+    if(it.closest('li')&&it.tagName!=='LI')return;
+    add('Guia',GNAMES[p.dataset.g],it.classList.contains('phrase')?it.querySelector('strong').textContent+': '+it.querySelector('span').textContent:it.textContent,{t:'guia',g:p.dataset.g,sel:k})}));
+  [['#historia','Nossa história'],['#helena','Helena']].forEach(([s,l])=>document.querySelectorAll(s+' > p, '+s+' .letter p').forEach(it=>add('Nossa história',l,it.textContent,{t:'el',s})));
+}
+function snip(e,q){
+  const at=e.f.n.indexOf(q);const a=e.f.map[at],b=e.f.map[at+q.length-1]+1,ch=e.f.chars;
+  const s=Math.max(0,a-40),t=Math.min(ch.length,b+60);
+  return (s?'…':'')+esc(ch.slice(s,a).join(''))+'<mark>'+esc(ch.slice(a,b).join(''))+'</mark>'+esc(ch.slice(b,t).join(''))+(t<ch.length?'…':'');
+}
+let QN='';
+function filterCards(){document.querySelectorAll('#tracks .dest').forEach(c=>c.classList.toggle('qhide',!!QN&&!nrm(c.textContent).includes(QN)));
+  document.querySelectorAll('#tracks section').forEach(s=>s.classList.toggle('qhide',!!QN&&!s.querySelector('.dest:not(.qhide)')));
+  let e=$('#qempty');if(QN&&!document.querySelector('#tracks .dest:not(.qhide)')){if(!e){e=document.createElement('p');e.id='qempty';e.className='empty';$('#tracks').after(e)}e.textContent='Nenhum destino corresponde a “'+$('#q').value+'”.'}else if(e)e.remove()}
+function runSearch(){
+  const raw=$('#q').value.trim();QN=nrm(raw);$('#qx').hidden=!raw;filterCards();
+  const box=$('#sres');if(QN.length<2){box.hidden=true;return}
+  const hits=IDX.filter(e=>e.f.n.includes(QN));const seen=new Set();
+  const uniq=hits.filter(e=>{const k=e.label+'|'+e.text;if(seen.has(k))return false;seen.add(k);return true});
+  if(!uniq.length){box.innerHTML='<p class="sr-none">Nenhum resultado para “'+esc(raw)+'”</p>';box.hidden=false;return}
+  const groups={};uniq.forEach((e,i)=>(groups[e.group]=groups[e.group]||[]).push(i));
+  box.innerHTML=`<p class="sr-count">${uniq.length} resultado${uniq.length>1?'s':''}</p>`+Object.entries(groups).map(([g,ids])=>`<div class="sr-g"><h5>${g} <span>${ids.length}</span></h5>${ids.slice(0,25).map(i=>`<button class="sr-i" data-i="${i}"><b>${esc(uniq[i].label)}</b><span>${snip(uniq[i],QN)}</span></button>`).join('')}${ids.length>25?`<p class="sr-more">+${ids.length-25} outros</p>`:''}</div>`).join('');
+  box.hidden=false;box.scrollTop=0;
+  box.querySelectorAll('.sr-i').forEach(b=>b.onclick=()=>go(uniq[+b.dataset.i]));
+}
+function flash(el){if(!el)return;const y=el.getBoundingClientRect().top+scrollY-($('#topnav').offsetHeight+16);scrollTo({top:y,behavior:'smooth'});el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash');setTimeout(()=>el.classList.remove('flash'),2600)}
+function go(e){
+  $('#sres').hidden=true;$('#q').blur();const L=e.loc;let el;
+  if(L.t==='dest'){
+    if(!document.getElementById('d-'+L.id)||document.getElementById('d-'+L.id).classList.contains('qhide')){if(!document.getElementById('d-'+L.id)){track='todos';document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x.dataset.track==='todos'));renderTracks()}
+      QN='';filterCards();QN=nrm($('#q').value.trim())}
+    const c=document.getElementById('d-'+L.id);el=L.i<0?c:c.querySelectorAll('.sec, details.more')[L.i];if(el&&el.tagName==='DETAILS')el.open=true;
+  }else if(L.t==='guia'){setGuide(L.g,true);el=document.querySelector(`.gpanel[data-g="${L.g}"]`).querySelectorAll('h3, li, p, .bitem, .phrase, .stat, tbody tr')[L.sel];const d=el&&el.closest('details');if(d)d.open=true}
+  else el=document.querySelector(L.s);
+  setTimeout(()=>flash(el),60);
+}
+(function(){
+  let tm;const q=$('#q');
+  q.addEventListener('input',()=>{clearTimeout(tm);tm=setTimeout(runSearch,180)});
+  q.addEventListener('focus',()=>{const n=$('#topnav');if(n.getBoundingClientRect().top>1)scrollTo({top:n.offsetTop,behavior:'smooth'});if(QN.length>=2)runSearch()});
+  q.addEventListener('keydown',e=>{if(e.key==='Escape'){$('#sres').hidden=true;q.blur()}if(e.key==='Enter'){const f=$('#sres .sr-i');if(f)f.click()}});
+  $('#qx').onclick=()=>{q.value='';runSearch();q.focus()};
+  document.addEventListener('click',e=>{if(!e.target.closest('.search'))$('#sres').hidden=true});
+  document.addEventListener('keydown',e=>{if(e.key==='/'&&document.activeElement.tagName!=='INPUT'){e.preventDefault();q.focus()}});
 })();

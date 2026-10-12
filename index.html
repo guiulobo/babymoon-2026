@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="hero">
+<header class="hero" id="top">
   <div class="hero-bg" aria-hidden="true"></div>
   <div class="hero-inner">
   <p class="eyebrow">Guilhermo & Thais · saindo de Goiânia (GYN)</p>
@@ -21,10 +21,22 @@
   </div>
 </header>
 
+<nav class="topnav" id="topnav">
+  <div class="tn-in">
+    <a class="tn-brand" href="#top">G <em>&amp;</em> T</a>
+    <div class="tn-links"><a href="#historia">Nossa história</a><a href="#helena">Helena</a><a href="#destinos">Destinos</a><a href="#guia">Guia</a></div>
+    <div class="search" role="search">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      <input id="q" type="search" placeholder="Buscar: camarão, Paris, seguro…" autocomplete="off" enterkeyhint="search" aria-label="Buscar no site">
+      <button id="qx" class="qx" aria-label="Limpar busca" hidden>✕</button>
+      <div class="sres" id="sres" hidden></div>
+    </div>
+  </div>
+</nav>
 <main>
   <section class="card preg" id="preg"></section>
 
-  <section class="card story">
+  <section class="card story" id="historia">
     <p class="kicker">Capítulo I</p><h2>Nossa história: do altar ao babymoon</h2>
     <p class="muted small">31 de maio de 2025, o nosso casamento; junho de 2025, a lua de mel. Agora, a próxima viagem já é a três, com a Helena. Toque numa foto para ampliar.</p>
     <figure class="letter" id="dedicatoria" hidden></figure>
@@ -32,7 +44,7 @@
     <p class="post-note" id="postNote" hidden></p>
   </section>
 
-  <section class="card story helena">
+  <section class="card story helena" id="helena">
     <div class="helena-head"><img class="brasao" src="img/helena/brasao.png" alt="Brasão do enxoval da Helena: guirlanda bordada com dois passarinhos rosa, borboleta e laços" width="112" height="112"><p class="kicker">Capítulo II</p><h2>Helena</h2></div>
     <p>Nossa filha já faz parte de cada plano. Em 11/10/2026, a Helena completou <strong>22 semanas</strong> — e cada ultrassom é um pedacinho de amor que a gente guarda.</p>
     <p class="small muted">Previsão aproximada de nascimento (40 semanas): <strong id="dpp">~14/02/2027</strong> · faltam <strong id="dppLeft">…</strong></p>
@@ -44,7 +56,7 @@
     Preços são estimativas para datas próximas, <strong>não cotações exatas</strong>. Confirme nos links de cada destino antes de comprar.
   </div>
 
-  <div class="section-title"><p class="kicker">Capítulo III</p><h2>Os destinos</h2></div>
+  <div class="section-title" id="destinos"><p class="kicker">Capítulo III</p><h2>Os destinos</h2></div>
   <nav class="tabs" role="tablist">
     <button class="tab active" data-track="todos">Todos</button>
     <button class="tab" data-track="brasil">🇧🇷 Brasil</button>
@@ -55,19 +67,23 @@
 
   <div id="tracks"></div>
 
-  <section class="card" id="seguro"></section>
-  <section class="card" id="milhas"></section>
-  <section class="card" id="alimentacao"></section>
 
-  <section class="card">
+
+  <div class="section-title" id="guia"><p class="kicker">Capítulo IV</p><h2>Guia da viagem</h2></div>
+  <nav class="gtabs" role="tablist" aria-label="Seções do guia">
+    <button data-g="comparativo" role="tab">Comparativo</button><button data-g="seguro" role="tab">Seguro e benefícios</button><button data-g="milhas" role="tab">Milhas e pontos</button><button data-g="alimentacao" role="tab">Alimentação</button><button data-g="notas" role="tab">Notas gerais</button>
+  </nav>
+  <section class="card gpanel" id="comparativo" data-g="comparativo">
     <h2>Comparativo</h2>
     <p class="muted small">Toque no título da coluna para ordenar. "Conforto para ela" é nossa avaliação (voo, clima, acesso a hospital), não um dado oficial.</p>
     <div class="table-wrap"><table id="cmp"><thead><tr>
       <th data-k="nome">Destino</th><th data-k="preco">Total estimado</th><th data-k="voo">Tempo de voo</th><th data-k="conforto">Conforto para ela</th>
     </tr></thead><tbody></tbody></table></div>
   </section>
-
-  <section class="card">
+  <section class="card gpanel" id="seguro" data-g="seguro"></section>
+  <section class="card gpanel" id="milhas" data-g="milhas"></section>
+  <section class="card gpanel" id="alimentacao" data-g="alimentacao"></section>
+  <section class="card gpanel" id="notasgerais" data-g="notas">
     <h2>Notas gerais</h2>
     <ul id="notas"></ul>
   </section>
