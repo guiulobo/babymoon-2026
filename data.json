@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-10-11 21:50 BRT",
+  "ultimaAtualizacao": "2026-10-11 21:53 BRT",
   "origem": "Goiânia (GYN)",
   "gestacao": {
     "dataReferencia": "2026-10-11",
@@ -846,6 +846,48 @@
   ],
   "luaDeMel": [
     {
+      "src": "img/luademel/web/casamento-01.jpg",
+      "data": "2025-05-31",
+      "formato": "vertical",
+      "legenda": "Casamento · 31/05/2025"
+    },
+    {
+      "src": "img/luademel/web/casamento-02.jpg",
+      "data": "2025-05-31",
+      "formato": "vertical",
+      "legenda": "Casamento · 31/05/2025"
+    },
+    {
+      "src": "img/luademel/web/casamento-03.jpg",
+      "data": "2025-05-31",
+      "formato": "vertical",
+      "legenda": "Casamento · 31/05/2025"
+    },
+    {
+      "src": "img/luademel/web/casamento-04.jpg",
+      "data": "2025-05-31",
+      "formato": "vertical",
+      "legenda": "Casamento · 31/05/2025"
+    },
+    {
+      "src": "img/luademel/web/casamento-05.jpg",
+      "data": "2025-05-31",
+      "formato": "vertical",
+      "legenda": "Casamento · 31/05/2025"
+    },
+    {
+      "src": "img/luademel/web/casamento-06.jpg",
+      "data": "2025-05-31",
+      "formato": "vertical",
+      "legenda": "Casamento · 31/05/2025"
+    },
+    {
+      "src": "img/luademel/web/casamento-07.jpg",
+      "data": "2025-05-31",
+      "formato": "vertical",
+      "legenda": "Casamento · 31/05/2025"
+    },
+    {
       "src": "img/luademel/web/20250616_140528.jpg",
       "data": "2025-06-16",
       "formato": "paisagem"
@@ -1142,5 +1184,9 @@
   "dedicatoria": {
     "titulo": "Do altar, para sempre",
     "texto": "Thais,\n\nEncontrei em você tudo o que buscava em uma mulher.\nVocê se tornou minha parceira de vida, minha melhor companhia.\n\nCom você me sinto completo em todas as áreas da minha vida, pois você está sempre ao meu lado, me proporciona alegria e me transmite paz, com a sua maneira natural e meiga de ser.\n\nSegundo um provérbio: \"os olhos são a janela da alma\".\nE quando olho nos teus olhos, sinto sua alegria, seu amor, seu carinho e seu enorme entusiasmo em viver!\n\nNosso convívio é fundamentado pelo amor, composto por leveza e espontaneidade.\n\nComo é bom viajar, sair e fazer nada junto com você!\n\nTenho certeza que iremos construir uma bela família e um lar próspero sob as bênçãos de Deus!\n\nTe amo para toda eternidade!\nGuilhermo"
+  },
+  "legendaPostCasamento": {
+    "texto": "Desde o 31 de maio de 2025, cada dia confirmou que o nosso amor é real, profundo e capaz de transformar tudo.\nCelebrar este primeiro ano de casados é celebrar a coragem de apostar em nós, a força de construir um lar com base no respeito, na cumplicidade e no amor genuíno. Você é meu porto seguro, meu melhor amigo, meu grande amor!\nFeliz um ano de casados!\nTe amo ❤️",
+    "fonte": "https://www.instagram.com/p/DZD3nRvGe1t/"
   }
 }

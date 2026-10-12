@@ -148,7 +148,8 @@ fetch('data.json',{cache:'no-store'}).then(r=>r.json()).then(d=>{
     G.lua=d.luaDeMel||[];G.helena=d.helena||[];
     const build=(id,set,alt)=>{$(id).innerHTML=G[set].map((p,n)=>`<button class="${p.formato==='vertical'?'vertical':''}" data-n="${n}" aria-label="Foto ${n+1}"><img src="${p.src}" alt="${esc(alt(p))}" loading="lazy" decoding="async"></button>`).join('');
       $(id).querySelectorAll('button').forEach(b=>b.onclick=()=>open(set,+b.dataset.n))};
-    build('#gallery','lua',p=>'Lua de mel, '+parse(p.data).toLocaleDateString('pt-BR'));
+    build('#gallery','lua',p=>(p.legenda?'Casamento':'Lua de mel')+', '+parse(p.data).toLocaleDateString('pt-BR'));
+    if(d.legendaPostCasamento){const n=$('#postNote');n.innerHTML='“'+esc(d.legendaPostCasamento.texto).replace(/\n/g,'<br>')+'” <a href="'+d.legendaPostCasamento.fonte+'" target="_blank" rel="noopener">— post de 1 ano de casados</a>';n.hidden=false}
     build('#helenaGallery','helena',p=>'Helena — '+p.legenda);
   });
 })();

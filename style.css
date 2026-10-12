@@ -119,3 +119,5 @@ details.more ol,details.more ul{font-size:.88rem;padding-left:20px;margin:4px 0}
 .letter figcaption{font-family:Nunito,sans-serif;font-style:normal;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);text-align:center;margin-bottom:10px}
 .letter p{margin:0 0 .9em}
 .letter p:last-child{margin-bottom:0;text-align:right}
+.post-note{font-size:.78rem;color:var(--muted);font-style:italic;text-align:center;max-width:560px;margin:14px auto 0;line-height:1.5}
+.post-note[hidden]{display:none}.post-note a{color:var(--muted)}
