@@ -1,0 +1,563 @@
+{
+  "ultimaAtualizacao": "2026-10-11 20:36 BRT",
+  "origem": "Goiânia (GYN)",
+  "gestacao": {
+    "dataReferencia": "2026-10-11",
+    "semanasNaReferencia": 22,
+    "limiteSemanas": 27,
+    "dataLimite": "2026-11-15"
+  },
+  "cambio": {
+    "EUR": 6.3,
+    "USD": 5.5,
+    "nota": "Premissas de câmbio: €1 ≈ R$6,30; US$1 ≈ R$5,50"
+  },
+  "trilhas": [
+    {
+      "id": "brasil",
+      "nome": "Brasil",
+      "orcamento": 20000
+    },
+    {
+      "id": "internacional",
+      "nome": "Internacional",
+      "orcamento": 35000
+    }
+  ],
+  "notasGerais": [
+    "LATAM, GOL e Azul não exigem atestado até 29 semanas em gestação sem complicações — mesmo assim, peça liberação ao obstetra.",
+    "Contrate seguro viagem com cobertura para gestação (muitos cobrem só até 24–28 semanas).",
+    "Tarifas mais baratas costumam excluir bagagem despachada (R$100–200 por trecho).",
+    "Caribe excluído por causa da orientação do CDC sobre Zika.",
+    "Câmbio assumido: €1 ≈ R$6,30; US$1 ≈ R$5,50."
+  ],
+  "destinos": [
+    {
+      "id": "milagres",
+      "trilha": "brasil",
+      "nome": "São Miguel dos Milagres",
+      "regiao": "Alagoas",
+      "aeroporto": "Maceió (MCZ)",
+      "img": "img/milagres.jpg",
+      "imgCredito": "Wikimedia Commons, CC BY-SA 4.0",
+      "imgFonte": "https://commons.wikimedia.org/wiki/File:S%C3%A3o_Miguel_dos_Milagres_-_Alagoas.jpg",
+      "datas": {
+        "ida": "2026-11-05",
+        "volta": "2026-11-12"
+      },
+      "voos": [
+        {
+          "texto": "Azul direto 2h30 — ida 05:15→07:45, volta 08:25→11:00; R$1.084–1.109/pessoa vistos para fev–mar/2027 (preço de novembro não encontrado)",
+          "tipo": "observado (outras datas)"
+        },
+        {
+          "texto": "Opção mista 05/11→12/11: R$953–973/pessoa (ida via GRU chegando de madrugada, volta direta)",
+          "tipo": "observado"
+        },
+        {
+          "texto": "Casal: ~R$1.900–2.400",
+          "tipo": "estimativa"
+        }
+      ],
+      "fontesVoo": [
+        "https://www.momondo.com.br/passagem/goiania/maceio"
+      ],
+      "hoteis": [
+        {
+          "nome": "Pousada Villa Italiana Pé na Areia",
+          "preco": "a partir de R$1.056/noite",
+          "url": "https://pousada-villa-italiana-sao-miguel-dos-milagres.ibooked.com.br/"
+        },
+        {
+          "nome": "Pousada Pé na Areia (Porto da Rua)",
+          "preco": "a partir de R$180/noite (confirmar se é pé na areia)",
+          "url": "https://pousada-pe-na-areia-tatuamunha.ibooked.com.br/"
+        },
+        {
+          "nome": "Alternativa: Maragogi — Pousada La Riviera",
+          "preco": "a partir de R$471/noite",
+          "url": "https://pousada.net/hotel/pousadalariviera"
+        }
+      ],
+      "clima": "Quente, mar calmo, baixa temporada",
+      "custos": {
+        "nota": "Estimativa para 9 noites",
+        "itens": [
+          {
+            "item": "Voos (casal)",
+            "min": 1900,
+            "max": 2400
+          },
+          {
+            "item": "Hospedagem",
+            "min": 5000,
+            "max": 9500
+          },
+          {
+            "item": "Transfer/carro",
+            "min": 700,
+            "max": 1000
+          },
+          {
+            "item": "Alimentação",
+            "min": 3200,
+            "max": 3200
+          }
+        ],
+        "totalMin": 11000,
+        "totalMax": 16000
+      },
+      "pros": [
+        "Mar calmo",
+        "Piscinas naturais",
+        "Baixa temporada"
+      ],
+      "cuidados": [
+        "Hospital de referência em Maceió, a ~1h30",
+        "Calor",
+        "Aedes — usar repelente com icaridina"
+      ],
+      "tempoVooMin": 150,
+      "tempoVooTexto": "2h30 (direto)",
+      "conforto": 4
+    },
+    {
+      "id": "floripa",
+      "trilha": "brasil",
+      "nome": "Florianópolis",
+      "regiao": "Jurerê / Canasvieiras, SC",
+      "aeroporto": "Florianópolis (FLN)",
+      "img": "img/floripa.jpg",
+      "imgCredito": "Wikimedia Commons, CC BY-SA 4.0",
+      "imgFonte": "https://commons.wikimedia.org/wiki/File:Praia_Jurer%C3%AA_-Florian%C3%B3polis.jpg",
+      "datas": {
+        "ida": "2026-11-03",
+        "volta": "2026-11-10"
+      },
+      "voos": [
+        {
+          "texto": "GOL 03/11→10/11: R$1.144/pessoa (R$2.288 casal) — ida via BSB 4h30, volta via CGH 6h35",
+          "tipo": "observado"
+        },
+        {
+          "texto": "Azul via VCP: R$1.334/pessoa, 4–5h",
+          "tipo": "observado"
+        },
+        {
+          "texto": "Sem voo direto",
+          "tipo": "info"
+        }
+      ],
+      "fontesVoo": [
+        "https://www.momondo.com.br/passagem/goiania/florianopolis"
+      ],
+      "hoteis": [
+        {
+          "nome": "Jurerê Beach Village",
+          "preco": "R$315–805/noite",
+          "url": "https://www.trivago.com.br/pt-BR/oar/apart-hotel-p%C3%A9-na-areia-no-hotel-jurer%C3%AA-beach-village-florian%C3%B3polis?search=100-25617306"
+        },
+        {
+          "nome": "Apartamento pé na areia em Canasvieiras",
+          "preco": "R$400–500/noite",
+          "url": "https://www.temporadalivre.com/aluguel-temporada/brasil/santa-catarina/florianopolis/canasvieiras/130528-novo-apartamento-pe-na-areia-terreo"
+        }
+      ],
+      "clima": "20–26°C; mar frio em novembro, possível chuva",
+      "custos": {
+        "nota": "Estimativa",
+        "itens": [
+          {
+            "item": "Voos (casal)",
+            "min": 2288,
+            "max": 2288
+          },
+          {
+            "item": "Hospedagem",
+            "min": 5500,
+            "max": 5500
+          },
+          {
+            "item": "Alimentação",
+            "min": 3600,
+            "max": 3600
+          },
+          {
+            "item": "Transporte",
+            "min": 1000,
+            "max": 1000
+          }
+        ],
+        "totalMin": 12000,
+        "totalMax": 13000
+      },
+      "pros": [
+        "Hospitais de capital",
+        "Menos mosquito",
+        "20–26°C"
+      ],
+      "cuidados": [
+        "Mar frio em novembro",
+        "Possível chuva"
+      ],
+      "tempoVooMin": 270,
+      "tempoVooTexto": "4h30 ida / 6h35 volta (1 conexão)",
+      "conforto": 4
+    },
+    {
+      "id": "praiadoforte",
+      "trilha": "brasil",
+      "nome": "Praia do Forte",
+      "regiao": "Bahia",
+      "aeroporto": "Salvador (SSA)",
+      "img": "img/praiadoforte.jpg",
+      "imgCredito": "Wikimedia Commons, CC BY 2.0",
+      "imgFonte": "https://commons.wikimedia.org/wiki/File:Praia_do_Forte-BA.jpg",
+      "datas": {
+        "ida": "2026-10-30",
+        "volta": "2026-11-06"
+      },
+      "voos": [
+        {
+          "texto": "GOL direto 2h — horários vistos: ida 11:30→13:30 ou 21:05→23:05",
+          "tipo": "observado"
+        },
+        {
+          "texto": "Monitor de preços: R$673/pessoa para 30/10→06/11 (não confirmado)",
+          "tipo": "não confirmado"
+        },
+        {
+          "texto": "Casal: R$2.000–2.600",
+          "tipo": "estimativa"
+        }
+      ],
+      "fontesVoo": [
+        "https://voosimperdiveis.com.br/passagens/goiania-salvador"
+      ],
+      "hoteis": [
+        {
+          "nome": "Pousada Porto da Lua (pé na areia)",
+          "preco": "~R$700/noite",
+          "url": "https://www.portodalua.com.br/pousada-praia-do-forte/unico-pe-na-areia.html"
+        }
+      ],
+      "clima": "Quente; piscinas naturais calmas",
+      "custos": {
+        "nota": "Estimativa total (detalhamento não levantado)",
+        "itens": [
+          {
+            "item": "Voos (casal)",
+            "min": 2000,
+            "max": 2600
+          }
+        ],
+        "totalMin": 13000,
+        "totalMax": 16000
+      },
+      "pros": [
+        "60 km dos hospitais de Salvador",
+        "Piscinas naturais calmas",
+        "Voo direto de 2h"
+      ],
+      "cuidados": [
+        "Calor",
+        "Aedes — usar repelente com icaridina"
+      ],
+      "tempoVooMin": 120,
+      "tempoVooTexto": "2h (direto)",
+      "conforto": 5
+    },
+    {
+      "id": "lisboa",
+      "trilha": "internacional",
+      "nome": "Lisboa + Cascais",
+      "regiao": "Portugal",
+      "aeroporto": "Lisboa (LIS)",
+      "img": "img/cascais.jpg",
+      "imgCredito": "Wikimedia Commons, CC BY-SA 3.0",
+      "imgFonte": "https://commons.wikimedia.org/wiki/File:Praia_da_Rainha_-_Q49323776.jpg",
+      "datas": {
+        "ida": "2026-11-06",
+        "volta": "2026-11-13"
+      },
+      "voos": [
+        {
+          "texto": "Azul via VCP 06/11→13/11: R$4.806/pessoa (R$9.612 casal) — ida 15h40, volta 18h05, 1 conexão",
+          "tipo": "observado"
+        }
+      ],
+      "fontesVoo": [
+        "https://passagens.voeazul.com.br/pt/voos-de-goi%C3%A2nia-para-lisboa",
+        "https://www.momondo.com.br/passagem/goiania/lisboa"
+      ],
+      "hoteis": [
+        {
+          "nome": "Pestana Cascais",
+          "preco": "€77–279/noite",
+          "url": "https://www.pestana.com/pt/hotel/pestana-cascais"
+        },
+        {
+          "nome": "Cascais Miragem — deluxe vista mar",
+          "preco": "€135/noite",
+          "url": "https://www.cascaismirage.com/pt"
+        }
+      ],
+      "clima": "15–18°C e chuva; sem banho de mar",
+      "custos": {
+        "nota": "Estimativa",
+        "itens": [
+          {
+            "item": "Voos (casal)",
+            "min": 9612,
+            "max": 9612
+          },
+          {
+            "item": "Hospedagem",
+            "min": 7000,
+            "max": 9000
+          },
+          {
+            "item": "Alimentação",
+            "min": 5100,
+            "max": 5100
+          },
+          {
+            "item": "Transporte",
+            "min": 1000,
+            "max": 1000
+          },
+          {
+            "item": "Seguro",
+            "min": 1000,
+            "max": 2000
+          }
+        ],
+        "totalMin": 25000,
+        "totalMax": 28000
+      },
+      "pros": [
+        "Excelente sistema de saúde",
+        "Sem mosquito da Zika (CDC)"
+      ],
+      "cuidados": [
+        "Voo longo — meias de compressão",
+        "15–18°C e chuva, sem banho de mar",
+        "Schengen: seguro mínimo de €30 mil"
+      ],
+      "tempoVooMin": 940,
+      "tempoVooTexto": "15h40 ida / 18h05 volta (1 conexão)",
+      "conforto": 3
+    },
+    {
+      "id": "chile",
+      "trilha": "internacional",
+      "nome": "Santiago + Viña del Mar",
+      "regiao": "Chile",
+      "aeroporto": "Santiago (SCL)",
+      "img": "img/vina.jpg",
+      "imgCredito": "Wikimedia Commons, CC BY-SA 2.0",
+      "imgFonte": "https://commons.wikimedia.org/wiki/File:Chile,_Vi%C3%B1a_del_Mar,_Recreo_(46836308154).jpg",
+      "datas": {
+        "ida": "2026-11-05",
+        "volta": "2026-11-10"
+      },
+      "voos": [
+        {
+          "texto": "LATAM via GRU 05/11→10/11: R$2.227/pessoa (R$4.454 casal) — 16–17h com conexões longas",
+          "tipo": "observado"
+        },
+        {
+          "texto": "Evitar GOL (2 conexões)",
+          "tipo": "info"
+        }
+      ],
+      "fontesVoo": [
+        "https://www.momondo.com.br/passagem/goiania/santiago"
+      ],
+      "hoteis": [
+        {
+          "nome": "Sheraton Miramar (Viña del Mar)",
+          "preco": "média US$299/noite em nov; datas mais baratas US$167–170",
+          "url": "https://www.vio.com/Hotel/1066909/en-GB"
+        }
+      ],
+      "clima": "Seco, 20–27°C; mar frio",
+      "custos": {
+        "nota": "Estimativa (5 noites Viña + 4 Santiago)",
+        "itens": [
+          {
+            "item": "Voos (casal)",
+            "min": 4454,
+            "max": 4454
+          },
+          {
+            "item": "Hospedagem Viña (5 noites)",
+            "min": 6000,
+            "max": 6000
+          },
+          {
+            "item": "Hospedagem Santiago (4 noites)",
+            "min": 3500,
+            "max": 3500
+          },
+          {
+            "item": "Alimentação",
+            "min": 5000,
+            "max": 5000
+          },
+          {
+            "item": "Transporte",
+            "min": 1500,
+            "max": 1500
+          },
+          {
+            "item": "Seguro",
+            "min": 800,
+            "max": 800
+          }
+        ],
+        "totalMin": 21000,
+        "totalMax": 23000
+      },
+      "pros": [
+        "Só RG",
+        "Ótimos hospitais privados",
+        "Seco, 20–27°C",
+        "Sem mosquito da Zika no continente"
+      ],
+      "cuidados": [
+        "Mar frio",
+        "Evitar Ilha de Páscoa",
+        "Voo de 16–17h com conexões longas"
+      ],
+      "tempoVooMin": 990,
+      "tempoVooTexto": "16–17h (conexão em GRU)",
+      "conforto": 3
+    },
+    {
+      "id": "uruguai",
+      "trilha": "internacional",
+      "nome": "Montevidéu + Punta del Este",
+      "regiao": "Uruguai",
+      "aeroporto": "Montevidéu (MVD)",
+      "img": "img/punta.jpg",
+      "imgCredito": "Wikimedia Commons, CC BY-SA 4.0",
+      "imgFonte": "https://commons.wikimedia.org/wiki/File:Playa_Brava,_Punta_del_Este,_Uruguay.jpg",
+      "datas": null,
+      "voos": [
+        {
+          "texto": "Nenhum ida-e-volta bom encontrado na janela",
+          "tipo": "info"
+        },
+        {
+          "texto": "Só ida Azul via CNF: ~R$1.131–1.166/pessoa, 7h35",
+          "tipo": "observado"
+        },
+        {
+          "texto": "Casal ida e volta: R$4.500–6.000",
+          "tipo": "estimativa"
+        }
+      ],
+      "fontesVoo": [
+        "https://passagens.voeazul.com.br/pt/voos-de-goi%C3%A2nia-para-montevideo"
+      ],
+      "hoteis": [
+        {
+          "nome": "Serena Hotel (só adultos)",
+          "preco": "a partir de US$113/noite",
+          "url": "https://www.kayak.com.pr/Punta-del-Este-Hoteles-Serena-Hotel.154347.ksp"
+        },
+        {
+          "nome": "Enjoy Punta del Este",
+          "preco": "a partir de US$112/noite",
+          "url": null
+        }
+      ],
+      "clima": "Primavera, 18–22°C; mar frio",
+      "custos": {
+        "nota": "Estimativa total (detalhamento não levantado)",
+        "itens": [
+          {
+            "item": "Voos (casal)",
+            "min": 4500,
+            "max": 6000
+          }
+        ],
+        "totalMin": 19000,
+        "totalMax": 21000
+      },
+      "pros": [
+        "Só RG",
+        "Voo relativamente curto",
+        "Tranquilo",
+        "Primavera 18–22°C",
+        "Baixa temporada"
+      ],
+      "cuidados": [
+        "Mar frio",
+        "Status no CDC não verificado",
+        "Datas de voo ainda não definidas"
+      ],
+      "tempoVooMin": 455,
+      "tempoVooTexto": "7h35 (1 conexão)",
+      "conforto": 4
+    }
+  ],
+  "luaDeMel": [
+    {
+      "src": "img/luademel/web/20250616_140528.jpg",
+      "data": "2025-06-16",
+      "formato": "paisagem"
+    },
+    {
+      "src": "img/luademel/web/20250616_165443.jpg",
+      "data": "2025-06-16",
+      "formato": "vertical"
+    },
+    {
+      "src": "img/luademel/web/20250616_171922.jpg",
+      "data": "2025-06-16",
+      "formato": "vertical"
+    },
+    {
+      "src": "img/luademel/web/20250616_173129.jpg",
+      "data": "2025-06-16",
+      "formato": "paisagem"
+    },
+    {
+      "src": "img/luademel/web/20250626_195728.jpg",
+      "data": "2025-06-26",
+      "formato": "paisagem"
+    },
+    {
+      "src": "img/luademel/web/20250628_105118.jpg",
+      "data": "2025-06-28",
+      "formato": "paisagem"
+    },
+    {
+      "src": "img/luademel/web/20250630_194442.jpg",
+      "data": "2025-06-30",
+      "formato": "paisagem"
+    },
+    {
+      "src": "img/luademel/web/20250630_204510.jpg",
+      "data": "2025-06-30",
+      "formato": "paisagem"
+    },
+    {
+      "src": "img/luademel/web/20250630_222126.jpg",
+      "data": "2025-06-30",
+      "formato": "paisagem"
+    },
+    {
+      "src": "img/luademel/web/20250630_222418.jpg",
+      "data": "2025-06-30",
+      "formato": "vertical"
+    },
+    {
+      "src": "img/luademel/web/20250630_223242.jpg",
+      "data": "2025-06-30",
+      "formato": "paisagem"
+    }
+  ]
+}

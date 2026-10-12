@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nosso Babymoon 💕</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,500&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <p class="eyebrow">Guilhermo & esposa · saindo de Goiânia (GYN)</p>
+  <h1>Nosso <em>Babymoon</em></h1>
+  <p class="sub">Uma última viagem a dois antes do bebê chegar 🤍</p>
+  <p class="updated">Última atualização: <strong id="updated">…</strong></p>
+</header>
+
+<main>
+  <section class="card preg" id="preg"></section>
+
+  <section class="card story">
+    <h2>💞 Nossa história: da lua de mel ao babymoon</h2>
+    <p class="muted small">Junho de 2025 — nossa lua de mel. Agora, a próxima viagem já é a três. Toque numa foto para ampliar.</p>
+    <div class="gallery" id="gallery"></div>
+  </section>
+
+  <div class="disclaimer">
+    <span class="badge warn">💡 Datas próximas / estimativa</span>
+    Preços são estimativas para datas próximas, <strong>não cotações exatas</strong>. Confirme nos links de cada destino antes de comprar.
+  </div>
+
+  <nav class="tabs" role="tablist">
+    <button class="tab active" data-track="todos">Todos</button>
+    <button class="tab" data-track="brasil">🇧🇷 Brasil</button>
+    <button class="tab" data-track="internacional">✈️ Internacional</button>
+    <button class="tab" data-track="favoritos">💖 Favoritos</button>
+  </nav>
+
+  <div id="tracks"></div>
+
+  <section class="card">
+    <h2>Comparativo</h2>
+    <p class="muted small">Toque no título da coluna para ordenar. "Conforto para ela" é nossa avaliação (voo, clima, acesso a hospital), não um dado oficial.</p>
+    <div class="table-wrap"><table id="cmp"><thead><tr>
+      <th data-k="nome">Destino</th><th data-k="preco">Total estimado</th><th data-k="voo">Tempo de voo</th><th data-k="conforto">Conforto para ela</th>
+    </tr></thead><tbody></tbody></table></div>
+  </section>
+
+  <section class="card">
+    <h2>Notas gerais</h2>
+    <ul id="notas"></ul>
+  </section>
+</main>
+<div class="lb" id="lb" hidden>
+  <button class="lb-x" aria-label="Fechar">✕</button>
+  <button class="lb-prev" aria-label="Anterior">‹</button>
+  <img alt="">
+  <button class="lb-next" aria-label="Próxima">›</button>
+  <p class="lb-cap"></p>
+</div>
+<footer>Feito com amor 💕 · Fotos: Wikimedia Commons (créditos em cada card) · <button id="reset" class="link">limpar favoritos/descartes</button></footer>
+<script src="app.js"></script>
+</body>
+</html>
