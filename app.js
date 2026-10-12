@@ -55,8 +55,44 @@ function card(x){
    <div class="sec"><h4>Orçamento ${esc(t.nome)} (${brl(b)})</h4>
     <div class="bbar ${c.totalMax>b?'over':''}"><span class="min" style="width:${pMin}%"></span><span class="rng" style="left:${pMin}%;width:${pMax-pMin}%"></span></div>
     <p class="small muted" style="margin:4px 0 0">${Math.round(c.totalMin/b*100)}–${Math.round(c.totalMax/b*100)}% do orçamento · sobra ${brl(b-c.totalMax)} a ${brl(b-c.totalMin)}</p></div>
+   ${guia(x)}
    <div class="small">Conforto para ela: <span class="stars">${'★'.repeat(x.conforto)}${'☆'.repeat(5-x.conforto)}</span></div>
   </div></article>`;
+}
+
+
+const lnk=u=>`<a href="${u}" target="_blank" rel="noopener">${new URL(u).hostname.replace('www.','')}</a>`;
+function guia(x){ if(!x.roteiro) return '';
+  return `<details class="more"><summary>🗓️ Roteiro sugerido</summary><ol>${x.roteiro.map(r=>`<li>${esc(r)}</li>`).join('')}</ol><p class="src">Ritmo leve pensado para a gestação — ajuste com o obstetra.</p></details>
+  <details class="more"><summary>🍽️ Restaurantes</summary><ul>${x.restaurantes.map(r=>`<li><a href="${r.url}" target="_blank" rel="noopener">${esc(r.nome)}</a> — ${esc(r.nota)}</li>`).join('')}</ul><p class="src">Sempre avisar a alergia (veja a seção Alimentação). Fontes: ${x.fontesGuia.map(lnk).join(' · ')}</p></details>
+  <details class="more"><summary>📍 Passeios e pontos turísticos</summary><ul>${x.passeios.map(r=>`<li><strong>${esc(r.nome)}</strong> — ${esc(r.nota)}</li>`).join('')}</ul></details>`;
+}
+function renderSeguro(){const s=D.seguro;if(!s)return;
+  const CK='babymoon-check-v1';let ck=JSON.parse(localStorage.getItem(CK)||'[]');
+  $('#seguro').innerHTML=`<h2>🛡️ Seguro e benefícios</h2><p class="small">${esc(s.intro)}</p>
+  <div class="alert"><h3>${esc(s.alertaGestacao.titulo)} <span class="badge bad">${esc(s.alertaGestacao.status)}</span></h3><ul>${s.alertaGestacao.texto.map(t=>`<li>${esc(t)}</li>`).join('')}</ul><p class="src">Fontes: ${s.alertaGestacao.fontes.map(lnk).join(' · ')}</p></div>
+  <h3>✅ Checklist antes de viajar</h3><ul class="check">${s.checklist.map((c,i)=>`<li><label><input type="checkbox" data-i="${i}" ${ck.includes(i)?'checked':''}>${esc(c)}</label></li>`).join('')}</ul>
+  <p class="small">Emitir bilhete: <a href="${s.aigUrl}" target="_blank" rel="noopener">aig.com/Mastercard/pt</a></p>
+  <h3>Mastercard Black <span class="badge warn">confirmar com o banco</span></h3>
+  <div class="blist">${s.beneficios.map(b=>`<div class="bitem"><b>${esc(b.nome)}</b>${esc(b.detalhe)}<div class="src">Fonte: ${lnk(b.fonte)}${b.fonte2?' · '+lnk(b.fonte2):''}</div></div>`).join('')}</div>
+  <h3>✈️ LATAM Pass Gold <span class="badge warn">${esc(s.latamGold.status)}</span></h3><ul class="small">${s.latamGold.texto.map(t=>`<li>${esc(t)}</li>`).join('')}</ul><p class="src">Fonte: ${lnk(s.latamGold.fonte)}</p>`;
+  $('#seguro').querySelectorAll('input').forEach(b=>b.onchange=()=>{const i=+b.dataset.i;ck=b.checked?[...ck,i]:ck.filter(x=>x!==i);localStorage.setItem(CK,JSON.stringify(ck))});
+}
+function renderMilhas(){const m=D.milhas;if(!m)return;const n=v=>v.toLocaleString('pt-BR');
+  const L=m.saldos[0].valor, lv=m.saldos[1].valor, it=m.saldos[2].valor, pot=L+lv+Math.floor(it*0.4);
+  $('#milhas').innerHTML=`<h2>💳 Milhas e pontos <span class="muted small">(em ${m.data})</span></h2>
+  <div class="stats">${m.saldos.map(s=>`<div class="stat"><b>${n(s.valor)}</b>${esc(s.programa)}<br><span class="small muted">${s.unidade}</span></div>`).join('')}
+  <div class="stat"><b>~${n(pot)}</b>potencial em milhas aéreas<br><span class="small muted">sem bônus (Livelo 1:1, Itaú ~2,5:1) — estimativa</span></div></div>
+  <h3>Transferências</h3><ul class="small">${m.transferencias.map(t=>`<li><strong>${esc(t.de)} → ${esc(t.para)}:</strong> ${esc(t.taxa)} <span class="src">(${lnk(t.fonte)})</span></li>`).join('')}</ul>
+  <h3>Estratégia</h3><ul class="small">${m.estrategia.map(t=>`<li>${esc(t)}</li>`).join('')}</ul>
+  <h3>Por destino <span class="badge warn">preços em milhas a verificar</span></h3><ul class="small">${m.porDestino.map(p=>`<li><strong>${esc(D.destinos.find(x=>x.id===p.id).nome)}:</strong> ${esc(p.programa)} — ${esc(p.nota)}</li>`).join('')}</ul>`;
+}
+function renderAlim(){const a=D.alimentacao;if(!a)return;
+  $('#alimentacao').innerHTML=`<h2>🥗 Alimentação</h2>
+  <div class="alert"><h3>🦐🚫 ${esc(a.alergias)}</h3><p class="small" style="margin:0">Atenção à contaminação cruzada: mesma chapa, óleo de fritura, caldos e molhos.</p></div>
+  <h3>🤰 Restrições da gestação</h3><ul class="small">${a.gestante.map(t=>`<li>${esc(t)}</li>`).join('')}</ul><p class="src">Fontes: ${a.fontes.map(lnk).join(' · ')}</p>
+  <h3>🗣️ Cartão para o restaurante</h3>${a.frases.map(f=>`<div class="phrase"><button class="link" onclick="navigator.clipboard&&navigator.clipboard.writeText(this.parentNode.querySelector('span').textContent)">copiar</button><strong>${esc(f.lang)}</strong><br><span>${esc(f.txt)}</span></div>`).join('')}
+  <h3>📍 Avisos por destino</h3><ul class="small">${a.avisos.map(v=>`<li><strong>${esc(v.onde)}:</strong> ${esc(v.txt)}</li>`).join('')}</ul>`;
 }
 
 function renderTracks(){
@@ -87,7 +123,7 @@ window.toggle=toggle;
 fetch('data.json',{cache:'no-store'}).then(r=>r.json()).then(d=>{
   D=d; $('#updated').textContent=d.ultimaAtualizacao;
   $('#notas').innerHTML=d.notasGerais.map(n=>`<li>${esc(n)}</li>`).join('');
-  renderPreg(); renderTracks(); renderTable();
+  renderPreg(); renderSeguro(); renderMilhas(); renderAlim(); renderTracks(); renderTable();
   document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));b.classList.add('active');track=b.dataset.track;renderTracks()});
   document.querySelectorAll('#cmp th').forEach(th=>th.onclick=()=>{if(sortK===th.dataset.k)sortDir*=-1;else{sortK=th.dataset.k;sortDir=1}renderTable()});
   $('#reset').onclick=()=>{state={fav:[],disc:[]};save();renderTracks();renderTable()};

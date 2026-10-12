@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-10-11 21:23 BRT",
+  "ultimaAtualizacao": "2026-10-11 21:48 BRT",
   "origem": "Goiânia (GYN)",
   "gestacao": {
     "dataReferencia": "2026-10-11",
@@ -120,7 +120,67 @@
       ],
       "tempoVooMin": 150,
       "tempoVooTexto": "2h30 (direto)",
-      "conforto": 4
+      "conforto": 4,
+      "roteiro": [
+        "Dia 1: chegada cedo em Maceió, transfer tranquilo (~1h30–2h), check-in e descanso",
+        "Dia 2: praia em frente à pousada, piscinas naturais só na maré baixa e com mar calmo",
+        "Dia 3: Praia do Patacho (Porto de Pedras) — manhã, volta antes do sol forte",
+        "Dia 4: Santuário do Peixe-Boi (Porto de Pedras) — passeio curto de jangada a remo, se ela se sentir bem",
+        "Dia 5: dia livre de pousada + spa",
+        "Dia 6: Praia do Toque e São Miguel; jantar cedo",
+        "Dia 7: Japaratinga (praia calma) ou descanso",
+        "Dia 8: último dia de praia",
+        "Dia 9: volta para Maceió com folga antes do voo"
+      ],
+      "restaurantes": [
+        {
+          "nome": "Mi Casa (Praia do Riacho)",
+          "url": "https://micasapraia.com.br/",
+          "nota": "pé na areia; cardápio tem muitos frutos do mar — pedir opções de carne/frango"
+        },
+        {
+          "nome": "No Quintal (Praia do Toque)",
+          "url": "https://www.google.com/maps/search/?api=1&query=No+Quintal+São+Miguel+dos+Milagres",
+          "nota": "peixes e carnes"
+        },
+        {
+          "nome": "Patrícia Bistrô",
+          "url": "https://www.google.com/maps/search/?api=1&query=Patricia+Bistro+São+Miguel+dos+Milagres",
+          "nota": "foco em frutos do mar — cuidado"
+        },
+        {
+          "nome": "Restaurante do Enildo (Porto da Rua)",
+          "url": "https://www.google.com/maps/search/?api=1&query=Restaurante+do+Enildo+Porto+da+Rua",
+          "nota": "regional; moquecas e caldinhos — cuidado"
+        },
+        {
+          "nome": "Villa Milagres",
+          "url": "https://restaurantguru.com.br/Villa-Milagres-Brazil",
+          "nota": "jantar; confirmar horário"
+        }
+      ],
+      "passeios": [
+        {
+          "nome": "Piscinas naturais de São Miguel",
+          "nota": "ok de jangada curta e com mar calmo; evitar se balançar muito"
+        },
+        {
+          "nome": "Praia do Patacho",
+          "nota": "uma das mais bonitas; pouca sombra — levar guarda-sol"
+        },
+        {
+          "nome": "Santuário do Peixe-Boi (Porto de Pedras/Tatuamunha)",
+          "nota": "passeio em jangada a remo, calmo"
+        },
+        {
+          "nome": "Rota Ecológica dos Milagres",
+          "nota": "de carro, sem buggy em estrada de terra esburacada"
+        }
+      ],
+      "fontesGuia": [
+        "https://www.essemundoenosso.com.br/rota-ecologica-dos-milagres/",
+        "https://destinoscertos.com.br/melhores-restaurantes-sao-miguel-dos-milagres/"
+      ]
     },
     {
       "id": "floripa",
@@ -203,7 +263,61 @@
       ],
       "tempoVooMin": 270,
       "tempoVooTexto": "4h30 ida / 6h35 volta (1 conexão)",
-      "conforto": 4
+      "conforto": 4,
+      "roteiro": [
+        "Dia 1: chegada, check-in em Jurerê/Canasvieiras, descanso",
+        "Dia 2: praia de Jurerê Internacional (mar calmo) e calçadão",
+        "Dia 3: Fortaleza de São José da Ponta Grossa + Praia do Forte",
+        "Dia 4: Santo Antônio de Lisboa (vila açoriana, pôr do sol)",
+        "Dia 5: Centro: Mercado Público e Ponte Hercílio Luz (sem subir escadas demais)",
+        "Dia 6: Lagoa da Conceição (passeio leve à beira da lagoa)",
+        "Dia 7: dia de spa/praia",
+        "Dia 8: volta"
+      ],
+      "restaurantes": [
+        {
+          "nome": "Acqua Plage (Jurerê)",
+          "url": "https://acquajurere.com.br/",
+          "nota": "beach club mediterrâneo"
+        },
+        {
+          "nome": "Olivia Cucina (Jurerê)",
+          "url": "https://www.google.com/maps/search/?api=1&query=Olivia+Cucina+Jurere+Internacional",
+          "nota": "italiano — boa opção sem frutos do mar"
+        },
+        {
+          "nome": "Original na Brasa Parrilla (Jurerê)",
+          "url": "https://www.google.com/maps/search/?api=1&query=Original+na+Brasa+Parrilla+Jurere",
+          "nota": "carnes"
+        },
+        {
+          "nome": "Restaurantes Il Campanario",
+          "url": "https://www.ilcampanario.com.br/gastronomia",
+          "nota": "no resort em Jurerê"
+        }
+      ],
+      "passeios": [
+        {
+          "nome": "Fortaleza de São José da Ponta Grossa",
+          "nota": "subida curta a pé; ir devagar"
+        },
+        {
+          "nome": "Santo Antônio de Lisboa",
+          "nota": "plano, ótimo pôr do sol; muitos restaurantes de ostra — cuidado"
+        },
+        {
+          "nome": "Mercado Público de Florianópolis",
+          "nota": "lotado; cuidado com frituras de frutos do mar"
+        },
+        {
+          "nome": "Lagoa da Conceição",
+          "nota": "evitar trilhas longas (ex.: Lagoinha do Leste) e sandboard nas dunas"
+        }
+      ],
+      "fontesGuia": [
+        "https://exa.ai/library/places?q=c633cd4749e29a48",
+        "https://ndmais.com.br/turismo/o-que-fazer-em-jurere-internacional/"
+      ]
     },
     {
       "id": "praiadoforte",
@@ -266,7 +380,65 @@
       ],
       "tempoVooMin": 120,
       "tempoVooTexto": "2h (direto)",
-      "conforto": 5
+      "conforto": 5,
+      "roteiro": [
+        "Dia 1: voo direto para Salvador, transfer ~1h, check-in",
+        "Dia 2: piscinas naturais na maré baixa (cedo)",
+        "Dia 3: Projeto Tamar",
+        "Dia 4: Castelo Garcia d'Ávila (manhã)",
+        "Dia 5: dia de pousada/praia",
+        "Dia 6: Imbassaí (praia entre rio e mar, sem esforço)",
+        "Dia 7: Reserva da Sapiranga só trilha curta e plana — ou descanso",
+        "Dia 8: volta com folga"
+      ],
+      "restaurantes": [
+        {
+          "nome": "Bela Nordestina",
+          "url": "https://belanordestina.com.br/",
+          "nota": "nordestina — tem carne de sol, mas confirmar camarão"
+        },
+        {
+          "nome": "Sabor da Vila (Zequinha)",
+          "url": "https://sabordavila.com/index.html",
+          "nota": "regional"
+        },
+        {
+          "nome": "Il Cantuccio",
+          "url": "https://www.google.com/maps/search/?api=1&query=Il+Cantuccio+Praia+do+Forte",
+          "nota": "italiano"
+        },
+        {
+          "nome": "7 Pizzas",
+          "url": "https://www.google.com/maps/search/?api=1&query=7+Pizzas+Praia+do+Forte",
+          "nota": "pizzaria"
+        },
+        {
+          "nome": "Donana",
+          "url": "https://www.google.com/maps/search/?api=1&query=Donana+Praia+do+Forte",
+          "nota": "moquecas — cuidado"
+        }
+      ],
+      "passeios": [
+        {
+          "nome": "Projeto Tamar",
+          "nota": "tranquilo, plano"
+        },
+        {
+          "nome": "Piscinas naturais de Praia do Forte",
+          "nota": "ok na maré baixa; sapatilha para não escorregar"
+        },
+        {
+          "nome": "Castelo Garcia d'Ávila",
+          "nota": "poucas subidas; ir cedo pelo calor"
+        },
+        {
+          "nome": "Reserva da Sapiranga",
+          "nota": "evitar tirolesa, quadriciclo e rafting"
+        }
+      ],
+      "fontesGuia": [
+        "https://go2bahia.com/blog/restaurantes-em-praia-do-forte"
+      ]
     },
     {
       "id": "lisboa",
@@ -347,7 +519,60 @@
       ],
       "tempoVooMin": 940,
       "tempoVooTexto": "15h40 ida / 18h05 volta (1 conexão)",
-      "conforto": 3
+      "conforto": 3,
+      "roteiro": [
+        "Dia 1: chegada, descanso (voo longo: hidratar, caminhar no avião, meias de compressão)",
+        "Dia 2: Belém — Mosteiro dos Jerónimos, Torre de Belém, pastéis de Belém",
+        "Dia 3: Baixa e Chiado de tuk-tuk/elétrico (evitar ladeiras a pé)",
+        "Dia 4: Trem para Cascais; check-in, passeio pelo calçadão",
+        "Dia 5: Boca do Inferno e Guincho (de carro/táxi)",
+        "Dia 6: Sintra — só um palácio, com transporte até a porta",
+        "Dia 7: dia livre em Cascais / spa",
+        "Dia 8: volta"
+      ],
+      "restaurantes": [
+        {
+          "nome": "SULT Cascais",
+          "url": "https://guide.michelin.com/en/lisboa-region/cascais/restaurant/sult-cascais",
+          "nota": "massas — opção sem frutos do mar"
+        },
+        {
+          "nome": "Conceito (Cascais)",
+          "url": "https://guide.michelin.com/en/lisboa-region/cascais/restaurant/conceito",
+          "nota": "menu degustação — avisar alergia e gravidez"
+        },
+        {
+          "nome": "Casa do Largo (Cascais)",
+          "url": "https://www.timeout.com/cascais/restaurants/casa-do-largo",
+          "nota": "portuguesa/mediterrânea"
+        },
+        {
+          "nome": "Time Out Market Lisboa",
+          "url": "https://www.timeoutmarket.com/lisboa/",
+          "nota": "várias bancas — fácil fugir de frutos do mar"
+        }
+      ],
+      "passeios": [
+        {
+          "nome": "Belém (Jerónimos, Torre de Belém)",
+          "nota": "plano"
+        },
+        {
+          "nome": "Elétrico 28 / Alfama",
+          "nota": "lotado e com solavancos — preferir tuk-tuk"
+        },
+        {
+          "nome": "Sintra (Palácio da Pena)",
+          "nota": "muito íngreme — usar o shuttle até a entrada"
+        },
+        {
+          "nome": "Boca do Inferno e calçadão Cascais–Estoril",
+          "nota": "caminhada plana à beira-mar"
+        }
+      ],
+      "fontesGuia": [
+        "https://thetravelingridleys.com/2023/06/20/favorite-restaurants-in-cascais-portugal/"
+      ]
     },
     {
       "id": "chile",
@@ -433,7 +658,64 @@
       ],
       "tempoVooMin": 990,
       "tempoVooTexto": "16–17h (conexão em GRU)",
-      "conforto": 3
+      "conforto": 3,
+      "roteiro": [
+        "Dia 1: chegada em Santiago (voo longo), descanso",
+        "Dia 2: Cerro San Cristóbal pelo funicular/teleférico",
+        "Dia 3: Sky Costanera + bairro Lastarria",
+        "Dia 4: transfer para Viña del Mar (~1h30)",
+        "Dia 5: Viña: Reloj de Flores, orla, Quinta Vergara",
+        "Dia 6: Valparaíso com ascensores (evitar escadarias)",
+        "Dia 7: dia livre/spa",
+        "Dia 8–9: volta por Santiago"
+      ],
+      "restaurantes": [
+        {
+          "nome": "Chiche Cuadra (Viña del Mar)",
+          "url": "https://chichecuadra.com/",
+          "nota": "parrilla"
+        },
+        {
+          "nome": "La Bifería (Providencia, Santiago)",
+          "url": "https://www.labiferia.cl/",
+          "nota": "carnes"
+        },
+        {
+          "nome": "Kilú Casa de Carnes (Santiago)",
+          "url": "https://www.kilucasadecarnes.cl/",
+          "nota": "carnes"
+        },
+        {
+          "nome": "La Parrilla del Guatón Jerez (Vitacura)",
+          "url": "https://www.laparrilladelguatonjerez.cl/",
+          "nota": "parrilla"
+        }
+      ],
+      "passeios": [
+        {
+          "nome": "Cerro San Cristóbal",
+          "nota": "subir de funicular/teleférico, não a pé"
+        },
+        {
+          "nome": "Sky Costanera",
+          "nota": "elevador, sem esforço"
+        },
+        {
+          "nome": "Valparaíso (cerros Alegre e Concepción)",
+          "nota": "muitas ladeiras — usar ascensores e táxi"
+        },
+        {
+          "nome": "Vinícolas (Concha y Toro etc.)",
+          "nota": "ok passear, sem degustação de vinho"
+        },
+        {
+          "nome": "Cajón del Maipo / Andes",
+          "nota": "altitude e estrada sinuosa — evitar"
+        }
+      ],
+      "fontesGuia": [
+        "https://exa.ai/library/places?q=db19f4faea8c1892"
+      ]
     },
     {
       "id": "uruguai",
@@ -501,7 +783,65 @@
       ],
       "tempoVooMin": 455,
       "tempoVooTexto": "7h35 (1 conexão)",
-      "conforto": 4
+      "conforto": 4,
+      "roteiro": [
+        "Dia 1: chegada em Montevidéu, descanso",
+        "Dia 2: Ciudad Vieja e Rambla (a pé, plano)",
+        "Dia 3: Mercado del Puerto (almoço de parrilla)",
+        "Dia 4: transfer para Punta del Este (~2h)",
+        "Dia 5: La Mano (Los Dedos), porto e península",
+        "Dia 6: Casapueblo ao pôr do sol",
+        "Dia 7: José Ignacio e Ponte da Laguna Garzón (de carro)",
+        "Dia 8: volta"
+      ],
+      "restaurantes": [
+        {
+          "nome": "Teodoro (Punta del Este)",
+          "url": "https://www.google.com/maps/search/?api=1&query=Teodoro+parrilla+Punta+del+Este",
+          "nota": "parrilla"
+        },
+        {
+          "nome": "El Secreto (Punta del Este)",
+          "url": "https://www.google.com/maps/search/?api=1&query=El+Secreto+Punta+del+Este",
+          "nota": "parrilla com vista do porto (não verificado em site oficial)"
+        },
+        {
+          "nome": "Parador La Huella (José Ignacio)",
+          "url": "https://www.google.com/maps/search/?api=1&query=Parador+La+Huella+Jose+Ignacio",
+          "nota": "forte em peixes e frutos do mar — cuidado; confirmar se abre na baixa temporada"
+        },
+        {
+          "nome": "El Fogón (Montevidéu)",
+          "url": "https://elfogon.com.uy/",
+          "nota": "parrilla; também serve mariscos"
+        }
+      ],
+      "passeios": [
+        {
+          "nome": "Ciudad Vieja e Rambla de Montevidéu",
+          "nota": "plano"
+        },
+        {
+          "nome": "La Mano (Los Dedos)",
+          "nota": "rápido"
+        },
+        {
+          "nome": "Casapueblo",
+          "nota": "pôr do sol; algumas escadas"
+        },
+        {
+          "nome": "Isla Gorriti / Isla de Lobos de barco",
+          "nota": "travessia com mar mexido — evitar"
+        },
+        {
+          "nome": "José Ignacio e Laguna Garzón",
+          "nota": "de carro, sem esforço"
+        }
+      ],
+      "fontesGuia": [
+        "https://www.ambito.com/uruguay/teodoro-la-parrillada-que-nacio-punta-del-este-abrio-un-segundo-local-y-proyecta-su-marca-el-exterior-n6233438",
+        "https://www.elpais.com.uy/vida-actual/un-clasico-de-jose-ignacio-que-celebra-su-historia-en-un-nuevo-libro-y-se-prepara-para-una-temporada-intensa"
+      ]
     }
   ],
   "luaDeMel": [
@@ -586,5 +926,217 @@
       "src": "img/helena/thais-helena-2.jpg",
       "legenda": "Thais e a Helena"
     }
-  ]
+  ],
+  "brasaoHelena": "img/helena/brasao.png",
+  "seguro": {
+    "intro": "Seguro viagem e benefícios via cartão Mastercard Black. Os benefícios podem variar conforme o banco emissor (provavelmente Itaú Personnalité Mastercard Black) — confirmar com o banco.",
+    "alertaGestacao": {
+      "titulo": "⚠️ Cláusula de gravidez — o ponto mais importante",
+      "texto": [
+        "Uma versão do Guia de Benefícios Mastercard Black (PDF de 2016 publicado pelo Bradesco) lista entre as EXCLUSÕES de 'Despesas Médicas e Hospitalares em Viagem ao Exterior': '6) Complicações da gravidez'.",
+        "Um documento antigo em espanhol do MasterAssist Black exclui gravidez 'dentro dos 3 meses anteriores à data prevista do parto'.",
+        "Não conseguimos ler o guia atual (vigente desde 15/10/2025) — o site da Mastercard bloqueou o download. Por isso, ASSUMA que complicações obstétricas podem NÃO estar cobertas até confirmar por escrito.",
+        "O MasterAssist Black só vale para viagens INTERNACIONAIS (exceto Brasil). Para os destinos no Brasil, a assistência médica do cartão não se aplica — conte com o plano de saúde.",
+        "Recomendação: ligar 0800-725-2025 e perguntar por escrito se há cobertura para intercorrências da gestação na semana 24–26; se não houver, contratar um seguro viagem à parte que cubra gestação (muitos cobrem só até 24–28 semanas)."
+      ],
+      "status": "não verificado no guia atual",
+      "fontes": [
+        "https://assets.bradesco/content/dam/portal-bradesco/assets/corporate/pdf/solucoes-integradas/cartoes/SeguroAssistenciaBradescoCorporateMastercardBlack.pdf",
+        "https://aprenderly.com/doc/3464730/masterassit-black",
+        "https://www.mastercard.com/content/dam/mccom/lac/br/guia-beneficios/guia-de-beneficios-a-partir-de-15-de-outubro-de-2025v2.pdf"
+      ]
+    },
+    "beneficios": [
+      {
+        "nome": "MasterAssist Black (despesas médicas no exterior)",
+        "detalhe": "Até US$ 175.000 por pessoa (acidente ou doença súbita), viagens de até 60 dias, só fora do Brasil; atende Schengen. Desde 15/10/2025 vale para qualquer viajante cuja passagem foi paga com o cartão; passagens com milhas valem se taxas forem pagas com o Black. Inclui remoção médica até US$ 100.000, diária internado US$ 200 (até 30 dias), prorrogação de estadia US$ 250/dia (até 5 dias).",
+        "fonte": "https://www.mastercard.com/br/pt/personal/find-a-card/credit-card/black-credit-card/masterassist-plus.html",
+        "fonte2": "https://newsroom.mastercard.com/news/latin-america/pt-br/noticias/comunicados-de-imprensa/pr-pt/2025/julho/mastercard-amplia-abrangencia-do-masterassist-black/"
+      },
+      {
+        "nome": "MasterSeguro de Viagens (acidentes)",
+        "detalhe": "Morte acidental em viagem até US$ 6.000; em transporte público autorizado até US$ 1.000.000 por pessoa (valores do guia Bradesco — confirmar versão atual).",
+        "fonte": "https://assets.bradesco/content/dam/portal-bradesco/assets/corporate/pdf/solucoes-integradas/cartoes/SeguroAssistenciaBradescoCorporateMastercardBlack.pdf"
+      },
+      {
+        "nome": "Inconveniências de viagem",
+        "detalhe": "Cancelamento antes do início da viagem (morte, acidente ou enfermidade grave do portador/familiares, entre outros): até US$ 3.000. Atraso de embarque ≥ 4h: até US$ 200 em hotel e alimentação.",
+        "fonte": "https://www.mastercard.com/br/pt/personal/find-a-card/credit-card/black-credit-card/inconveniencias-viagem.html"
+      },
+      {
+        "nome": "Proteção de bagagem",
+        "detalhe": "Atraso > 4h: até US$ 600 em itens necessários (não vale na cidade de residência). Perda: até US$ 3.000 (vale também no Brasil); eletrônicos despachados até US$ 500/item.",
+        "fonte": "https://www.mastercard.com/br/pt/personal/find-a-card/credit-card/black-credit-card/protecao-bagagem.html"
+      },
+      {
+        "nome": "MasterRental (carro alugado)",
+        "detalhe": "Cobre danos ao veículo alugado por colisão, roubo, incêndio acidental e vandalismo. Valores (ex.: até US$ 75.000 por incidente no guia Bradesco) — confirmar no guia atual e recusar o seguro da locadora só após confirmar.",
+        "fonte": "https://www.mastercard.com/br/pt/personal/find-a-card/credit-card/black-credit-card.html"
+      },
+      {
+        "nome": "Compra protegida e garantia estendida",
+        "detalhe": "Reembolso por roubo/dano acidental em compras pagas com o cartão; garantia estendida dobra a original por até 1 ano.",
+        "fonte": "https://www.mastercard.com/br/pt/personal/find-a-card/credit-card/black-credit-card.html"
+      },
+      {
+        "nome": "Salas VIP",
+        "detalhe": "Salas próprias Mastercard em Guarulhos T3 (embarque internacional): desde 01/09/2025 gratuidade depende de gasto mínimo no trimestre anterior definido pelo emissor (comum R$ 15 mil); sem meta, R$ 200/pessoa; até 3 acompanhantes a R$ 200. Mastercard Airport Experiences (LoungeKey): número de acessos grátis depende do banco — ver no app. Viracopos: não verificado.",
+        "fonte": "https://www.mastercard.com/br/pt/personal/find-a-card/credit-card/black-credit-card/sala-vip-guarulhos.html",
+        "fonte2": "https://cartoeseviagens.com.br/mastercard-airport-experiences"
+      },
+      {
+        "nome": "Concierge 24h e Priceless",
+        "detalhe": "Concierge para reservas de restaurantes, ingressos e viagens; Priceless é a plataforma de experiências Mastercard. Central Mastercard Black: 0800-725-2025 (seguros) / Global Services 0800-891-3294.",
+        "fonte": "https://www.mastercard.com/br/pt/personal/find-a-card/credit-card/black-credit-card/concierge.html"
+      }
+    ],
+    "latamGold": {
+      "texto": [
+        "Check-in preferencial, Embarque Premium e bagagem prioritária em voos LATAM",
+        "1 bagagem despachada extra (23 kg) em voos domésticos no Brasil",
+        "Seleção gratuita de assento padrão; 50% de desconto em assentos LATAM+ domésticos",
+        "4 trechos de upgrade de cortesia na América do Sul (sujeito a disponibilidade)",
+        "Benefícios não se aplicam à tarifa Basic e valem para o associado Gold (acompanhante pode não ter) — confirmar"
+      ],
+      "status": "resumo de busca; site LATAM bloqueou a leitura direta — confirmar",
+      "fonte": "https://latampass.latam.com/pt_br/categorias-elite/gold"
+    },
+    "checklist": [
+      "Pagar as passagens (ou as taxas, se emitidas com milhas) com o Mastercard Black",
+      "Emitir o Bilhete de Seguro ANTES do embarque, um para cada viajante, em aig.com/Mastercard/pt",
+      "Imprimir a Carta Schengen se for a Portugal (não substitui o bilhete)",
+      "Ligar 0800-725-2025 e pedir por escrito a regra para gestação (complicações obstétricas, limite de semanas)",
+      "Se não houver cobertura para gestação: contratar seguro viagem à parte que cubra gravidez até a semana da volta",
+      "Para viagem no Brasil: confirmar rede do plano de saúde/hospital no destino",
+      "Confirmar com o banco (Itaú) regras de sala VIP, LoungeKey e taxa de transferência de pontos",
+      "Levar carta do obstetra liberando a viagem e cartão de pré-natal"
+    ],
+    "aigUrl": "https://www.aig.com/Mastercard/pt"
+  },
+  "milhas": {
+    "data": "11/10/2026",
+    "saldos": [
+      {
+        "programa": "LATAM Pass (Gold)",
+        "valor": 92475,
+        "unidade": "milhas"
+      },
+      {
+        "programa": "Livelo",
+        "valor": 295118,
+        "unidade": "pontos"
+      },
+      {
+        "programa": "Itaú Personnalité",
+        "valor": 108237,
+        "unidade": "pontos"
+      }
+    ],
+    "transferencias": [
+      {
+        "de": "Livelo",
+        "para": "LATAM Pass / Smiles / TudoAzul",
+        "taxa": "1 ponto = 1 milha (paridade base); mínimo 12.000 pontos para LATAM",
+        "fonte": "https://www.livelo.com.br/livelo-para-parceiros/latam/MTPTransfer",
+        "ratio": 1
+      },
+      {
+        "de": "Itaú Personnalité",
+        "para": "LATAM Pass / Smiles / TudoAzul",
+        "taxa": "~2,5 pontos = 1 milha (base, sem bônus; varia por produto — confirmar no app)",
+        "fonte": "https://www.alertademilhas.com.br/blog/transferencias/itau-bradesco-c6-taxa-conversao-smiles-latam-azul-qual-banco-2026",
+        "ratio": 0.4
+      }
+    ],
+    "estrategia": [
+      "Promoções de bônus (25% a 100%) aparecem com frequência e mudam tudo — só transfira com bônus e com a emissão já decidida (pontos transferidos não voltam).",
+      "Livelo rende mais que Itaú na base (1:1 vs ~2,5:1). Use Itaú só com bônus alto.",
+      "Companhia de cada voo levantado: LATAM (Santiago via GRU) usa LATAM Pass + benefícios Gold; Azul (Maceió, Lisboa via VCP, Montevidéu, Floripa via VCP) usa TudoAzul; GOL (Salvador, Floripa via BSB) usa Smiles.",
+      "Com milhas, pague as taxas com o Mastercard Black para manter o seguro viagem.",
+      "Preços em milhas não foram levantados com fonte — consulte no site de cada programa para as datas exatas antes de transferir."
+    ],
+    "porDestino": [
+      {
+        "id": "milagres",
+        "programa": "TudoAzul (Azul direto GYN–MCZ)",
+        "nota": "Preço em pontos a verificar"
+      },
+      {
+        "id": "floripa",
+        "programa": "Smiles (GOL) ou TudoAzul (Azul)",
+        "nota": "Preço em milhas a verificar; voo pago custa ~R$2.288 o casal"
+      },
+      {
+        "id": "praiadoforte",
+        "programa": "Smiles (GOL direto GYN–SSA)",
+        "nota": "Preço em milhas a verificar"
+      },
+      {
+        "id": "lisboa",
+        "programa": "TudoAzul (Azul via VCP)",
+        "nota": "Maior potencial de economia (R$9.612 em dinheiro); preço em pontos a verificar"
+      },
+      {
+        "id": "chile",
+        "programa": "LATAM Pass (LATAM via GRU)",
+        "nota": "Bom uso do saldo LATAM + Gold; preço em milhas a verificar"
+      },
+      {
+        "id": "uruguai",
+        "programa": "TudoAzul (Azul via CNF)",
+        "nota": "Preço em pontos a verificar"
+      }
+    ]
+  },
+  "alimentacao": {
+    "alergias": "Os dois têm alergia a camarão e frutos do mar.",
+    "gestante": [
+      "Nada de carne, peixe ou ovos crus ou malpassados (inclui sushi, sashimi, ceviche, carpaccio, ostras)",
+      "Evitar leite e queijos não pasteurizados (e queijos frescos tipo 'queso fresco' sem aquecer)",
+      "Evitar frutos do mar defumados refrigerados",
+      "Cafeína com moderação; álcool: nenhum",
+      "Lavar bem frutas e verduras; preferir água mineral lacrada"
+    ],
+    "fontes": [
+      "https://www.foodsafety.gov/people-at-risk/pregnant-women",
+      "https://www.fda.gov/food/people-risk-foodborne-illness/meat-poultry-seafood-food-safety-moms-be",
+      "https://www.fda.gov/food/health-educators/listeria-food-safety-moms-be"
+    ],
+    "frases": [
+      {
+        "lang": "Português",
+        "txt": "Nós dois temos alergia a camarão e a frutos do mar. Por favor, este prato tem camarão, frutos do mar ou caldo/molho de frutos do mar? Pode ser preparado sem contato com eles (mesma chapa, óleo ou utensílios)? Ela está grávida: precisamos de carne e ovos bem cozidos e queijos pasteurizados."
+      },
+      {
+        "lang": "Español",
+        "txt": "Tenemos alergia a los camarones y a los mariscos. Por favor, ¿este plato lleva camarones, mariscos o caldo/salsa de mariscos? ¿Se puede preparar sin contacto con ellos (misma plancha, aceite o utensilios)? Ella está embarazada: necesitamos carne y huevos bien cocidos y quesos pasteurizados."
+      },
+      {
+        "lang": "English",
+        "txt": "We are both allergic to shrimp and shellfish/seafood. Does this dish contain shrimp, seafood, or seafood stock/sauce? Can it be prepared without contact with them (same grill, oil, or utensils)? She is pregnant: we need well-done meat and eggs and pasteurized cheese."
+      }
+    ],
+    "avisos": [
+      {
+        "onde": "Nordeste (Milagres, Praia do Forte)",
+        "txt": "Culinária cheia de camarão: moqueca, bobó, acarajé (vatapá e caruru levam camarão seco), caldinhos e pastéis. Fritura em óleo compartilhado é risco de contaminação cruzada."
+      },
+      {
+        "onde": "Florianópolis",
+        "txt": "Capital da ostra e do camarão — sequências de frutos do mar e ostras cruas estão em toda parte. Prefira parrillas, pizzarias e italianos."
+      },
+      {
+        "onde": "Portugal",
+        "txt": "Mariscos, polvo e camarão são onipresentes; bacalhau é peixe (não marisco) — se a alergia for só a crustáceos/moluscos, pode ser ok, mas confirmar com o médico; cuidado com arroz de marisco, açorda e caldos. Queijos de ovelha artesanais (ex.: Serra) podem ser de leite cru."
+      },
+      {
+        "onde": "Chile",
+        "txt": "Mariscos são centrais (machas, locos, chupe, paila marina, ceviche). Empanadas 'de mariscos' existem — peça 'de pino' (carne) e confirme a fritura."
+      },
+      {
+        "onde": "Uruguai",
+        "txt": "Parrilla é a melhor amiga; carne sai 'jugosa' por padrão — peça 'bien cocida'. Evite morcilla/chorizo malpassados."
+      }
+    ]
+  }
 }
