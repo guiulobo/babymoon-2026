@@ -48,7 +48,7 @@ function card(x){
    <div class="sec"><h4>🏨 Hospedagem</h4><ul>${x.hoteis.map(h=>`<li>${h.url?`<a href="${h.url}" target="_blank" rel="noopener">${esc(h.nome)}</a>`:esc(h.nome)} — ${esc(h.preco)}</li>`).join('')}</ul></div>
    <div class="sec"><h4>🌤️ Clima</h4><p class="small" style="margin:0">${esc(x.clima)}</p></div>
    <div class="sec"><h4>💚 Prós</h4><ul>${x.pros.map(p=>`<li>${esc(p)}</li>`).join('')}</ul></div>
-   <div class="sec"><h4>🤰 Cuidados na gestação</h4><ul>${x.cuidados.map(p=>`<li>${esc(p)}</li>`).join('')}</ul></div>
+   <div class="sec"><h4>🤰 Cuidados na gestação</h4><ul>${x.cuidados.map(p=>`<li>${esc(p)}</li>`).join('')}</ul>${x.fontesSaude?`<p class="src">Saúde: ${x.fontesSaude.map(lnk).join(' · ')}</p>`:''}</div>
    <div class="sec"><h4>💰 Custos <span class="badge warn">estimativa</span></h4><p class="small muted" style="margin:0">${esc(c.nota)}</p>
     <table class="costs">${c.itens.map(i=>`<tr><td>${esc(i.item)}</td><td>${i.min===i.max?brl(i.min):brl(i.min)+'–'+brl(i.max)}</td></tr>`).join('')}
     <tr class="total"><td>Total estimado</td><td>${brl(c.totalMin)}–${brl(c.totalMax)}</td></tr></table></div>
