@@ -190,3 +190,6 @@ footer{text-align:center;padding:40px 18px 50px;color:var(--muted);font-size:.74
 .empty{color:var(--muted);text-align:center;padding:30px;font-family:var(--serif);font-style:italic;font-size:1.2rem}
 ul,ol{padding-left:20px}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+.post-note .sig{display:block;text-align:right;margin:10px 0 6px;font-style:italic;color:#5d4743}
+.post-note .sig::before{content:"— "}
+.post-note a{display:block}

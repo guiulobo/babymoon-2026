@@ -46,7 +46,7 @@ function card(x){
    <div class="sec"><h4>✈️ Voos <span class="badge warn">estimativa</span></h4><ul>${x.voos.map(v=>`<li>${esc(v.texto)} <span class="badge">${esc(v.tipo)}</span></li>`).join('')}</ul>
     <p class="small">Fonte: ${x.fontesVoo.map((u,i)=>`<a href="${u}" target="_blank" rel="noopener">${new URL(u).hostname}</a>`).join(' · ')}</p></div>
    <div class="sec"><h4>🏨 Hospedagem</h4><ul>${x.hoteis.map(h=>`<li>${h.url?`<a href="${h.url}" target="_blank" rel="noopener">${esc(h.nome)}</a>`:esc(h.nome)} — ${esc(h.preco)}</li>`).join('')}</ul></div>
-   <div class="sec"><h4>🌤️ Clima</h4><p class="small" style="margin:0">${esc(x.clima)}</p></div>
+   <div class="sec"><h4>🌤️ Clima</h4><p class="small" style="margin:0">${esc(x.clima)}${x.fonteClima?` <span class="src">(${lnk(x.fonteClima)})</span>`:''}</p></div>
    <div class="sec"><h4>💚 Prós</h4><ul>${x.pros.map(p=>`<li>${esc(p)}</li>`).join('')}</ul></div>
    <div class="sec"><h4>🤰 Cuidados na gestação</h4><ul>${x.cuidados.map(p=>`<li>${esc(p)}</li>`).join('')}</ul>${x.fontesSaude?`<p class="src">Saúde: ${x.fontesSaude.map(lnk).join(' · ')}</p>`:''}</div>
    <div class="sec"><h4>💰 Custos <span class="badge warn">estimativa</span></h4><p class="small muted" style="margin:0">${esc(c.nota)}</p>
@@ -111,7 +111,7 @@ function renderTracks(){
     if(track==='favoritos') list=list.filter(x=>state.fav.includes(x.id));
     else if(track!=='todos'&&track!==t.id) continue;
     if(!list.length&&track==='favoritos') continue;
-    html+=`<section><div class="track-head"><h2>${t.id==='brasil'?'🇧🇷':'✈️'} ${t.nome}</h2><span class="muted">Orçamento: <strong>${brl(t.orcamento)}</strong></span></div><div class="grid">${list.map(card).join('')}</div></section>`;
+    html+=`<section><div class="track-head"><h2>${t.id==='brasil'?'🇧🇷':t.id==='europa'?'🇪🇺':'✈️'} ${t.nome}</h2><span class="muted">Orçamento: <strong>${brl(t.orcamento)}</strong></span></div><div class="grid">${list.map(card).join('')}</div></section>`;
   }
   $('#tracks').innerHTML=html||'<p class="empty">Nenhum favorito ainda — toque no 💖 de um destino.</p>';
 }
@@ -121,7 +121,7 @@ function renderTable(){
   const rows=[...D.destinos].sort((a,b)=>{const A=val[sortK](a),B=val[sortK](b);return (A>B?1:A<B?-1:0)*sortDir});
   document.querySelectorAll('#cmp th').forEach(th=>th.className=th.dataset.k===sortK?(sortDir>0?'asc':'desc'):'');
   $('#cmp tbody').innerHTML=rows.map(x=>`<tr class="${state.disc.includes(x.id)?'discarded':''}">
-   <td>${state.fav.includes(x.id)?'💖 ':''}<a href="#d-${x.id}" style="color:inherit">${esc(x.nome)}</a><br><span class="badge">${x.trilha==='brasil'?'Brasil':'Internacional'}</span></td>
+   <td>${state.fav.includes(x.id)?'💖 ':''}<a href="#d-${x.id}" style="color:inherit">${esc(x.nome)}</a><br><span class="badge">${x.trilha==='brasil'?'Brasil':x.trilha==='europa'?'Europa':'Internacional'}</span></td>
    <td>${brl(x.custos.totalMin)}–${brl(x.custos.totalMax)}</td><td>${esc(x.tempoVooTexto)}</td>
    <td class="stars">${'★'.repeat(x.conforto)}${'☆'.repeat(5-x.conforto)}</td></tr>`).join('');
 }
@@ -156,7 +156,7 @@ fetch('data.json',{cache:'no-store'}).then(r=>r.json()).then(d=>{
     const build=(id,set,alt)=>{$(id).innerHTML=G[set].map((p,n)=>`<button class="${p.formato==='vertical'?'vertical':''}" data-n="${n}" aria-label="Foto ${n+1}"><img src="${p.src}" alt="${esc(alt(p))}" loading="lazy" decoding="async"></button>`).join('');
       $(id).querySelectorAll('button').forEach(b=>b.onclick=()=>open(set,+b.dataset.n))};
     build('#gallery','lua',p=>(p.legenda?'Casamento':'Lua de mel')+', '+parse(p.data).toLocaleDateString('pt-BR'));
-    if(d.legendaPostCasamento){const n=$('#postNote');n.innerHTML='“'+esc(d.legendaPostCasamento.texto).replace(/\n/g,'<br>')+'” <a href="'+d.legendaPostCasamento.fonte+'" target="_blank" rel="noopener">— post de 1 ano de casados</a>';n.hidden=false}
+    if(d.legendaPostCasamento){const n=$('#postNote');n.innerHTML='“'+esc(d.legendaPostCasamento.texto).replace(/\n/g,'<br>')+'”'+(d.legendaPostCasamento.assinatura?'<span class="sig">'+esc(d.legendaPostCasamento.assinatura)+'</span>':'')+'<a href="'+d.legendaPostCasamento.fonte+'" target="_blank" rel="noopener">— post de 1 ano de casados</a>';n.hidden=false}
     build('#helenaGallery','helena',p=>'Helena — '+p.legenda);
   });
 })();

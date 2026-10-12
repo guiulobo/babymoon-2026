@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-10-11 22:09 BRT",
+  "ultimaAtualizacao": "2026-10-11 22:15 BRT",
   "origem": "Goiânia (GYN)",
   "gestacao": {
     "dataReferencia": "2026-10-11",
@@ -22,6 +22,11 @@
     {
       "id": "internacional",
       "nome": "Internacional",
+      "orcamento": 35000
+    },
+    {
+      "id": "europa",
+      "nome": "Europa",
       "orcamento": 35000
     }
   ],
@@ -1601,6 +1606,1077 @@
       ],
       "imgCredito": "Wikimedia Commons, CC BY 2.0",
       "imgFonte": "https://commons.wikimedia.org/wiki/File:Paracas_National_Reserve._Ica,_Peru.jpg"
+    },
+    {
+      "id": "paris",
+      "nome": "Paris",
+      "regiao": "França",
+      "aeroporto": "Paris CDG",
+      "datas": {
+        "ida": "2026-11-01",
+        "volta": "2026-11-10"
+      },
+      "voos": [
+        {
+          "texto": "Air France 15/10→10/11 R$5.504/pessoa: ida 14h10, volta 17h10, 1 conexão (referência; estadia longa)",
+          "tipo": "observado"
+        },
+        {
+          "texto": "Air France só ida 07/11 ou 08/11 R$2.234/pessoa, 17h, 1 conexão",
+          "tipo": "observado"
+        },
+        {
+          "texto": "LATAM 16/10→10/11 R$5.649/pessoa (volta 16h50 via GRU)",
+          "tipo": "observado"
+        },
+        {
+          "texto": "Datas sugeridas 01/11→10/11 — preço a cotar; casal ~R$11.000 usando a referência",
+          "tipo": "estimativa"
+        }
+      ],
+      "fontesVoo": [
+        "https://www.momondo.com.br/passagem/goiania/paris"
+      ],
+      "hoteis": [
+        {
+          "nome": "Hôtel de Fleurie (Saint-Germain, 3*)",
+          "preco": "desde €152/noite",
+          "url": "https://www.veepee.fr/gr/voyages/p/VPV_MULCO700/307588"
+        },
+        {
+          "nome": "Le Relais Saint-Germain (boutique 4*)",
+          "preco": "desde €196/noite",
+          "url": "https://www.hotelaparis.com/hotel-charme-paris/saint-germain-des-pres/hotel-le-relais-saint-germain.html"
+        },
+        {
+          "nome": "Legend Saint Germain",
+          "preco": "desde €133/noite (KAYAK)",
+          "url": "https://www.kayak.fr/Paris-Hotels-Hotel-Legend-Saint-Germain-by-Elegancia.24765.ksp"
+        }
+      ],
+      "clima": "Frio: ~11°C máx / 6°C mín em novembro, dias curtos e chuva",
+      "fonteClima": "https://www.holiday-weather.com/paris/averages/november/",
+      "custos": {
+        "nota": "Estimativa nossa, 9 noites; €1≈R$6,3",
+        "itens": [
+          {
+            "item": "Voos (casal, referência)",
+            "min": 11008,
+            "max": 11008
+          },
+          {
+            "item": "Hospedagem (9 noites, €133–196)",
+            "min": 7540,
+            "max": 11110
+          },
+          {
+            "item": "Alimentação",
+            "min": 5500,
+            "max": 6500
+          },
+          {
+            "item": "Transporte (táxi/metrô)",
+            "min": 1000,
+            "max": 1000
+          }
+        ],
+        "totalMin": 25000,
+        "totalMax": 29600
+      },
+      "pros": [
+        "O destino romântico por excelência",
+        "Saúde de primeiro mundo",
+        "Museus e cafés: passeio sem esforço físico grande",
+        "Sem mosquito da Zika no inverno europeu"
+      ],
+      "cuidados": [
+        "Voo longo (14h+ com conexão): meias de compressão, corredor, caminhar a cada 1–2h, hidratação",
+        "Seguro Schengen exige cobertura mínima de €30.000 — conferir a cláusula de gestação do seguro do cartão (limite de semanas e complicações)",
+        "Muita caminhada e escadas no metrô — usar táxi/Uber, pausas",
+        "Frio: casaco, sapato confortável",
+        "Queijos de leite cru (lait cru) são comuns — pedir só pasteurizados; evitar tartare de bœuf e foie gras mal passado"
+      ],
+      "tempoVooMin": 850,
+      "tempoVooTexto": "14h10–19h55 (1 conexão)",
+      "conforto": 3,
+      "roteiro": [
+        "Dia 1: chegada, descanso em Saint-Germain",
+        "Dia 2: Jardin du Luxembourg e cafés",
+        "Dia 3: Louvre (ingresso com horário, só alas escolhidas)",
+        "Dia 4: passeio de barco no Sena (calmo) e Torre Eiffel vista do Trocadéro",
+        "Dia 5: Musée d'Orsay e Marais",
+        "Dia 6: Montmartre de funicular, sem subir escadarias",
+        "Dia 7: Galeries Lafayette e Ópera Garnier",
+        "Dia 8: Versalhes de carro (meio dia)",
+        "Dia 9: livre / spa",
+        "Dia 10: volta"
+      ],
+      "restaurantes": [
+        {
+          "nome": "Le Coucou (Bib Gourmand)",
+          "url": "https://guide.michelin.com/gb/en/best-of/affordable-restaurants-paris",
+          "nota": "bistrô de vegetais/ervas"
+        },
+        {
+          "nome": "À L'Improviste (Bib Gourmand)",
+          "url": "https://guide.michelin.com/gb/en/best-of/affordable-restaurants-paris",
+          "nota": "cozinha tradicional"
+        },
+        {
+          "nome": "Café de Flore",
+          "url": "https://www.google.com/maps/search/?api=1&query=Cafe+de+Flore+Paris",
+          "nota": "clássico para café da manhã"
+        }
+      ],
+      "fontesGuia": [
+        "https://guide.michelin.com/gb/en/best-of/affordable-restaurants-paris"
+      ],
+      "passeios": [
+        {
+          "nome": "Cruzeiro no Sena",
+          "nota": "barco grande e calmo — ok"
+        },
+        {
+          "nome": "Louvre / Orsay",
+          "nota": "ok, com pausas e cadeira se precisar"
+        },
+        {
+          "nome": "Subir a Torre Eiffel",
+          "nota": "elevador ok; evitar escadas e filas longas em pé"
+        },
+        {
+          "nome": "Versalhes",
+          "nota": "jardins enormes — usar o trenzinho"
+        },
+        {
+          "nome": "Montmartre",
+          "nota": "funicular; evitar escadarias"
+        }
+      ],
+      "michelin": {
+        "cobertura": true,
+        "nota": "Paris tem o Guia Michelin completo (edição 2026). Menus degustação estrelados quase sempre têm peixe/marisco crus — avisar alergia e gravidez ao reservar.",
+        "fonte": "https://guide.michelin.com/us/en/article/news-and-views/michelin-star-restaurants-france-full-list",
+        "lista": [
+          {
+            "nome": "Le Savarin",
+            "local": "Paris 9e",
+            "distincao": "Bib Gourmand (novo 2026)",
+            "url": "https://guide.michelin.com/fr/fr/best-of/les-nouveaux-bib-gourmand-parisiens",
+            "alerta": "bistrô clássico; tem tartare e pratos com caranguejo — escolher pratos cozidos"
+          },
+          {
+            "nome": "Le Coucou",
+            "local": "Paris 9e",
+            "distincao": "Bib Gourmand (novo 2026)",
+            "url": "https://guide.michelin.com/fr/fr/best-of/les-nouveaux-bib-gourmand-parisiens",
+            "alerta": "foco em vegetais — boa opção"
+          },
+          {
+            "nome": "À L'Improviste",
+            "local": "Paris 17e",
+            "distincao": "Bib Gourmand (novo 2026)",
+            "url": "https://guide.michelin.com/fr/fr/best-of/les-nouveaux-bib-gourmand-parisiens",
+            "alerta": ""
+          },
+          {
+            "nome": "Le Violon d'Ingres",
+            "local": "Paris 7e",
+            "distincao": "1 Estrela",
+            "url": "https://guide.michelin.com/us/en/article/news-and-views/michelin-star-restaurants-france-full-list",
+            "alerta": "avisar alergia ao reservar"
+          },
+          {
+            "nome": "Septime",
+            "local": "Paris 11e",
+            "distincao": "1 Estrela",
+            "url": "https://guide.michelin.com/us/en/article/news-and-views/michelin-star-restaurants-france-full-list",
+            "alerta": "menu degustação com peixe cru frequente — avisar com antecedência"
+          }
+        ]
+      },
+      "img": "img/paris.jpg",
+      "trilha": "europa",
+      "videos": [
+        {
+          "id": "atnCK5Ef_gA",
+          "titulo": "EUROTRIP EP.04 | 🇫🇷 PARIS EM NOVEMBRO - VIAGEM DE CASAL",
+          "canal": "Maju Silva",
+          "views": "3,2 mil",
+          "publicado": "há 6 meses"
+        },
+        {
+          "id": "y2QCILPo__w",
+          "titulo": "PARIS - ROTEIRO COMPLETO DE 4 DIAS (COM PREÇOS)",
+          "canal": "Casal Alencar",
+          "views": "126 mil",
+          "publicado": "há 7 meses"
+        },
+        {
+          "id": "ta5KyCmzvks",
+          "titulo": "PARIS na FRANÇA 🇫🇷 (2026): ROTEIRO COM PREÇOS | O QUE FAZER | MELHORES ATRAÇÕES | DICAS E GOLPES",
+          "canal": "Fabi Cassol | Minha Praia Viajar",
+          "views": "163 mil",
+          "publicado": "há 5 meses"
+        }
+      ],
+      "fontesSaude": [
+        "https://www.cdc.gov/yellow-book/hcp/family-travel/pregnant-travelers.html"
+      ],
+      "imgCredito": "Wikimedia Commons, CC BY 2.0",
+      "imgFonte": "https://commons.wikimedia.org/wiki/File:Eiffel_Tower_and_Pont_Alexandre_III_at_night.jpg"
+    },
+    {
+      "id": "madri",
+      "nome": "Madri + Sevilha",
+      "regiao": "Espanha — Andaluzia",
+      "aeroporto": "Madri (MAD)",
+      "datas": {
+        "ida": "2026-10-25",
+        "volta": "2026-11-05"
+      },
+      "voos": [
+        {
+          "texto": "Azul 17/10→05/11 R$4.098/pessoa: ida 14h30 (1 conexão), volta 16h05 (1 conexão)",
+          "tipo": "observado"
+        },
+        {
+          "texto": "Azul 15/10→05/11 R$4.088/pessoa (ida 20h15, volta 25h05)",
+          "tipo": "observado"
+        },
+        {
+          "texto": "Datas sugeridas 25/10→05/11 (ida mais tarde a cotar); casal ~R$8.200",
+          "tipo": "estimativa"
+        },
+        {
+          "texto": "Madri↔Sevilha de trem de alta velocidade (preço a cotar)",
+          "tipo": "info"
+        }
+      ],
+      "fontesVoo": [
+        "https://www.momondo.com.br/passagem/goiania/madrid"
+      ],
+      "hoteis": [
+        {
+          "nome": "Hotel Madrid Centro, Affiliated by Meliá",
+          "preco": "a partir de R$426/noite; média dias úteis ~R$1.298",
+          "url": "https://www.kayak.com.br/Hoteis-Hotel-Madrid-Centro-managed-by-Melia-Madri.36431.ksp"
+        },
+        {
+          "nome": "Hotel Alfonso XIII (Sevilha, Luxury Collection)",
+          "preco": "a partir de R$1.490/noite",
+          "url": "https://www.momondo.com.br/hoteis/sevilha/Hotel-Alfonso-XIII-A-Luxury-Collection-Hotel-Seville.mhd15119.ksp"
+        },
+        {
+          "nome": "Hotel Simon (Sevilha)",
+          "preco": "a partir de R$285/noite",
+          "url": "https://www.kayak.com.br/Hoteis-Hotel-Simon-Sevilha.212060.ksp"
+        }
+      ],
+      "clima": "Madri ~13°C máx / 6°C mín; Sevilha ~20°C / 10°C — o mais ameno da lista europeia continental",
+      "fonteClima": "https://www.holiday-weather.com/seville/averages/november/",
+      "custos": {
+        "nota": "Estimativa nossa: 6 noites Madri + 5 Sevilha",
+        "itens": [
+          {
+            "item": "Voos (casal)",
+            "min": 8196,
+            "max": 8196
+          },
+          {
+            "item": "Hospedagem Madri (6 noites)",
+            "min": 2556,
+            "max": 7788
+          },
+          {
+            "item": "Hospedagem Sevilha (5 noites)",
+            "min": 1425,
+            "max": 7450
+          },
+          {
+            "item": "Alimentação",
+            "min": 5000,
+            "max": 6000
+          },
+          {
+            "item": "Trem + transporte",
+            "min": 1500,
+            "max": 1500
+          }
+        ],
+        "totalMin": 18700,
+        "totalMax": 30900
+      },
+      "pros": [
+        "Sevilha tem novembro agradável (~20°C)",
+        "Trem rápido e confortável entre as cidades",
+        "Ótima relação custo/qualidade",
+        "Voo Azul com 1 conexão"
+      ],
+      "cuidados": [
+        "Voo longo (14h+ com conexão): meias de compressão, corredor, caminhar a cada 1–2h, hidratação",
+        "Seguro Schengen exige cobertura mínima de €30.000 — conferir a cláusula de gestação do seguro do cartão (limite de semanas e complicações)",
+        "Jamón ibérico e embutidos curados: evitar na gravidez (risco de toxoplasmose) — salvo orientação do obstetra",
+        "Tapas de mariscos/gambas por toda parte — avisar alergia; cuidado com frituras no mesmo óleo",
+        "Calçamento de pedra em Sevilha: sapato confortável, táxi"
+      ],
+      "tempoVooMin": 870,
+      "tempoVooTexto": "14h30 ida / 16h05 volta (1 conexão)",
+      "conforto": 3,
+      "roteiro": [
+        "Dia 1: chegada em Madri, descanso",
+        "Dia 2: Prado (manhã) e Retiro",
+        "Dia 3: Palácio Real e Plaza Mayor",
+        "Dia 4: Reina Sofía e Gran Vía",
+        "Dia 5: Toledo de carro/trem (meio dia) ou descanso",
+        "Dia 6: livre",
+        "Dia 7: trem para Sevilha",
+        "Dia 8: Real Alcázar (ingresso com horário)",
+        "Dia 9: Catedral (sem subir a Giralda) e Santa Cruz",
+        "Dia 10: Plaza de España e Parque María Luisa",
+        "Dia 11: Triana, descanso",
+        "Dia 12: volta via Madri"
+      ],
+      "restaurantes": [
+        {
+          "nome": "Casa Lucio (Madri)",
+          "url": "https://www.google.com/maps/search/?api=1&query=Casa+Lucio+Madrid",
+          "nota": "huevos rotos — pedir ovos bem cozidos"
+        },
+        {
+          "nome": "Balbuena y Huertas (Sevilha, Bib Gourmand)",
+          "url": "https://guide.michelin.com/es/es/andalucia/sevilla/restaurante/balbuena-y-huertas",
+          "nota": "arrozes de cogumelo/carrilleira"
+        },
+        {
+          "nome": "Trèsde (Madri, Bib Gourmand)",
+          "url": "https://guide.michelin.com/es/es/articulo/michelin-guide-ceremony/nuevos-bib-gourmand-de-la-guia-michelin-espana-2026",
+          "nota": "bistrô com foco em vegetais"
+        }
+      ],
+      "fontesGuia": [
+        "https://guide.michelin.com/es/es/articulo/michelin-guide-ceremony/nuevos-bib-gourmand-de-la-guia-michelin-espana-2026"
+      ],
+      "passeios": [
+        {
+          "nome": "Museo del Prado",
+          "nota": "ok, com pausas"
+        },
+        {
+          "nome": "Parque del Retiro (barquinho)",
+          "nota": "lago calmo — ok"
+        },
+        {
+          "nome": "Real Alcázar de Sevilha",
+          "nota": "jardins planos, ótimo"
+        },
+        {
+          "nome": "Giralda",
+          "nota": "rampa longa de subida — evitar"
+        },
+        {
+          "nome": "Show de flamenco",
+          "nota": "sentado — ok"
+        }
+      ],
+      "michelin": {
+        "cobertura": true,
+        "nota": "Espanha tem Guia Michelin completo (edição 2026; Madri com 31 restaurantes estrelados). Avisar alergia/gravidez ao reservar menus degustação.",
+        "fonte": "https://guide.michelin.com/es/es/articulo/dining-out/todas-estrellas-michelin-madrid",
+        "lista": [
+          {
+            "nome": "Coque",
+            "local": "Madri",
+            "distincao": "2 Estrelas",
+            "url": "https://guide.michelin.com/es/es/articulo/dining-out/todas-estrellas-michelin-madrid",
+            "alerta": "menu longo; avisar alergia e gravidez"
+          },
+          {
+            "nome": "Smoked Room",
+            "local": "Madri",
+            "distincao": "2 Estrelas",
+            "url": "https://guide.michelin.com/es/es/articulo/dining-out/todas-estrellas-michelin-madrid",
+            "alerta": "brasas e defumados; pode ter peixe cru — avisar"
+          },
+          {
+            "nome": "Trèsde",
+            "local": "Madri",
+            "distincao": "Bib Gourmand (novo 2026)",
+            "url": "https://guide.michelin.com/es/es/articulo/michelin-guide-ceremony/nuevos-bib-gourmand-de-la-guia-michelin-espana-2026",
+            "alerta": ""
+          },
+          {
+            "nome": "La Barra de la Tasquería",
+            "local": "Madri",
+            "distincao": "Bib Gourmand (novo 2026)",
+            "url": "https://guide.michelin.com/es/es/articulo/michelin-guide-ceremony/nuevos-bib-gourmand-de-la-guia-michelin-espana-2026",
+            "alerta": "miúdos/casquería — pedir bem cozido"
+          },
+          {
+            "nome": "Balbuena y Huertas",
+            "local": "Sevilha (Triana)",
+            "distincao": "Bib Gourmand (novo 2026)",
+            "url": "https://guide.michelin.com/es/es/andalucia/sevilla/restaurante/balbuena-y-huertas",
+            "alerta": ""
+          }
+        ]
+      },
+      "img": "img/sevilha.jpg",
+      "trilha": "europa",
+      "videos": [
+        {
+          "id": "VQZNxH7BVd4",
+          "titulo": "MADRID ESPANHA 2026: ROTEIRO COMPLETO COM PREÇOS | O QUE FAZER | MELHORES PASSEIOS | ERROS E DICAS",
+          "canal": "Fabi Cassol | Minha Praia Viajar",
+          "views": "117 mil",
+          "publicado": "há 8 meses"
+        },
+        {
+          "id": "hTrMIlbW7AU",
+          "titulo": "SEVILHA - A CAPITAL DE ANDALUZIA NO SUL DA ESPANHA",
+          "canal": "Casal Alencar",
+          "views": "31 mil",
+          "publicado": "há 9 meses"
+        },
+        {
+          "id": "zlfWU5ZVGrc",
+          "titulo": "SEVILHA - Espanha: Roteiro de 2 a 3 dias com preços! | Viagem Sul da Espanha",
+          "canal": "Vamos Fugir Blog",
+          "views": "95 mil",
+          "publicado": "há 2 anos"
+        }
+      ],
+      "fontesSaude": [
+        "https://www.cdc.gov/yellow-book/hcp/family-travel/pregnant-travelers.html"
+      ],
+      "imgCredito": "Wikimedia Commons, CC BY-SA 4.0",
+      "imgFonte": "https://commons.wikimedia.org/wiki/File:Plaza_de_Espa%C3%B1a_(Sevilla)_-_01.jpg"
+    },
+    {
+      "id": "roma",
+      "nome": "Roma + Florença",
+      "regiao": "Itália — Lácio e Toscana",
+      "aeroporto": "Roma (FCO)",
+      "datas": {
+        "ida": "2026-11-01",
+        "volta": "2026-11-12"
+      },
+      "voos": [
+        {
+          "texto": "LATAM 01/11→12/11 R$4.786/pessoa: ida 15h40, volta 16h45, 1 conexão (GRU)",
+          "tipo": "observado"
+        },
+        {
+          "texto": "Casal ~R$9.572",
+          "tipo": "estimativa"
+        },
+        {
+          "texto": "Roma↔Florença de trem rápido (~preço a cotar)",
+          "tipo": "info"
+        }
+      ],
+      "fontesVoo": [
+        "https://www.momondo.com.br/passagem/goiania/roma"
+      ],
+      "hoteis": [
+        {
+          "nome": "Relais Roma Centro",
+          "preco": "a partir de R$368/noite",
+          "url": "https://www.kayak.com.br/Hoteis-Relais-Roma-Centro-Roma.542735.ksp"
+        },
+        {
+          "nome": "Hotel Roma (Florença)",
+          "preco": "a partir de R$707/noite",
+          "url": "https://www.kayak.com.br/Hoteis-Hotel-Roma-Florenca.74555.ksp"
+        },
+        {
+          "nome": "Centro Histórico de Roma (média)",
+          "preco": "~R$1.133/noite",
+          "url": "https://www.kayak.com.br/Roma-Hoteis.25465.hotel.ksp"
+        }
+      ],
+      "clima": "Roma ~17°C máx / 6°C mín; chuvas de outono",
+      "fonteClima": "https://www.holiday-weather.com/rome/averages/november/",
+      "custos": {
+        "nota": "Estimativa nossa: 6 noites Roma + 5 Florença",
+        "itens": [
+          {
+            "item": "Voos (casal)",
+            "min": 9572,
+            "max": 9572
+          },
+          {
+            "item": "Hospedagem Roma (6 noites)",
+            "min": 2208,
+            "max": 6798
+          },
+          {
+            "item": "Hospedagem Florença (5 noites)",
+            "min": 3535,
+            "max": 5665
+          },
+          {
+            "item": "Alimentação",
+            "min": 5000,
+            "max": 6000
+          },
+          {
+            "item": "Trem + transporte",
+            "min": 1500,
+            "max": 1500
+          }
+        ],
+        "totalMin": 21800,
+        "totalMax": 29500
+      },
+      "pros": [
+        "Datas encontradas encaixam perfeitamente (volta 12/11)",
+        "Massas e cozinha simples — fácil comer sem frutos do mar",
+        "Arte e romance em cada esquina",
+        "Trem Roma–Florença confortável"
+      ],
+      "cuidados": [
+        "Voo longo (14h+ com conexão): meias de compressão, corredor, caminhar a cada 1–2h, hidratação",
+        "Seguro Schengen exige cobertura mínima de €30.000 — conferir a cláusula de gestação do seguro do cartão (limite de semanas e complicações)",
+        "Muita caminhada em calçamento irregular — planejar 1 atração grande por dia",
+        "Evitar presunto cru (prosciutto), salame, carpaccio, tiramisù com ovo cru e queijos não pasteurizados",
+        "Costa Amalfitana fica fora: em novembro muitos hotéis fecham e as estradas são sinuosas"
+      ],
+      "tempoVooMin": 940,
+      "tempoVooTexto": "15h40 ida / 16h45 volta (1 conexão)",
+      "conforto": 3,
+      "roteiro": [
+        "Dia 1: chegada, descanso",
+        "Dia 2: Pantheon, Piazza Navona, Fontana di Trevi",
+        "Dia 3: Coliseu (ingresso com horário) — sem subir ao Palatino",
+        "Dia 4: Museus Vaticanos de manhã cedo",
+        "Dia 5: Trastevere e Villa Borghese",
+        "Dia 6: livre / spa",
+        "Dia 7: trem para Florença",
+        "Dia 8: Uffizi (ingresso com horário)",
+        "Dia 9: Ponte Vecchio, Oltrarno, Piazzale Michelangelo de táxi",
+        "Dia 10: Chianti de carro com motorista (almoço, sem vinho para ela)",
+        "Dia 11: livre",
+        "Dia 12: trem a Roma e voo"
+      ],
+      "restaurantes": [
+        {
+          "nome": "Hosteria Grappolo d'Oro (Bib Gourmand)",
+          "url": "https://guide.michelin.com/it/it/lazio/roma/ristoranti/bib-gourmand",
+          "nota": "romana"
+        },
+        {
+          "nome": "Domenico dal 1968 (Bib Gourmand)",
+          "url": "https://guide.michelin.com/it/it/lazio/roma/ristoranti/bib-gourmand",
+          "nota": "romana"
+        },
+        {
+          "nome": "Trattoria Mario (Florença)",
+          "url": "https://www.google.com/maps/search/?api=1&query=Trattoria+Mario+Firenze",
+          "nota": "toscana; bistecca — pedir bem passada"
+        }
+      ],
+      "fontesGuia": [
+        "https://guide.michelin.com/it/it/lazio/roma/ristoranti/bib-gourmand"
+      ],
+      "passeios": [
+        {
+          "nome": "Coliseu",
+          "nota": "ok, terreno irregular"
+        },
+        {
+          "nome": "Museus Vaticanos",
+          "nota": "longos e cheios — ir cedo, pausas"
+        },
+        {
+          "nome": "Cúpula de São Pedro / Duomo de Florença",
+          "nota": "centenas de degraus — EVITAR"
+        },
+        {
+          "nome": "Galleria degli Uffizi",
+          "nota": "ok"
+        },
+        {
+          "nome": "Chianti",
+          "nota": "de carro; degustação só para ele"
+        }
+      ],
+      "michelin": {
+        "cobertura": true,
+        "nota": "Itália tem Guia Michelin completo (edição 2026: Roma 24 estrelas, Florença 13).",
+        "fonte": "https://guide.michelin.com/it/it/notizia/michelin-guide-ceremony/le-nuove-stelle-di-citta-illuminano-roma-milano-napoli-e-firenze",
+        "lista": [
+          {
+            "nome": "La Pergola",
+            "local": "Roma",
+            "distincao": "3 Estrelas",
+            "url": "https://guide.michelin.com/it/it/notizia/michelin-guide-ceremony/tutte-le-stelle-della-guida-michelin-italia-2026",
+            "alerta": "menu degustação; avisar alergia/gravidez"
+          },
+          {
+            "nome": "La Terrazza (Hotel Eden)",
+            "local": "Roma",
+            "distincao": "1 Estrela (nova 2026)",
+            "url": "https://guide.michelin.com/it/it/notizia/michelin-guide-ceremony/le-nuove-stelle-di-citta-illuminano-roma-milano-napoli-e-firenze",
+            "alerta": "prato citado pelo guia leva creme de mexilhão — avisar alergia"
+          },
+          {
+            "nome": "Il Convivio Troiani",
+            "local": "Roma",
+            "distincao": "1 Estrela",
+            "url": "https://guide.michelin.com/it/it/lazio/roma/ristorante/il-convivio-troiani",
+            "alerta": ""
+          },
+          {
+            "nome": "Hosteria Grappolo d'Oro",
+            "local": "Roma",
+            "distincao": "Bib Gourmand",
+            "url": "https://guide.michelin.com/it/it/lazio/roma/ristoranti/bib-gourmand",
+            "alerta": ""
+          },
+          {
+            "nome": "Enoteca Pinchiorri",
+            "local": "Florença",
+            "distincao": "3 Estrelas",
+            "url": "https://guide.michelin.com/it/it/notizia/michelin-guide-ceremony/un-nuovo-ristorante-3-stelle-nella-guida-michelin-italia-2026",
+            "alerta": "alta gastronomia; avisar com antecedência"
+          }
+        ]
+      },
+      "img": "img/roma.jpg",
+      "trilha": "europa",
+      "videos": [
+        {
+          "id": "Vtfb7WCPwqM",
+          "titulo": "ROMA 🇮🇹 Todos Valores, O que fazer, Onde comer e ROTEIRO de 3 dias",
+          "canal": "Bárbara Francisco",
+          "views": "26 mil",
+          "publicado": "há 1 mês"
+        },
+        {
+          "id": "qWJhX2Nw5w8",
+          "titulo": "FLORENÇA, TOSCANA 🇮🇹 | o que fazer em 3 dias COM PREÇOS!",
+          "canal": "Status Viajante",
+          "views": "152 mil",
+          "publicado": "há 11 meses"
+        },
+        {
+          "id": "8ssp0qvUDYA",
+          "titulo": "Florença, Itália. O que FAZER e onde COMER em 2 dias",
+          "canal": "Diego Berlitz",
+          "views": "214 mil",
+          "publicado": "há 3 anos"
+        }
+      ],
+      "fontesSaude": [
+        "https://www.cdc.gov/yellow-book/hcp/family-travel/pregnant-travelers.html"
+      ],
+      "imgCredito": "Wikimedia Commons, CC BY-SA 3.0",
+      "imgFonte": "https://commons.wikimedia.org/wiki/File:Ponte_Vecchio_at_dusk_1.JPG"
+    },
+    {
+      "id": "barcelona",
+      "nome": "Barcelona",
+      "regiao": "Espanha — Catalunha",
+      "aeroporto": "Barcelona (BCN)",
+      "datas": {
+        "ida": "2026-11-01",
+        "volta": "2026-11-10"
+      },
+      "voos": [
+        {
+          "texto": "Sem tarifa datada encontrada para a janela; momondo indica típico ~R$5.433 e mínimo recente R$4.590/pessoa (ida e volta)",
+          "tipo": "estimativa"
+        },
+        {
+          "texto": "Sem voo direto; o mais rápido leva 19h05",
+          "tipo": "info"
+        },
+        {
+          "texto": "Casal ~R$9.200–10.900",
+          "tipo": "estimativa"
+        }
+      ],
+      "fontesVoo": [
+        "https://www.momondo.com.br/passagem/goiania/barcelona"
+      ],
+      "hoteis": [
+        {
+          "nome": "Catalonia Passeig de Gràcia (Eixample)",
+          "preco": "a partir de R$806/noite",
+          "url": "https://www.kayak.com.br/Hoteis-Catalonia-Passeig-De-Gracia-Barcelona.534716.ksp"
+        },
+        {
+          "nome": "Hotéis perto do Passeig de Gràcia",
+          "preco": "a partir de R$182/noite",
+          "url": "https://www.kayak.com.br/Barcelona-Hoteis_Passeig-de-Gracia.L4496.22567.hotel.ksp"
+        }
+      ],
+      "clima": "~17°C máx / 8°C mín; mar frio para banho",
+      "fonteClima": "https://www.holiday-weather.com/barcelona/averages/november/",
+      "custos": {
+        "nota": "Estimativa nossa, 9 noites; voo sem preço datado",
+        "itens": [
+          {
+            "item": "Voos (casal, estimativa)",
+            "min": 9180,
+            "max": 10866
+          },
+          {
+            "item": "Hospedagem (9 noites, ~R$806–963)",
+            "min": 7254,
+            "max": 8667
+          },
+          {
+            "item": "Alimentação",
+            "min": 5000,
+            "max": 6000
+          },
+          {
+            "item": "Transporte",
+            "min": 1000,
+            "max": 1000
+          }
+        ],
+        "totalMin": 22400,
+        "totalMax": 26500
+      },
+      "pros": [
+        "Gaudí, mar e gastronomia",
+        "Cidade plana na maior parte (Eixample)",
+        "Michelin muito forte"
+      ],
+      "cuidados": [
+        "Voo longo (14h+ com conexão): meias de compressão, corredor, caminhar a cada 1–2h, hidratação — 19h05 no mínimo",
+        "Seguro Schengen exige cobertura mínima de €30.000 — conferir a cláusula de gestação do seguro do cartão (limite de semanas e complicações)",
+        "Preço de voo não confirmado para as datas",
+        "Paella e tapas com frutos do mar onipresentes — avisar alergia, risco de contaminação cruzada",
+        "Batedores de carteira em áreas turísticas"
+      ],
+      "tempoVooMin": 1145,
+      "tempoVooTexto": "19h05+ (1–2 conexões)",
+      "conforto": 3,
+      "roteiro": [
+        "Dia 1: chegada, descanso",
+        "Dia 2: Passeig de Gràcia, Casa Batlló",
+        "Dia 3: Sagrada Família (ingresso com horário, sem torres)",
+        "Dia 4: Bairro Gótico e El Born",
+        "Dia 5: livre",
+        "Dia 6: Park Güell (táxi até a entrada alta)",
+        "Dia 7: Montjuïc de teleférico",
+        "Dia 8: Sitges de trem (praia no inverno, só passeio)",
+        "Dia 9: compras e descanso",
+        "Dia 10: volta"
+      ],
+      "restaurantes": [
+        {
+          "nome": "Bacaro (Bib Gourmand)",
+          "url": "https://guide.michelin.com/us/en/catalunya/barcelona/restaurant/bacaro-1206273",
+          "nota": "italiano veneziano; fígado e sardinhas — escolher massas"
+        },
+        {
+          "nome": "Bardeni-Caldeni (Bib Gourmand)",
+          "url": "https://guide.michelin.com/es/es/articulo/michelin-guide-ceremony/nuevos-bib-gourmand-de-la-guia-michelin-espana-2026",
+          "nota": "carnes"
+        },
+        {
+          "nome": "Can Culleretes",
+          "url": "https://www.google.com/maps/search/?api=1&query=Can+Culleretes+Barcelona",
+          "nota": "catalão tradicional"
+        }
+      ],
+      "fontesGuia": [
+        "https://guide.michelin.com/ie/en/catalunya/barcelona/restaurants/all-starred"
+      ],
+      "passeios": [
+        {
+          "nome": "Sagrada Família",
+          "nota": "ok; torres não"
+        },
+        {
+          "nome": "Park Güell",
+          "nota": "ladeiras — entrar pelo alto de táxi"
+        },
+        {
+          "nome": "Casa Batlló / La Pedrera",
+          "nota": "ok"
+        },
+        {
+          "nome": "Montjuïc (teleférico)",
+          "nota": "ok"
+        }
+      ],
+      "michelin": {
+        "cobertura": true,
+        "nota": "Barcelona: 30 restaurantes estrelados no Guia 2026. Menus degustação catalães são ricos em mariscos — avisar sempre.",
+        "fonte": "https://guide.michelin.com/ie/en/catalunya/barcelona/restaurants/all-starred",
+        "lista": [
+          {
+            "nome": "Bacaro",
+            "local": "Barcelona",
+            "distincao": "Bib Gourmand",
+            "url": "https://guide.michelin.com/us/en/catalunya/barcelona/restaurant/bacaro-1206273",
+            "alerta": ""
+          },
+          {
+            "nome": "Bardeni-Caldeni",
+            "local": "Barcelona",
+            "distincao": "Bib Gourmand (novo 2026)",
+            "url": "https://guide.michelin.com/es/es/articulo/michelin-guide-ceremony/nuevos-bib-gourmand-de-la-guia-michelin-espana-2026",
+            "alerta": "carnes — pedir bem passado"
+          },
+          {
+            "nome": "Glug",
+            "local": "Barcelona",
+            "distincao": "Bib Gourmand (novo 2026)",
+            "url": "https://guide.michelin.com/es/es/articulo/michelin-guide-ceremony/nuevos-bib-gourmand-de-la-guia-michelin-espana-2026",
+            "alerta": ""
+          },
+          {
+            "nome": "Oníric",
+            "local": "Barcelona",
+            "distincao": "Bib Gourmand (novo 2026)",
+            "url": "https://guide.michelin.com/es/es/articulo/michelin-guide-ceremony/nuevos-bib-gourmand-de-la-guia-michelin-espana-2026",
+            "alerta": ""
+          }
+        ]
+      },
+      "img": "img/barcelona.jpg",
+      "trilha": "europa",
+      "videos": [
+        {
+          "id": "Iavlc76nO1M",
+          "titulo": "BARCELONA 2026 - VLOG COMPLETO DO NOSSO ROTEIRO DE 2 DIAS (COM PREÇOS)",
+          "canal": "Casal Alencar",
+          "views": "43 mil",
+          "publicado": "há 8 meses"
+        },
+        {
+          "id": "49thPSvjVrI",
+          "titulo": "BARCELONA COM PREÇOS: Roteiro completo, atrações imperdíveis, onde comer e onde se hospedar.",
+          "canal": "Três Viagens",
+          "views": "85 mil",
+          "publicado": "há 10 meses"
+        },
+        {
+          "id": "TS6_vQswxzw",
+          "titulo": "BARCELONA  - o que FAZER e onde COMER em 4 dias",
+          "canal": "Diego Berlitz",
+          "views": "179 mil",
+          "publicado": "há 2 anos"
+        }
+      ],
+      "fontesSaude": [
+        "https://www.cdc.gov/yellow-book/hcp/family-travel/pregnant-travelers.html"
+      ],
+      "imgCredito": "Wikimedia Commons, CC BY-SA 3.0",
+      "imgFonte": "https://commons.wikimedia.org/wiki/File:Exterior_of_Casa_Batl%C3%B3_-_Barcelona_2014.jpg"
+    },
+    {
+      "id": "madeira",
+      "nome": "Ilha da Madeira (Funchal)",
+      "regiao": "Portugal — Atlântico",
+      "aeroporto": "Funchal (FNC)",
+      "datas": {
+        "ida": "2026-11-05",
+        "volta": "2026-11-12"
+      },
+      "voos": [
+        {
+          "texto": "05/11→12/11 R$4.392/pessoa (várias cias): ida 21h00, volta 24h30 (2 conexões)",
+          "tipo": "observado"
+        },
+        {
+          "texto": "TAP 29/10→11/11 R$4.278/pessoa: ida 19h25, volta 25h10, 1 conexão (Lisboa)",
+          "tipo": "observado"
+        },
+        {
+          "texto": "Casal ~R$8.784 (datas 05→12/11)",
+          "tipo": "estimativa"
+        }
+      ],
+      "fontesVoo": [
+        "https://www.momondo.com.br/passagem/goiania/funchal"
+      ],
+      "hoteis": [
+        {
+          "nome": "Castanheiro Boutique Hotel",
+          "preco": "a partir de R$794/noite",
+          "url": "https://www.kayak.com.br/Hoteis-Castanheiro-Boutique-Hotel-Funchal.2467637.ksp"
+        },
+        {
+          "nome": "Savoy Palace",
+          "preco": "a partir de US$313/noite",
+          "url": "https://www.kayak.com/Funchal-Hotels-Savoy-Palace---The-Leading-Hotels-of-the-World---Savoy-Signature.4639446.ksp"
+        },
+        {
+          "nome": "Reid's Palace, A Belmond Hotel",
+          "preco": "~R$3.435/noite",
+          "url": "https://www.kayak.com.br/Hoteis-Reid-s-Palace-A-Belmond-Hotel-Madeira-Funchal.59656.ksp"
+        }
+      ],
+      "clima": "O mais ameno: ~21°C máx / 16°C mín em novembro",
+      "fonteClima": "https://en.climate-data.org/europe/portugal/madeira/funchal-144/t/november-11/",
+      "custos": {
+        "nota": "Estimativa nossa, 7 noites (Castanheiro a Savoy)",
+        "itens": [
+          {
+            "item": "Voos (casal)",
+            "min": 8784,
+            "max": 8784
+          },
+          {
+            "item": "Hospedagem (7 noites, R$794–1.720)",
+            "min": 5558,
+            "max": 12040
+          },
+          {
+            "item": "Alimentação",
+            "min": 3500,
+            "max": 4500
+          },
+          {
+            "item": "Carro/transporte",
+            "min": 1500,
+            "max": 1500
+          }
+        ],
+        "totalMin": 19300,
+        "totalMax": 26800
+      },
+      "pros": [
+        "Clima de primavera em novembro",
+        "Hotéis-jardim românticos com vista para o mar",
+        "Português — fácil comunicar",
+        "Sistema de saúde português"
+      ],
+      "cuidados": [
+        "Voo longo (14h+ com conexão): meias de compressão, corredor, caminhar a cada 1–2h, hidratação — voltas de 24h+ com conexões",
+        "Seguro Schengen exige cobertura mínima de €30.000 — conferir a cláusula de gestação do seguro do cartão (limite de semanas e complicações) (Madeira é Portugal/UE)",
+        "Ilha muito íngreme: ladeiras, estradas sinuosas — evitar levadas longas e trilhas do Pico do Arieiro",
+        "Aeroporto com ventos fortes: atrasos/desvios possíveis",
+        "Espetada e peixe-espada são ok bem cozidos; lapas (marisco) — evitar"
+      ],
+      "tempoVooMin": 1260,
+      "tempoVooTexto": "19h25–21h ida (1–2 conexões)",
+      "conforto": 2,
+      "roteiro": [
+        "Dia 1: chegada, descanso",
+        "Dia 2: Funchal: Mercado dos Lavradores e Zona Velha",
+        "Dia 3: Teleférico do Monte e Jardim Tropical",
+        "Dia 4: dia de piscina/spa",
+        "Dia 5: Câmara de Lobos e Cabo Girão (skywalk) de carro",
+        "Dia 6: Jardim Botânico",
+        "Dia 7: livre",
+        "Dia 8: volta"
+      ],
+      "restaurantes": [
+        {
+          "nome": "Casal da Penha (Bib Gourmand 2025)",
+          "url": "https://guide.michelin.com/pt/pt_PT/article/news-and-views/madeira-anfitria-da-gala-do-guia-michelin-portugal-2026",
+          "nota": "tradicional madeirense"
+        },
+        {
+          "nome": "Restaurante do hotel (jardim)",
+          "url": "https://www.kayak.com.br/Hoteis-Castanheiro-Boutique-Hotel-Funchal.2467637.ksp",
+          "nota": "praticidade"
+        },
+        {
+          "nome": "Armazém do Sal",
+          "url": "https://www.google.com/maps/search/?api=1&query=Armazem+do+Sal+Funchal",
+          "nota": "carnes e peixe — avisar alergia"
+        }
+      ],
+      "fontesGuia": [
+        "https://guide.michelin.com/pt/pt_PT/article/news-and-views/madeira-anfitria-da-gala-do-guia-michelin-portugal-2026"
+      ],
+      "passeios": [
+        {
+          "nome": "Teleférico do Monte + jardins",
+          "nota": "ok; descida de 'carrinho de cesto' — EVITAR"
+        },
+        {
+          "nome": "Cabo Girão skywalk",
+          "nota": "ok, curto"
+        },
+        {
+          "nome": "Levadas",
+          "nota": "só trechos planos e curtos"
+        },
+        {
+          "nome": "Pico do Arieiro",
+          "nota": "trilha exigente — evitar"
+        },
+        {
+          "nome": "Passeio de barco/golfinhos",
+          "nota": "mar pode balançar — evitar"
+        }
+      ],
+      "michelin": {
+        "cobertura": true,
+        "nota": "A Madeira está no Guia Michelin Portugal 2026 (a gala de 2026 foi no Funchal).",
+        "fonte": "https://guide.michelin.com/pt/pt_PT/article/michelin-guide-ceremony/todos-os-restaurantes-com-estrelas-michelin-em-portugal-2026",
+        "lista": [
+          {
+            "nome": "Il Gallo d'Oro",
+            "local": "Funchal",
+            "distincao": "2 Estrelas + Estrela Verde",
+            "url": "https://guide.michelin.com/pt/pt_PT/article/michelin-guide-ceremony/todos-os-restaurantes-com-estrelas-michelin-em-portugal-2026",
+            "alerta": "usa produtos do mar locais — avisar alergia e gravidez"
+          },
+          {
+            "nome": "William",
+            "local": "Funchal",
+            "distincao": "1 Estrela",
+            "url": "https://guide.michelin.com/pt/pt_PT/article/michelin-guide-ceremony/todos-os-restaurantes-com-estrelas-michelin-em-portugal-2026",
+            "alerta": "menu degustação — avisar"
+          },
+          {
+            "nome": "Desarma",
+            "local": "Funchal",
+            "distincao": "1 Estrela",
+            "url": "https://guide.michelin.com/pt/pt_PT/article/michelin-guide-ceremony/todos-os-restaurantes-com-estrelas-michelin-em-portugal-2026",
+            "alerta": "avisar alergia"
+          },
+          {
+            "nome": "Casal da Penha",
+            "local": "Funchal",
+            "distincao": "Bib Gourmand (edição 2025)",
+            "url": "https://guide.michelin.com/pt/pt_PT/article/news-and-views/madeira-anfitria-da-gala-do-guia-michelin-portugal-2026",
+            "alerta": "confirmar distinção 2026"
+          }
+        ]
+      },
+      "img": "img/madeira.jpg",
+      "trilha": "europa",
+      "videos": [
+        {
+          "id": "JEM8X9QKxeM",
+          "titulo": "Madeira - Portugal's Secret Island Paradise",
+          "canal": "Ian and Ana",
+          "views": "312 mil",
+          "publicado": "há 2 anos"
+        },
+        {
+          "id": "BwrXWJPKafc",
+          "titulo": "Fomos até a Ilha paraíso do Atlântico | Madeira",
+          "canal": "O Miradouro",
+          "views": "31 mil",
+          "publicado": "há 3 anos"
+        },
+        {
+          "id": "UM02dzw1ty0",
+          "titulo": "Madeira, Portugal: O que fazer em 5 dias Guia Completo",
+          "canal": "Vi Viagens",
+          "views": "1,3 mil",
+          "publicado": "há 1 mês"
+        }
+      ],
+      "fontesSaude": [
+        "https://www.cdc.gov/yellow-book/hcp/family-travel/pregnant-travelers.html"
+      ],
+      "imgCredito": "Wikimedia Commons, CC BY-SA 4.0",
+      "imgFonte": "https://commons.wikimedia.org/wiki/File:Cabo_Gir%C3%A3o,_Madeira.jpg"
     }
   ],
   "luaDeMel": [
@@ -1901,6 +2977,31 @@
         "id": "peru",
         "programa": "LATAM Pass (LATAM via GRU) + benefícios Gold",
         "nota": "Bom uso do saldo LATAM; preço em milhas a verificar"
+      },
+      {
+        "id": "paris",
+        "programa": "LATAM Pass (LATAM via GRU) ou Flying Blue (Air France)",
+        "nota": "Preço em milhas a verificar"
+      },
+      {
+        "id": "madri",
+        "programa": "TudoAzul (Azul via VCP)",
+        "nota": "Preço em pontos a verificar"
+      },
+      {
+        "id": "roma",
+        "programa": "LATAM Pass (LATAM via GRU) + benefícios Gold",
+        "nota": "Datas exatas encontradas — bom candidato para milhas; preço a verificar"
+      },
+      {
+        "id": "barcelona",
+        "programa": "LATAM Pass / Smiles",
+        "nota": "Preço em milhas a verificar"
+      },
+      {
+        "id": "madeira",
+        "programa": "TAP Miles&Go / LATAM Pass",
+        "nota": "Preço em milhas a verificar"
       }
     ]
   },
@@ -1961,6 +3062,7 @@
   },
   "legendaPostCasamento": {
     "texto": "Desde o 31 de maio de 2025, cada dia confirmou que o nosso amor é real, profundo e capaz de transformar tudo.\nCelebrar este primeiro ano de casados é celebrar a coragem de apostar em nós, a força de construir um lar com base no respeito, na cumplicidade e no amor genuíno. Você é meu porto seguro, meu melhor amigo, meu grande amor!\nFeliz um ano de casados!\nTe amo ❤️",
-    "fonte": "https://www.instagram.com/p/DZD3nRvGe1t/"
+    "fonte": "https://www.instagram.com/p/DZD3nRvGe1t/",
+    "assinatura": "Thais Falcão Guerra Lobo"
   }
 }
