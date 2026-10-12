@@ -239,3 +239,11 @@ section[id],div[id].section-title,.dest{scroll-margin-top:110px}
 .gpanel[hidden]{display:none}
 .gpanel:not([hidden]){animation:fadeUp .35s ease both}
 @media(max-width:759px){.stats{grid-template-columns:repeat(2,1fr)}.stat b{font-size:1.4rem}}
+/* galeria sem buracos: vertical 1x1, paisagem 2x1, destaque 2x2 */
+#gallery{grid-template-columns:repeat(2,1fr);grid-auto-rows:210px;grid-auto-flow:row dense}
+#gallery button{grid-column:span 1;grid-row:span 1}
+#gallery button.wide{grid-column:span 2}
+#gallery button.feature{grid-column:span 2;grid-row:span 2}
+#gallery button.vertical img,#gallery button.feature img{object-position:center 30%}
+@media(min-width:760px){#gallery{grid-template-columns:repeat(4,1fr);grid-auto-rows:300px}}
+#gallery button.tall{grid-row:span 2}

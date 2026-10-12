@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-10-11 22:19 BRT",
+  "ultimaAtualizacao": "2026-10-11 22:35 BRT",
   "origem": "Goiânia (GYN)",
   "gestacao": {
     "dataReferencia": "2026-10-11",
@@ -2684,7 +2684,8 @@
       "src": "img/luademel/web/casamento-01.jpg",
       "data": "2025-05-31",
       "formato": "vertical",
-      "legenda": "Casamento · 31/05/2025"
+      "legenda": "Casamento · 31/05/2025",
+      "destaque": true
     },
     {
       "src": "img/luademel/web/casamento-02.jpg",
@@ -2723,6 +2724,25 @@
       "legenda": "Casamento · 31/05/2025"
     },
     {
+      "src": "img/luademel/web/lua-casal-01.jpg",
+      "data": "2025-06-09",
+      "formato": "vertical",
+      "instagram": "https://www.instagram.com/p/DKswHDkIb0f/",
+      "alto": true
+    },
+    {
+      "src": "img/luademel/web/lua-casal-02.jpg",
+      "data": "2025-06-09",
+      "formato": "vertical",
+      "instagram": "https://www.instagram.com/p/DKswHDkIb0f/"
+    },
+    {
+      "src": "img/luademel/web/lua-casal-03.jpg",
+      "data": "2025-06-13",
+      "formato": "vertical",
+      "instagram": "https://www.instagram.com/p/DK2I34WoFad/"
+    },
+    {
       "src": "img/luademel/web/20250616_140528.jpg",
       "data": "2025-06-16",
       "formato": "paisagem"
@@ -2730,12 +2750,14 @@
     {
       "src": "img/luademel/web/20250616_165443.jpg",
       "data": "2025-06-16",
-      "formato": "vertical"
+      "formato": "vertical",
+      "alto": true
     },
     {
       "src": "img/luademel/web/20250616_171922.jpg",
       "data": "2025-06-16",
-      "formato": "vertical"
+      "formato": "vertical",
+      "alto": true
     },
     {
       "src": "img/luademel/web/20250616_173129.jpg",
@@ -2746,6 +2768,25 @@
       "src": "img/luademel/web/20250626_195728.jpg",
       "data": "2025-06-26",
       "formato": "paisagem"
+    },
+    {
+      "src": "img/luademel/web/lua-casal-04.jpg",
+      "data": "2025-06-27",
+      "formato": "vertical",
+      "instagram": "https://www.instagram.com/p/DLZ2KZSI6jx/",
+      "alto": true
+    },
+    {
+      "src": "img/luademel/web/lua-casal-05.jpg",
+      "data": "2025-06-27",
+      "formato": "vertical",
+      "instagram": "https://www.instagram.com/p/DLZ2KZSI6jx/"
+    },
+    {
+      "src": "img/luademel/web/lua-casal-06.jpg",
+      "data": "2025-06-27",
+      "formato": "vertical",
+      "instagram": "https://www.instagram.com/p/DLZ2KZSI6jx/"
     },
     {
       "src": "img/luademel/web/20250628_105118.jpg",
@@ -2770,12 +2811,26 @@
     {
       "src": "img/luademel/web/20250630_222418.jpg",
       "data": "2025-06-30",
-      "formato": "vertical"
+      "formato": "vertical",
+      "alto": true
     },
     {
       "src": "img/luademel/web/20250630_223242.jpg",
       "data": "2025-06-30",
       "formato": "paisagem"
+    },
+    {
+      "src": "img/luademel/web/lua-casal-07.jpg",
+      "data": "2025-06-30",
+      "formato": "paisagem",
+      "instagram": "https://www.instagram.com/p/DLhn_oBI8cP/"
+    },
+    {
+      "src": "img/luademel/web/lua-casal-08.jpg",
+      "data": "2025-06-30",
+      "formato": "vertical",
+      "instagram": "https://www.instagram.com/p/DLhn_oBI8cP/",
+      "alto": true
     }
   ],
   "helena": [
