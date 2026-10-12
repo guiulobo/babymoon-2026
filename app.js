@@ -62,9 +62,16 @@ function card(x){
 
 
 const lnk=u=>`<a href="${u}" target="_blank" rel="noopener">${new URL(u).hostname.replace('www.','')}</a>`;
+function mich(x){const m=x.michelin;if(!m)return '';
+  return `<details class="more"><summary>⭐ Restaurantes Michelin</summary>${m.cobertura?'':'<p class="small"><span class="badge bad">sem Guia Michelin</span></p>'}<p class="small">${esc(m.nota)}</p>${m.extra?`<p class="small">${esc(m.extra)}</p>`:''}
+  ${m.lista.length?`<ul>${m.lista.map(r=>`<li><a href="${r.url}" target="_blank" rel="noopener">${esc(r.nome)}</a> <span class="badge ${/Estrela/.test(r.distincao)?'warn':''}">${esc(r.distincao)}</span> · ${esc(r.local)}<br><span class="small muted">⚠️ ${esc(r.alerta)}</span></li>`).join('')}</ul>`:''}<p class="src">Fonte: ${lnk(m.fonte)}</p></details>`}
+function vids(x){if(!x.videos)return '';
+  return `<details class="more"><summary>▶️ Vídeos de viagem</summary><div class="vids">${x.videos.map(v=>`<a class="vid" href="https://www.youtube.com/watch?v=${v.id}" target="_blank" rel="noopener"><span class="vthumb"><img src="https://img.youtube.com/vi/${v.id}/hqdefault.jpg" alt="" loading="lazy"><i>▶</i></span><span class="vt">${esc(v.titulo)}</span><span class="src">${esc(v.canal)}${v.views?' · '+v.views+' views':''} · ${esc(v.publicado)}</span></a>`).join('')}</div><p class="src">Views e datas conforme busca do YouTube em 11/10/2026.</p></details>`}
 function guia(x){ if(!x.roteiro) return '';
   return `<details class="more"><summary>🗓️ Roteiro sugerido</summary><ol>${x.roteiro.map(r=>`<li>${esc(r)}</li>`).join('')}</ol><p class="src">Ritmo leve pensado para a gestação — ajuste com o obstetra.</p></details>
   <details class="more"><summary>🍽️ Restaurantes</summary><ul>${x.restaurantes.map(r=>`<li><a href="${r.url}" target="_blank" rel="noopener">${esc(r.nome)}</a> — ${esc(r.nota)}</li>`).join('')}</ul><p class="src">Sempre avisar a alergia (veja a seção Alimentação). Fontes: ${x.fontesGuia.map(lnk).join(' · ')}</p></details>
+  ${mich(x)}
+  ${vids(x)}
   <details class="more"><summary>📍 Passeios e pontos turísticos</summary><ul>${x.passeios.map(r=>`<li><strong>${esc(r.nome)}</strong> — ${esc(r.nota)}</li>`).join('')}</ul></details>`;
 }
 function renderSeguro(){const s=D.seguro;if(!s)return;

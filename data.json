@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-10-11 21:53 BRT",
+  "ultimaAtualizacao": "2026-10-11 22:00 BRT",
   "origem": "Goiânia (GYN)",
   "gestacao": {
     "dataReferencia": "2026-10-11",
@@ -180,7 +180,37 @@
       "fontesGuia": [
         "https://www.essemundoenosso.com.br/rota-ecologica-dos-milagres/",
         "https://destinoscertos.com.br/melhores-restaurantes-sao-miguel-dos-milagres/"
-      ]
+      ],
+      "videos": [
+        {
+          "id": "QCP2sLBlw4U",
+          "titulo": "SÃO MIGUEL DOS MILAGRES, Alagoas: Melhores Praias, Pousada Pé na Areia e Restaurantes",
+          "canal": "Viagens Cine",
+          "views": "158 mil",
+          "publicado": "há 1 ano"
+        },
+        {
+          "id": "odlpieP1Jd4",
+          "titulo": "São Miguel dos Milagres - O que Fazer, Onde Comer e Onde se Hospedar",
+          "canal": "Diego Berlitz",
+          "views": "115 mil",
+          "publicado": "há 2 anos"
+        },
+        {
+          "id": "bV8MD4IRc80",
+          "titulo": "O que fazer em São Miguel dos Milagres e Maragogi e Maceió - Dicas de viagem, passeios e hospedagem",
+          "canal": "7000 Milhas - Johnny e Gabie",
+          "views": "4,1 mil",
+          "publicado": "há 10 meses"
+        }
+      ],
+      "michelin": {
+        "cobertura": false,
+        "nota": "Não existe Guia Michelin nesta região: no Brasil o guia cobre apenas Rio de Janeiro e São Paulo (edição 2026). As sugestões de 'Restaurantes' acima NÃO são Michelin.",
+        "fonte": "https://guide.michelin.com/br/pt_BR/article/michelin-guide-ceremony/dois-restaurantes-conquistam-tres-estrelas-michelin-no-brasil",
+        "lista": [],
+        "extra": "Se a conexão for via São Paulo (GRU), dá para aproveitar a seleção Michelin de SP — mas com voo cedo/escala curta, provavelmente não compensa."
+      }
     },
     {
       "id": "floripa",
@@ -317,7 +347,37 @@
       "fontesGuia": [
         "https://exa.ai/library/places?q=c633cd4749e29a48",
         "https://ndmais.com.br/turismo/o-que-fazer-em-jurere-internacional/"
-      ]
+      ],
+      "videos": [
+        {
+          "id": "VbTczzt4Duo",
+          "titulo": "FLORIANÓPOLIS/SC - 72 HORAS CONHECENDO A ILHA DA MAGIA",
+          "canal": "Casal Alencar",
+          "views": "28,8 mil",
+          "publicado": "há 3 dias"
+        },
+        {
+          "id": "0qWxHwObUWk",
+          "titulo": "VLOG: Foi assim minha VIAGEM pra Florianópolis Santa Catarina.",
+          "canal": "Casal DM",
+          "views": "53 mil",
+          "publicado": "há 5 meses"
+        },
+        {
+          "id": "VMvfW6Goc1U",
+          "titulo": "FLORIANÓPOLIS: 4 Dias Incríveis com Preços Reais | Roteiro Completo pelo Paraíso Catarinense!",
+          "canal": "Foco na Viagem",
+          "views": "145 mil",
+          "publicado": "há 1 ano"
+        }
+      ],
+      "michelin": {
+        "cobertura": false,
+        "nota": "Não existe Guia Michelin nesta região: no Brasil o guia cobre apenas Rio de Janeiro e São Paulo (edição 2026). As sugestões de 'Restaurantes' acima NÃO são Michelin.",
+        "fonte": "https://guide.michelin.com/br/pt_BR/article/michelin-guide-ceremony/dois-restaurantes-conquistam-tres-estrelas-michelin-no-brasil",
+        "lista": [],
+        "extra": "A volta passa por Congonhas (CGH); São Paulo tem a seleção Michelin, caso queiram esticar uma noite lá."
+      }
     },
     {
       "id": "praiadoforte",
@@ -438,7 +498,36 @@
       ],
       "fontesGuia": [
         "https://go2bahia.com/blog/restaurantes-em-praia-do-forte"
-      ]
+      ],
+      "videos": [
+        {
+          "id": "fB2P_doWmfM",
+          "titulo": "VLOG VIAGEM PRAIA DO FORTE: viagem em casal, passeios, restaurantes, vila, preços, quanto gastamos",
+          "canal": "Letícia Andrads",
+          "views": "117 mil",
+          "publicado": "há 2 anos"
+        },
+        {
+          "id": "Wg2lWusZkLY",
+          "titulo": "VLOGÃO viagem romântica praia do forte, hospedagem, praias, outlet, restaurantes, passeio na vila",
+          "canal": "Letícia Andrads",
+          "views": "64,6 mil",
+          "publicado": "há 2 anos"
+        },
+        {
+          "id": "xQZkE8oHS_4",
+          "titulo": "Praia do Forte (Bahia): praias paradisíacas, piscinas naturais e tudo o que fazer",
+          "canal": "Vida sem Paredes",
+          "views": "30,5 mil",
+          "publicado": "há 8 meses"
+        }
+      ],
+      "michelin": {
+        "cobertura": false,
+        "nota": "Não existe Guia Michelin nesta região: no Brasil o guia cobre apenas Rio de Janeiro e São Paulo (edição 2026). As sugestões de 'Restaurantes' acima NÃO são Michelin.",
+        "fonte": "https://guide.michelin.com/br/pt_BR/article/michelin-guide-ceremony/dois-restaurantes-conquistam-tres-estrelas-michelin-no-brasil",
+        "lista": []
+      }
     },
     {
       "id": "lisboa",
@@ -572,7 +661,79 @@
       ],
       "fontesGuia": [
         "https://thetravelingridleys.com/2023/06/20/favorite-restaurants-in-cascais-portugal/"
-      ]
+      ],
+      "videos": [
+        {
+          "id": "sLtVVepPk6M",
+          "titulo": "CHEGAMOS em PORTUGAL para uma VIAGEM de CASAL! ❤️",
+          "canal": "Sabrina Bull",
+          "views": null,
+          "publicado": "dez/2023"
+        },
+        {
+          "id": "bbreb_p5q6U",
+          "titulo": "TOUR completo pela Cidade de CASCAIS - LISBOA / PORTUGAL 2024 🇵🇹",
+          "canal": "Bora com tudo Portugal",
+          "views": "40,3 mil",
+          "publicado": "há 2 anos"
+        },
+        {
+          "id": "v8ZkKG_bZRM",
+          "titulo": "ROTEIRO CASCAIS PORTUGAL 2025 | O que Fazer, Onde Comer e Quanto Custa esse Paraíso perto de Lisboa",
+          "canal": "Junior Viaja",
+          "views": "9,9 mil",
+          "publicado": "há 1 ano"
+        }
+      ],
+      "michelin": {
+        "cobertura": true,
+        "nota": "Portugal tem Guia Michelin completo (edição 2026). Menus degustação costumam ter peixe cru e mariscos: avisem a alergia a camarão/frutos do mar e a gravidez AO RESERVAR.",
+        "fonte": "https://guide.michelin.com/pt/pt_PT/article/michelin-guide-ceremony/todos-os-restaurantes-com-estrelas-michelin-em-portugal-2026",
+        "lista": [
+          {
+            "nome": "Fortaleza do Guincho",
+            "local": "Cascais",
+            "distincao": "1 Estrela",
+            "url": "https://guide.michelin.com/en/lisboa-region/cascais/restaurant/fortaleza-do-guincho",
+            "alerta": "inspiração marítima — muito peixe e marisco; avisar com antecedência"
+          },
+          {
+            "nome": "Kappo",
+            "local": "Cascais",
+            "distincao": "1 Estrela (novidade 2026)",
+            "url": "https://guide.michelin.com/en/lisboa-region/cascais/restaurant/kappo-1196985",
+            "alerta": "omakase japonês com nigiri/peixe cru — NÃO recomendado na gravidez"
+          },
+          {
+            "nome": "Belcanto (José Avillez)",
+            "local": "Lisboa, Chiado",
+            "distincao": "2 Estrelas",
+            "url": "https://guide.michelin.com/en/lisboa-region/lisboa/restaurant/belcanto",
+            "alerta": "menu degustação; pedir adaptação sem marisco e sem cru"
+          },
+          {
+            "nome": "Feitoria",
+            "local": "Lisboa, Belém",
+            "distincao": "1 Estrela",
+            "url": "https://guide.michelin.com/en/lisboa-region/lisboa/restaurant/feitoria",
+            "alerta": "tem menus vegetarianos — boa opção para adaptar"
+          },
+          {
+            "nome": "SULT Cascais",
+            "local": "Cascais",
+            "distincao": "Recomendado no guia (selecionado)",
+            "url": "https://guide.michelin.com/en/lisboa-region/cascais/restaurant/sult-cascais",
+            "alerta": "italiano/massas — mais fácil sem frutos do mar"
+          },
+          {
+            "nome": "Casa da Dízima",
+            "local": "Paço de Arcos (entre Lisboa e Cascais)",
+            "distincao": "Listado no guia (distinção exata não confirmada)",
+            "url": "https://guide.michelin.com/en/lisboa-region/paco-de-arcos/restaurant/casa-da-dizima",
+            "alerta": "cozinha portuguesa €€; carta tem vieira e ceviche de camarão — escolher pratos de carne (ex.: magret de pato)"
+          }
+        ]
+      }
     },
     {
       "id": "chile",
@@ -715,7 +876,36 @@
       ],
       "fontesGuia": [
         "https://exa.ai/library/places?q=db19f4faea8c1892"
-      ]
+      ],
+      "videos": [
+        {
+          "id": "ajP1qJUo134",
+          "titulo": "SANTIAGO DO CHILE - ROTEIRO COMPLETO DE 4 DIAS COM PREÇOS",
+          "canal": "Casal Alencar",
+          "views": "225 mil",
+          "publicado": "há 1 ano"
+        },
+        {
+          "id": "EMIIu-PdiDg",
+          "titulo": "SANTIAGO CHILE 2025: ROTEIRO COMPLETO COM PREÇOS  | O QUE FAZER | MELHORES PASSEIOS | NEVE | DICAS",
+          "canal": "Fabi Cassol | Minha Praia Viajar",
+          "views": "517 mil",
+          "publicado": "há 1 ano"
+        },
+        {
+          "id": "9ax2TDg1_DM",
+          "titulo": "UMA SEMANA NO CHILE COMIGO 🇨🇱 Inverno em Santiago, neve em Portillo e praia em Viña del Mar",
+          "canal": "Mika Serur",
+          "views": "118 mil",
+          "publicado": "há 2 anos"
+        }
+      ],
+      "michelin": {
+        "cobertura": false,
+        "nota": "Não há seleção de RESTAURANTES do Guia Michelin no Chile (2026). O guia só avalia hotéis no país (Chaves Michelin — ex.: Mandarin Oriental Santiago, The Ritz-Carlton Santiago, The Singular Santiago). A seleção Michelin mais próxima é Buenos Aires/Mendoza (Argentina).",
+        "fonte": "https://www.elmostrador.cl/revista-jengibre/2026/09/23/guia-michelin-2026-los-20-hoteles-chilenos-reconocidos-y-sus-nuevas-distinciones/",
+        "lista": []
+      }
     },
     {
       "id": "uruguai",
@@ -841,7 +1031,36 @@
       "fontesGuia": [
         "https://www.ambito.com/uruguay/teodoro-la-parrillada-que-nacio-punta-del-este-abrio-un-segundo-local-y-proyecta-su-marca-el-exterior-n6233438",
         "https://www.elpais.com.uy/vida-actual/un-clasico-de-jose-ignacio-que-celebra-su-historia-en-un-nuevo-libro-y-se-prepara-para-una-temporada-intensa"
-      ]
+      ],
+      "videos": [
+        {
+          "id": "I_Z0fqAHDTI",
+          "titulo": "QUANTO CUSTA IR A PUNTA DEL ESTE no URUGUAI? O que fazer, roteiro, preços, hotel e melhor aeroporto",
+          "canal": "Estevam Pelo Mundo",
+          "views": "281 mil",
+          "publicado": "há 1 ano"
+        },
+        {
+          "id": "kCsdDD2O6Y4",
+          "titulo": "PUNTA DEL ESTE: O Que Fazer Com Preços",
+          "canal": "Três Viagens",
+          "views": "77 mil",
+          "publicado": "há 2 anos"
+        },
+        {
+          "id": "2G-gvHCufBM",
+          "titulo": "Roteiro COMPLETO no Uruguai 🇺🇾 5 dias em Montevidéu e Punta del Este",
+          "canal": "2 no rolê",
+          "views": "7,2 mil",
+          "publicado": "há 5 meses"
+        }
+      ],
+      "michelin": {
+        "cobertura": false,
+        "nota": "Não há seleção de RESTAURANTES do Guia Michelin no Uruguai (2026). O guia lista apenas hotéis (13 no país, ex.: Fasano Las Piedras, Sofitel Montevideo Casino Carrasco). As sugestões de 'Restaurantes' acima NÃO são Michelin.",
+        "fonte": "https://guide.michelin.com/us/en/hotels-stays/uruguay",
+        "lista": []
+      }
     }
   ],
   "luaDeMel": [
