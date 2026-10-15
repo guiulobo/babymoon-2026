@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-10-12 11:30 BRT",
+  "ultimaAtualizacao": "2026-10-15 14:22 BRT",
   "origem": "Goiânia (GYN)",
   "gestacao": {
     "dataReferencia": "2026-10-11",
@@ -894,6 +894,275 @@
       "imgFonte": "https://commons.wikimedia.org/wiki/File:Lago_Negro_-_Gramado_RS.jpg"
     },
     {
+      "id": "trancoso",
+      "trilha": "brasil",
+      "tag": "Praia",
+      "nome": "Trancoso",
+      "regiao": "Bahia — Costa do Descobrimento",
+      "aeroporto": "Porto Seguro (BPS) + transfer ~40–60 min",
+      "img": "img/trancoso.jpg",
+      "imgCredito": "Wikimedia Commons, domínio público",
+      "imgFonte": "https://commons.wikimedia.org/wiki/File:MARCIO_FILHO_PRAIA_DOS_NATIVOS_TRANCOSO_BAHIA_(40977238971).jpg",
+      "datas": {
+        "ida": "2026-11-04",
+        "volta": "2026-11-11"
+      },
+      "voos": [
+        {
+          "texto": "Azul direto GYN↔BPS: oferta 04/11→18/11 R$1.847/pessoa (ida 1h45 / volta 1h55) — janela longa; datas curtas a cotar",
+          "tipo": "observado"
+        },
+        {
+          "texto": "LATAM/GOL com conexão: ofertas próximas em out ~R$2.264–2.511/pessoa",
+          "tipo": "observado"
+        },
+        {
+          "texto": "Mundi: novembro típico R$1.067–1.640 ida e volta; oferta LATAM 07–14/11 R$1.366/pessoa",
+          "tipo": "observado"
+        },
+        {
+          "texto": "Datas sugeridas 04/11→11/11: casal ~R$2.700–3.700 (estimativa)",
+          "tipo": "estimativa"
+        },
+        {
+          "texto": "Transfer BPS→Trancoso ~40–60 min de carro/van (~R$200–400/trecho a confirmar)",
+          "tipo": "info"
+        }
+      ],
+      "fontesVoo": [
+        "https://www.momondo.com.br/passagem/goiania/porto-seguro",
+        "https://www.mundi.com.br/voos/Goiania-Santa-Genoveva-GYN/Estado-da-Bahia-BRBA.ksp"
+      ],
+      "hoteis": [
+        {
+          "nome": "Pousada Estrela d'Água",
+          "preco": "a partir de R$2.200/noite (Kayak a partir de R$2.572)",
+          "url": "https://www.booking.com/hotel/br/pousada-estrela-d-agua.html",
+          "nota": "pé na areia — Praia dos Nativos"
+        },
+        {
+          "nome": "Hotel Boutique Bahia Bonita",
+          "preco": "a partir de R$1.400/noite",
+          "url": "https://bahiabonita.com.br/",
+          "nota": "pé na areia — Praia do Rio Verde"
+        },
+        {
+          "nome": "Pousada Le Refuge",
+          "preco": "a partir de R$474/noite",
+          "url": "https://pousada.net/hotel/pousadalerefuge",
+          "nota": "pé na areia / ~100 m — Praia dos Coqueiros"
+        },
+        {
+          "nome": "Travel Inn Pousadas & Beach Club Trancoso",
+          "preco": "a partir de R$527/noite",
+          "url": "https://www.travelinn.com.br/trancoso/pousada/",
+          "nota": "frente ao mar — Praia do Rio Verde"
+        },
+        {
+          "nome": "Amaia Trancoso Hotel",
+          "preco": "consultar no site (preço dinâmico)",
+          "url": "https://amaiatrancosohotel.com.br/",
+          "nota": "acesso direto à areia — Praia do Rio Verde"
+        },
+        {
+          "nome": "Trancoso Tangará",
+          "preco": "a partir de R$2.900/noite",
+          "url": "https://trancosotangara.com.br/pt/home/",
+          "nota": "pé na areia — Praia do Rio da Barra"
+        },
+        {
+          "nome": "Hotel Fasano Trancoso",
+          "preco": "a partir de R$2.904/noite",
+          "url": "https://fasano.com.br/hotel/fasano-trancoso/",
+          "nota": "frente ao mar — Praia de Itapororoca (deck de praia)"
+        },
+        {
+          "nome": "Villas de Trancoso",
+          "preco": "a partir de R$2.912/noite",
+          "url": "https://www.villasdetrancoso.com/",
+          "nota": "à beira-mar"
+        },
+        {
+          "nome": "Club Med Trancoso",
+          "preco": "a partir de R$1.648/noite (all inclusive)",
+          "url": "https://www.clubmed.com.br/r/trancoso/y",
+          "nota": "falésia frente ao mar — Praia de Taípe"
+        },
+        {
+          "nome": "Pousada Tutabel",
+          "preco": "a partir de R$1.781/noite (Kayak)",
+          "url": "https://tutabel.com.br/",
+          "nota": "pé na areia — Praia de Itapororoca"
+        },
+        {
+          "nome": "Casa Iemanjá (Airbnb)",
+          "preco": "consultar no Airbnb (preço por data)",
+          "url": "https://www.airbnb.com.br/rooms/42580203",
+          "nota": "pé na areia — Praia dos Coqueiros"
+        },
+        {
+          "nome": "Casa Portunhol (aluguel / TEMPO)",
+          "preco": "consultar (casa até 12 pessoas)",
+          "url": "https://tempotrancoso.com/portfolio/casa-portunhol/",
+          "nota": "pé na areia — Praia do Rio Verde"
+        },
+        {
+          "nome": "Itapororoca Casa 08 (Bahia Homes)",
+          "preco": "baixa temporada a partir de R$12.500 (casa inteira — confirmar período no site)",
+          "url": "https://www.bahiahomes.com.br/casas/itapororoca-casa-08/",
+          "nota": "pé na areia — Itapororoca"
+        },
+        {
+          "nome": "Itapororoca Casa 14 (Bahia Homes)",
+          "preco": "baixa temporada a partir de R$20.000 (casa inteira — confirmar período no site)",
+          "url": "https://www.bahiahomes.com.br/casas/itapororoca-casa-14/",
+          "nota": "pé na areia — Itapororoca"
+        },
+        {
+          "nome": "Eliza Bangalô de Luxo com vista Mar (Airbnb)",
+          "preco": "consultar no Airbnb (preço por data)",
+          "url": "https://www.airbnb.com.br/rooms/21425349",
+          "nota": "beira-mar / beachfront (anúncio)"
+        }
+      ],
+      "clima": "Novembro quente e chuvoso: ~27°C máx / 23°C mín, ~14 dias de chuva (~161 mm)",
+      "fonteClima": "https://pt.climate-data.org/america-do-sul/brasil/bahia/trancoso-1043702/",
+      "custos": {
+        "nota": "Estimativa nossa, 7 noites — hospedagem usa faixa de pousadas pé na areia mid (R$474–1.400); luxo/Airbnb casas elevam bastante",
+        "itens": [
+          {
+            "item": "Voos (casal)",
+            "min": 2700,
+            "max": 3700
+          },
+          {
+            "item": "Hospedagem (7 noites, R$474–1.400)",
+            "min": 3318,
+            "max": 9800
+          },
+          {
+            "item": "Transfer BPS↔Trancoso",
+            "min": 400,
+            "max": 800
+          },
+          {
+            "item": "Alimentação",
+            "min": 2800,
+            "max": 4000
+          },
+          {
+            "item": "Passeios",
+            "min": 400,
+            "max": 800
+          }
+        ],
+        "totalMin": 9600,
+        "totalMax": 19100
+      },
+      "pros": [
+        "Praias calmas e românticas",
+        "Quadrado charmoso ao entardecer",
+        "Voo direto Azul possível (~1h45)",
+        "Baixa temporada relativa em nov (fora réveillon)"
+      ],
+      "cuidados": [
+        "Calor e umidade — hidratação, sombra, roupa leve",
+        "Aedes (dengue/zika risco país tropical) — repelente com icaridina",
+        "Hospital de referência em Porto Seguro (~40–60 min); UPA local em Trancoso para urgências leves",
+        "Culinária baiana com muito camarão/moqueca/mariscos — alergia: avisar sempre; preferir carnes, tapioca, acarajé sem camarão (confirmar), massas",
+        "Sol forte — protetor; evitar longas caminhadas no horário de pico"
+      ],
+      "fontesGuia": [
+        "https://www.dicasdeviagem.com/pousadas-em-trancoso/",
+        "https://visite.tur.br/trancoso/novembro/"
+      ],
+      "tempoVooMin": 105,
+      "tempoVooTexto": "1h45 direto (Azul) ou 4–6h com conexão + ~50 min transfer",
+      "conforto": 4,
+      "roteiro": [
+        "Dia 1: voo BPS + transfer, descanso na praia do hotel",
+        "Dia 2: Praia dos Nativos / Coqueiros + pôr do sol no Quadrado",
+        "Dia 3: manhã na areia; tarde leve no Quadrado (Igrejinha)",
+        "Dia 4: Praia do Espelho (maré baixa, ritmo calmo; ~40 min) — evitar sol do meio-dia",
+        "Dia 5: dia livre / spa / rede",
+        "Dia 6: Rio Verde ou Itapororoca (sem buggy agressivo)",
+        "Dia 7: manhã livre e volta"
+      ],
+      "restaurantes": [
+        {
+          "nome": "Capim Santo",
+          "url": "https://www.google.com/maps/search/?api=1&query=Restaurante+Capim+Santo+Trancoso",
+          "nota": "no Quadrado — avisar alergia a frutos do mar"
+        },
+        {
+          "nome": "Silvinha (Praia do Espelho)",
+          "url": "https://www.google.com/maps/search/?api=1&query=Restaurante+Silvinha+Praia+do+Espelho",
+          "nota": "mariscos no cardápio — escolher opções sem frutos do mar"
+        },
+        {
+          "nome": "Cacau",
+          "url": "https://www.google.com/maps/search/?api=1&query=Restaurante+Cacau+Trancoso+Quadrado",
+          "nota": "avisar alergia"
+        },
+        {
+          "nome": "Maritaca",
+          "url": "https://www.google.com/maps/search/?api=1&query=Maritaca+Trancoso",
+          "nota": "contemporâneo — confirmar pratos sem camarão"
+        }
+      ],
+      "passeios": [
+        {
+          "nome": "Quadrado e Igrejinha",
+          "nota": "ok ao entardecer; piso irregular"
+        },
+        {
+          "nome": "Praia dos Nativos / Coqueiros",
+          "nota": "mar geralmente calmo — ok"
+        },
+        {
+          "nome": "Praia do Espelho",
+          "nota": "lindo, mas transfer + sol; ritmo leve"
+        },
+        {
+          "nome": "Caraíva",
+          "nota": "dia longo de estrada/barco — só se estiver bem disposto"
+        },
+        {
+          "nome": "Passeio de buggy nas falésias",
+          "nota": "trepidação — evitar ou trecho curto"
+        }
+      ],
+      "michelin": {
+        "cobertura": false,
+        "nota": "Não existe Guia Michelin em Trancoso: no Brasil o guia cobre apenas Rio de Janeiro e São Paulo. As sugestões acima NÃO são Michelin.",
+        "fonte": "https://guide.michelin.com/br/pt_BR/article/michelin-guide-ceremony/dois-restaurantes-conquistam-tres-estrelas-michelin-no-brasil",
+        "lista": []
+      },
+      "videos": [
+        {
+          "id": "8u_ZwcVK82w",
+          "titulo": "TRANCOSO, BAHIA | o que fazer, onde se hospedar, melhores praias e TODOS OS PREÇOS!",
+          "canal": "Status Viajante",
+          "views": "—",
+          "publicado": "—"
+        },
+        {
+          "id": "c__rmpI9QqE",
+          "titulo": "O QUE FAZER EM TRANCOSO 2026 - ROTEIRO PERFEITO DE 3 DIAS NO SUL DA BAHIA",
+          "canal": "Traz o Passaporte",
+          "views": "—",
+          "publicado": "2026"
+        },
+        {
+          "id": "iBhafpO0Cb4",
+          "titulo": "VALE A PENA CONHECER TRANCOSO? Nosso roteiro completo!",
+          "canal": "Bloco de Viagens ",
+          "views": "—",
+          "publicado": "—"
+        }
+      ]
+    },
+    {
       "id": "chile",
       "trilha": "americadosul",
       "nome": "Santiago + Viña del Mar",
@@ -1064,6 +1333,207 @@
         "fonte": "https://www.elmostrador.cl/revista-jengibre/2026/09/23/guia-michelin-2026-los-20-hoteles-chilenos-reconocidos-y-sus-nuevas-distinciones/",
         "lista": []
       }
+    },
+    {
+      "id": "santiago",
+      "trilha": "americadosul",
+      "nome": "Santiago (cidade + vinícolas)",
+      "regiao": "Chile — Região Metropolitana",
+      "aeroporto": "Santiago (SCL)",
+      "img": "img/santiago.jpg",
+      "imgCredito": "Wikimedia Commons, CC BY-SA 4.0",
+      "imgFonte": "https://commons.wikimedia.org/wiki/File:Santiago_de_Chile,_Desde_Cerro_San_Crist%C3%B3bal_(cropped_panorama).jpg",
+      "datas": {
+        "ida": "2026-11-05",
+        "volta": "2026-11-11"
+      },
+      "voos": [
+        {
+          "texto": "LATAM via conexão: ofertas próximas R$2.184–2.350/pessoa (ex.: 18/10→21/10 e 16/10→22/10; 7h15–14h)",
+          "tipo": "observado"
+        },
+        {
+          "texto": "Referência do card Santiago+Viña: LATAM via GRU 05/11→10/11 R$2.227/pessoa (R$4.454 casal), 16–17h — janela Nov a cotar de novo",
+          "tipo": "observado"
+        },
+        {
+          "texto": "Datas sugeridas 05/11→11/11: casal ~R$4.400–5.200 (estimativa a partir das ofertas acima)",
+          "tipo": "estimativa"
+        }
+      ],
+      "fontesVoo": [
+        "https://www.momondo.com.br/passagem/goiania/santiago"
+      ],
+      "hoteis": [
+        {
+          "nome": "The Singular Santiago Lastarria",
+          "preco": "a partir de R$738/noite",
+          "url": "https://www.kayak.com.br/Hoteis-The-Singular-Santiago-Lastarria-Hotel-Santiago.558683.ksp",
+          "nota": "Lastarria, chic/romântico"
+        },
+        {
+          "nome": "Hotel Magnolia",
+          "preco": "a partir de R$865/noite",
+          "url": "https://www.kayak.com.br/Hoteis-Hotel-Magnolia-Santiago.2589118.ksp",
+          "nota": "centro histórico / Bellas Artes"
+        },
+        {
+          "nome": "Noi Vitacura",
+          "preco": "a partir de R$604/noite",
+          "url": "https://www.kayak.com.br/Hoteis-Noi-Vitacura-Santiago.600369.ksp",
+          "nota": "Vitacura, spa e piscina"
+        }
+      ],
+      "clima": "Novembro seco e ameno: ~24°C máx / 12°C mín, ~2 dias de chuva",
+      "fonteClima": "https://pt.climate-data.org/america-do-sul/chile/region-metropolitana-de-santiago/santiago-938/t/novembro-11/",
+      "custos": {
+        "nota": "Estimativa nossa, 6 noites só em Santiago (cidade + day trips a vinícolas)",
+        "itens": [
+          {
+            "item": "Voos (casal)",
+            "min": 4400,
+            "max": 5200
+          },
+          {
+            "item": "Hospedagem (6 noites, R$604–865+)",
+            "min": 3624,
+            "max": 5190
+          },
+          {
+            "item": "Alimentação",
+            "min": 3500,
+            "max": 4500
+          },
+          {
+            "item": "Transfers + tours vinícolas",
+            "min": 1500,
+            "max": 2500
+          },
+          {
+            "item": "Seguro",
+            "min": 800,
+            "max": 1000
+          }
+        ],
+        "totalMin": 13800,
+        "totalMax": 18400
+      },
+      "pros": [
+        "Só RG",
+        "Hospitais privados excelentes",
+        "Clima seco e agradável em nov",
+        "Vinícolas Maipo/Casablanca em day trip",
+        "Sem foco em orla fria"
+      ],
+      "cuidados": [
+        "Altitude de Santiago ~520 m — abaixo de 2.500 m; sem risco extra de altitude para gestação de baixo risco",
+        "Voo longo (aprox. 7–17h com conexão) — meias de compressão, hidratação, levantadas",
+        "CDC classifica o Chile continental como área sem mosquito conhecido da Zika; ainda assim use repelente e confirme orientação atualizada",
+        "Evitar ceviche, mariscos e peixe cru (alergia a frutos do mar + restrição gestacional)",
+        "Degustação de vinho: ela pode cuspir ou pular a bebida e só visitar caves/jardins"
+      ],
+      "fontesGuia": [
+        "https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/high-altitude-travel-and-altitude-illness.html",
+        "https://wwwnc.cdc.gov/travel/page/zika-travel-information",
+        "https://dicaschile.com.br/chile/vinicolas-nos-arredores-de-santiago/"
+      ],
+      "tempoVooMin": 435,
+      "tempoVooTexto": "7h15–17h (1–2 conexões)",
+      "conforto": 4,
+      "roteiro": [
+        "Dia 1: chegada, descanso no hotel (Lastarria/centro)",
+        "Dia 2: Plaza de Armas, Catedral, La Moneda e Parque Forestal a pé leve",
+        "Dia 3: Cerro San Cristóbal de funicular/teleférico (não subir a pé) + Bellavista",
+        "Dia 4: vinícola Maipo — Concha y Toro ou Undurraga (tour dos jardins/caves; ela cuspe ou pula o vinho)",
+        "Dia 5: Vale de Casablanca (day trip ~1h–1h30) — visita sem consumo de álcool",
+        "Dia 6: Sky Costanera (elevador) + museu (Bellas Artes ou Memory) + spa",
+        "Dia 7: manhã livre e voo"
+      ],
+      "restaurantes": [
+        {
+          "nome": "La Bifería (Providencia)",
+          "url": "https://www.labiferia.cl/",
+          "nota": "carnes — boa opção sem frutos do mar"
+        },
+        {
+          "nome": "Kilú Casa de Carnes",
+          "url": "https://www.kilucasadecarnes.cl/",
+          "nota": "parrilla"
+        },
+        {
+          "nome": "Ambrosía",
+          "url": "https://www.google.com/maps/search/?api=1&query=Ambrosia+restaurant+Santiago+Chile",
+          "nota": "contemporâneo — avisar alergia e gravidez; evitar peixe cru"
+        },
+        {
+          "nome": "Mercado Central",
+          "url": "https://www.google.com/maps/search/?api=1&query=Mercado+Central+Santiago",
+          "nota": "CUIDADO: foco em mariscos — melhor só passear, não comer frutos do mar"
+        }
+      ],
+      "passeios": [
+        {
+          "nome": "Cerro San Cristóbal",
+          "nota": "subir de funicular/teleférico — evitar escadaria"
+        },
+        {
+          "nome": "Bellavista e Patio Bellavista",
+          "nota": "ok a pé, ritmo leve"
+        },
+        {
+          "nome": "Museo Nacional de Bellas Artes / Parque Forestal",
+          "nota": "plano, ok"
+        },
+        {
+          "nome": "Plaza de Armas",
+          "nota": "ok"
+        },
+        {
+          "nome": "Sky Costanera",
+          "nota": "só elevador — ok"
+        },
+        {
+          "nome": "Concha y Toro / Undurraga (Maipo)",
+          "nota": "tour ok; degustação sem beber ou cuspir"
+        },
+        {
+          "nome": "Casablanca Valley",
+          "nota": "day trip; mesma regra do álcool"
+        },
+        {
+          "nome": "Cerro Santa Lucía",
+          "nota": "muitas escadas — evitar ou subir só o trecho baixo"
+        }
+      ],
+      "michelin": {
+        "cobertura": false,
+        "nota": "Não há seleção de RESTAURANTES do Guia Michelin no Chile (2026). O guia só avalia hotéis (Chaves Michelin — ex.: The Singular Santiago, Hotel Magnolia, Mandarin Oriental). As sugestões de restaurantes acima NÃO são Michelin.",
+        "fonte": "https://www.elmostrador.cl/revista-jengibre/2026/09/23/guia-michelin-2026-los-20-hoteles-chilenos-reconocidos-y-sus-nuevas-distinciones/",
+        "lista": []
+      },
+      "videos": [
+        {
+          "id": "Sb6dJVqYO98",
+          "titulo": "SANTIAGO CHILE 2026: Roteiro completo, preços, neve e vinícolas",
+          "canal": "Mapa Carimbado",
+          "views": "—",
+          "publicado": "2026"
+        },
+        {
+          "id": "aVlLJJS0mSU",
+          "titulo": "O Guia Mais COMPLETO de SANTIAGO DO CHILE! Todas as dicas de viagem e preços.",
+          "canal": "Grupo Dicas De Viagem",
+          "views": "—",
+          "publicado": "—"
+        },
+        {
+          "id": "UNfcPZDH6Q8",
+          "titulo": "VINÍCOLA CONCHA Y TORO no Chile - Qual vinícola conhecer em Santiago Chile",
+          "canal": "Dicas da Pri - Passeios no Chile",
+          "views": "—",
+          "publicado": "—"
+        }
+      ]
     },
     {
       "id": "uruguai",
@@ -3214,12 +3684,13 @@
         "O MasterAssist Black só vale para viagens INTERNACIONAIS (exceto Brasil). Para os destinos no Brasil, a assistência médica do cartão não se aplica — conte com o plano de saúde.",
         "Recomendação: ligar 0800-725-2025 e perguntar por escrito se há cobertura para intercorrências da gestação na semana 24–26; se não houver, contratar um seguro viagem à parte que cubra gestação (muitos cobrem só até 24–28 semanas)."
       ],
-      "status": "não verificado no guia atual",
+      "status": "guia BR (15/10/2025) lido em 14/10/2026; sem exclusão explícita de gravidez; confirmação por escrito ainda pendente",
       "fontes": [
         "https://assets.bradesco/content/dam/portal-bradesco/assets/corporate/pdf/solucoes-integradas/cartoes/SeguroAssistenciaBradescoCorporateMastercardBlack.pdf",
         "https://aprenderly.com/doc/3464730/masterassit-black",
         "https://www.mastercard.com/content/dam/mccom/lac/br/guia-beneficios/guia-de-beneficios-a-partir-de-15-de-outubro-de-2025v2.pdf"
-      ]
+      ],
+      "guiaVigenteUrl": "https://www.mastercard.com/content/dam/mccom/lac/br/guia-beneficios/guia-de-beneficios-a-partir-de-15-de-outubro-de-2025v2.pdf"
     },
     "beneficios": [
       {
@@ -3286,7 +3757,20 @@
       "Confirmar com o banco (Itaú) regras de sala VIP, LoungeKey e taxa de transferência de pontos",
       "Levar carta do obstetra liberando a viagem e cartão de pré-natal"
     ],
-    "aigUrl": "https://www.aig.com/Mastercard/pt"
+    "aigUrl": "https://www.aig.com/Mastercard/pt",
+    "statusVerificacao": {
+      "em": "2026-10-14 14:40 BRT",
+      "fonte": "Guia de Benefícios Mastercard Black (versão setembro 2025, vigente a partir de 15/10/2025)",
+      "url": "https://www.mastercard.com/content/dam/mccom/lac/br/guia-beneficios/guia-de-beneficios-a-partir-de-15-de-outubro-de-2025v2.pdf",
+      "achados": [
+        "Despesas médicas MasterAssist Black: até USD 175.000 por pessoa em viagem internacional fora do Brasil, por acidente ou doença súbita.",
+        "Emissão do Bilhete de Seguro em https://www.aig.com/Mastercard/pt é obrigatória antes da viagem; sem bilhete não há cobertura.",
+        "No guia BR vigente não há exclusão explícita de gravidez (diferente de alguns guias internacionais que excluem 3 meses antes/depois do parto). Ainda assim, tratamento eletivo, rotina e check-up estão excluídos.",
+        "No Brasil o MasterAssist médico não cobre; usar o plano de saúde.",
+        "Recomendação: confirmar por escrito no 0800-725-2025 a cobertura de intercorrências gestacionais na semana da viagem; para internacional, considerar seguro dedicado se a resposta for vaga."
+      ],
+      "alertaGestacaoStatus": "guia BR lido; exclusão explícita de gravidez não encontrada; confirmação por escrito ainda pendente"
+    }
   },
   "milhas": {
     "data": "11/10/2026",
@@ -3410,6 +3894,16 @@
         "id": "gramado",
         "programa": "Smiles (GOL via conexão)",
         "nota": "Preço em milhas a verificar"
+      },
+      {
+        "id": "santiago",
+        "programa": "LATAM Pass (LATAM via GRU/conexão)",
+        "nota": "Bom uso do saldo Gold; preço em milhas a verificar"
+      },
+      {
+        "id": "trancoso",
+        "programa": "TudoAzul (Azul direto GYN–BPS) / Smiles",
+        "nota": "Trecho curto — ótimo uso de pontos; preço a verificar"
       }
     ]
   },

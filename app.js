@@ -45,7 +45,7 @@ function card(x){
    ${dates}
    <div class="sec"><h4>✈️ Voos <span class="badge warn">estimativa</span></h4><ul>${x.voos.map(v=>`<li>${esc(v.texto)} <span class="badge">${esc(v.tipo)}</span></li>`).join('')}</ul>
     <p class="small">Fonte: ${x.fontesVoo.map((u,i)=>`<a href="${u}" target="_blank" rel="noopener">${new URL(u).hostname}</a>`).join(' · ')}</p></div>
-   <div class="sec"><h4>🏨 Hospedagem</h4><ul>${x.hoteis.map(h=>`<li>${h.url?`<a href="${h.url}" target="_blank" rel="noopener">${esc(h.nome)}</a>`:esc(h.nome)} — ${esc(h.preco)}</li>`).join('')}</ul></div>
+   <div class="sec"><h4>🏨 Hospedagem</h4><ul>${x.hoteis.map(h=>`<li>${h.url?`<a href="${h.url}" target="_blank" rel="noopener">${esc(h.nome)}</a>`:esc(h.nome)} — ${esc(h.preco)}${h.nota?` <span class="muted">(${esc(h.nota)})</span>`:''}</li>`).join('')}</ul></div>
    <div class="sec"><h4>🌤️ Clima</h4><p class="small" style="margin:0">${esc(x.clima)}${x.fonteClima?` <span class="src">(${lnk(x.fonteClima)})</span>`:''}</p></div>
    <div class="sec"><h4>💚 Prós</h4><ul>${x.pros.map(p=>`<li>${esc(p)}</li>`).join('')}</ul></div>
    <div class="sec"><h4>🤰 Cuidados na gestação</h4><ul>${x.cuidados.map(p=>`<li>${esc(p)}</li>`).join('')}</ul>${x.fontesSaude?`<p class="src">Saúde: ${x.fontesSaude.map(lnk).join(' · ')}</p>`:''}</div>
