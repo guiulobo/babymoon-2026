@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2026-10-15 14:22 BRT",
+  "ultimaAtualizacao": "2026-10-16 01:45 BRT",
   "origem": "Goiânia (GYN)",
   "gestacao": {
     "dataReferencia": "2026-10-11",
@@ -27,6 +27,11 @@
     {
       "id": "europa",
       "nome": "Europa",
+      "orcamento": 35000
+    },
+    {
+      "id": "caribe",
+      "nome": "Caribe",
       "orcamento": 35000
     }
   ],
@@ -3490,6 +3495,218 @@
       ],
       "imgCredito": "Wikimedia Commons, CC BY-SA 4.0",
       "imgFonte": "https://commons.wikimedia.org/wiki/File:Cabo_Gir%C3%A3o,_Madeira.jpg"
+    },
+    {
+      "id": "puntacana",
+      "trilha": "caribe",
+      "tag": "Pacote Decolar",
+      "nome": "Punta Cana (Rep. Dominicana)",
+      "regiao": "Rep. Dominicana — hotel em Bayahibe (La Romana)",
+      "aeroporto": "Punta Cana (PUJ) via São Paulo (GRU)",
+      "img": "img/puntacana.jpg",
+      "imgCredito": "Wikimedia Commons, CC BY-SA 2.0",
+      "imgFonte": "https://commons.wikimedia.org/wiki/File:Dominican-Republic_-_Bayahibe_(16639402539).jpg",
+      "datas": {
+        "ida": "2026-11-23",
+        "volta": "2026-11-28"
+      },
+      "alertas": [
+        "28–29 semanas — acima do limite de 27",
+        "Zika (CDC)",
+        "Fim da temporada de furacões"
+      ],
+      "voos": [
+        {
+          "texto": "Achado na Decolar (pelo usuário): pacote voo + hotel, 23/11→28/11/2026, 2 adultos, 5 noites, all inclusive — R$6.838/pessoa (antes R$7.563), R$13.676 casal, SEM taxas",
+          "tipo": "observado"
+        },
+        {
+          "texto": "Voo direto GRU 05:20 → PUJ 11:20; volta PUJ 19:00 → GRU 03:13 (+1). Horário 05:20–11:20 corresponde à Arajet (low cost dominicana; GOL e LATAM também voam GRU–PUJ direto em outros horários)",
+          "tipo": "observado"
+        },
+        {
+          "texto": "Conexão GYN↔GRU separada: diretos GYN–São Paulo vistos a R$668–942/pessoa ida e volta → casal ~R$1.400–1.900. Ida 05:20 exige chegar a GRU na véspera (pernoite) ou voo GYN noturno",
+          "tipo": "estimativa"
+        },
+        {
+          "texto": "O hotel fica em Bayahibe, ~1h–1h30 de carro do aeroporto PUJ (confirmar se o transfer está incluso no pacote)",
+          "tipo": "info"
+        }
+      ],
+      "fontesVoo": [
+        "https://www.decolar.com/trip/accommodations/detail/PR647571105e2548e8837d4448428b58a229868734?searchParams=RkgqL0NJVF82NTc0L0NJVF81OTYzLzIwMjYtMTEtMjMvMjAyNi0xMS0yOC9DSVRfMzE2NTMvMjAyNi0xMS0yMy8yMDI2LTExLTI4LzJ8SDA6SCxGMTpGLFhTOlhT&flow=FH&tripItem=H0&stepNum=0&hotel_ids=416515",
+        "https://br.trip.com/flights/sao-paulo-to-punta-cana/airfares-sao-puj/",
+        "https://www.kayak.com.br/voos/Sao-Paulo-Guarulhos-GRU/Punta-Cana-PUJ",
+        "https://www.momondo.com.br/passagem/goiania/sao-paulo"
+      ],
+      "hoteis": [
+        {
+          "nome": "Iberostar Selection Hacienda Dominicus (5★, all inclusive) — Decolar hotel_id 416515, nota 7,8",
+          "preco": "incluso no pacote (R$13.676 casal / 5 noites + taxas)",
+          "url": "https://www.iberostar.com/en/hotels/bayahibe/iberostar-selection-hacienda-dominicus/",
+          "nota": "frente à Praia de Bayahibe/Dominicus"
+        }
+      ],
+      "clima": "Fim de novembro: ~27–29°C máx / 25°C mín, mar ~28,5°C; ainda chuvoso (113–220 mm no mês conforme a fonte, pancadas frequentes)",
+      "fonteClima": "https://pt.climate-data.org/america-do-norte/republica-dominicana/la-altagracia/punta-cana-878298/",
+      "custos": {
+        "nota": "Pacote real (Decolar) + estimativas nossas; alimentação quase toda coberta pelo all inclusive",
+        "itens": [
+          {
+            "item": "Pacote Decolar voo GRU + hotel AI (casal)",
+            "min": 13676,
+            "max": 13676
+          },
+          {
+            "item": "Taxas do pacote (não inclusas — estimativa)",
+            "min": 800,
+            "max": 1500
+          },
+          {
+            "item": "Voos GYN↔GRU (casal)",
+            "min": 1400,
+            "max": 1900
+          },
+          {
+            "item": "Pernoite em GRU antes do voo 05:20",
+            "min": 300,
+            "max": 600
+          },
+          {
+            "item": "Transfer PUJ↔Bayahibe (se não incluso)",
+            "min": 400,
+            "max": 800
+          },
+          {
+            "item": "Gorjetas e extras",
+            "min": 400,
+            "max": 900
+          },
+          {
+            "item": "Seguro (verificar cobertura gestacional ≥28 semanas!)",
+            "min": 600,
+            "max": 1200
+          }
+        ],
+        "totalMin": 17600,
+        "totalMax": 20600
+      },
+      "pros": [
+        "Pacote all inclusive com voo direto desde GRU",
+        "Mar quente e calmo do lado do Caribe (Bayahibe)",
+        "Comida e bebida inclusas",
+        "Total bem abaixo de R$35.000"
+      ],
+      "cuidados": [
+        "FORA DA JANELA: 28s1d na ida e 28s6d na volta (quase 29) — acima do limite de 27 semanas definido pelo casal; precisa de liberação do obstetra",
+        "Arajet: ≥30 semanas pede atestado + termo; a 28–29 semanas não exige, mas recomenda aval médico. GOL/LATAM: atestado a partir de 30 semanas",
+        "Seguro: muitas apólices cobrem gestação só até 24–28 semanas — confirmar ANTES de comprar",
+        "Zika: CDC classifica a Rep. Dominicana como país com transmissão atual ou passada (sem surto ativo) — gestantes devem discutir a viagem com o médico; repelente o tempo todo e preservativo durante e depois da viagem",
+        "Fim da temporada de furacões (oficialmente vai até 30/11): no Atlântico, uma tempestade tropical se forma em novembro a cada 1–2 anos e um furacão a cada 2 anos (NHC); a previsão da NOAA para 2026 é de temporada abaixo do normal",
+        "Ida às 05:20 + volta chegando às 03:13 + conexão para GYN = 2 madrugadas mal dormidas",
+        "Bufês all inclusive: alto risco de contaminação cruzada com frutos do mar e de comida crua/morna — pedir pratos feitos na hora, avisar a alergia"
+      ],
+      "fontesGuia": [
+        "https://cdc.gov/yellow-book/hcp/americas-caribbean/dominican-republic.html",
+        "https://www.cdc.gov/zika/travel/",
+        "https://www.nhc.noaa.gov/climo/",
+        "https://www.nhc.noaa.gov/archive/text/TWSAT/2023/TWSAT.202312011253.txt",
+        "https://www.noaa.gov/news-release/noaa-maintains-prediction-for-below-normal-atlantic-hurricane-season",
+        "https://www.nhc.noaa.gov/data/tcr/index.php",
+        "https://support.arajet.com/hc/es-do/articles/41247909333524--Puedo-volar-estando-embarazada",
+        "https://www.voegol.com.br/informacoes/assistencia-especial/gestantes",
+        "https://www.latamairlines.com/us/pt/central-ajuda/perguntas/necessidades-especiais/atendimento-especial/gestantes"
+      ],
+      "tempoVooMin": 420,
+      "tempoVooTexto": "~7h direto GRU–PUJ + GYN–GRU 1h30 + ~1h15 de transfer",
+      "conforto": 2,
+      "roteiro": [
+        "Dia 0 (22/11): GYN→GRU e pernoite perto do aeroporto",
+        "Dia 1 (23/11): voo 05:20, chegada 11:20, transfer para Bayahibe e descanso",
+        "Dia 2: praia e piscina na sombra",
+        "Dia 3: spa e passeio a pé por Bayahibe",
+        "Dia 4: dia livre no resort (sem barcos)",
+        "Dia 5: praia de manhã e restaurante à la carte",
+        "Dia 6 (28/11): check-out, transfer, voo 19:00 → GRU 03:13 → GYN"
+      ],
+      "restaurantes": [
+        {
+          "nome": "El Ingenio (bufê do resort)",
+          "url": "https://www.iberostar.com/en/hotels/bayahibe/iberostar-selection-hacienda-dominicus/",
+          "nota": "bufê: contaminação cruzada com frutos do mar; pedir prato feito na hora"
+        },
+        {
+          "nome": "La Goleta (steakhouse do resort)",
+          "url": "https://www.iberostar.com/en/hotels/bayahibe/iberostar-selection-hacienda-dominicus/",
+          "nota": "boa opção sem frutos do mar — carne bem passada"
+        },
+        {
+          "nome": "La Geisha (japonês do resort)",
+          "url": "https://www.iberostar.com/en/hotels/bayahibe/iberostar-selection-hacienda-dominicus/",
+          "nota": "EVITAR: sushi/peixe cru e frutos do mar"
+        },
+        {
+          "nome": "Restaurantes de Bayahibe (vila)",
+          "url": "https://www.google.com/maps/search/?api=1&query=Bayahibe+restaurants",
+          "nota": "focados em peixe e lagosta — avisar a alergia ou evitar"
+        }
+      ],
+      "passeios": [
+        {
+          "nome": "Praia de Bayahibe/Dominicus",
+          "nota": "ok, com sombra e muita água"
+        },
+        {
+          "nome": "Vila de Bayahibe",
+          "nota": "passeio curto a pé, ok"
+        },
+        {
+          "nome": "Ilha Saona de catamarã/lancha",
+          "nota": "EVITAR: barco com batidas e muitas horas no sol"
+        },
+        {
+          "nome": "Buggy/quadriciclo",
+          "nota": "EVITAR: trepidação"
+        },
+        {
+          "nome": "Mergulho/snorkel",
+          "nota": "mergulho com cilindro proibido na gestação; snorkel só em água calma, perto da areia"
+        },
+        {
+          "nome": "Altos de Chavón (La Romana)",
+          "nota": "ok, de carro e com pouca caminhada"
+        }
+      ],
+      "michelin": {
+        "cobertura": false,
+        "nota": "Não há Guia Michelin de restaurantes na República Dominicana.",
+        "fonte": "https://guide.michelin.com/en/restaurants",
+        "lista": []
+      },
+      "videos": [
+        {
+          "id": "cHYGIru0rvk",
+          "titulo": "Punta Cana | Nossa experiência em um resort all inclusive no Caribe - 003",
+          "canal": "Ver qual é",
+          "views": "—",
+          "publicado": "—"
+        },
+        {
+          "id": "DlydDbV26fs",
+          "titulo": "NOSSA PRIMEIRA VIAGEM EM CASAL! CHEGAMOS PUNTA CANA!!! | #FETUMASVIAJA",
+          "canal": "Fernanda Tumas",
+          "views": "—",
+          "publicado": "—"
+        },
+        {
+          "id": "0u0ujGUHix0",
+          "titulo": "O MELHOR DE PUNTA CANA: roteiro completo, melhores passeios + resort all inclusive BARATO",
+          "canal": "Se Liga no Roteiro",
+          "views": "—",
+          "publicado": "—"
+        }
+      ],
+      "foraJanela": true
     }
   ],
   "luaDeMel": [
@@ -3904,6 +4121,11 @@
         "id": "trancoso",
         "programa": "TudoAzul (Azul direto GYN–BPS) / Smiles",
         "nota": "Trecho curto — ótimo uso de pontos; preço a verificar"
+      },
+      {
+        "id": "puntacana",
+        "programa": "Pacote Decolar (pago); LATAM Pass/Smiles só se voar LATAM/GOL",
+        "nota": "Arajet não aceita LATAM Pass/Smiles; trecho GYN–GRU pode ir com milhas"
       }
     ]
   },
